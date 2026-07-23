@@ -3,7 +3,76 @@
 Open, AI-produced research on unconventional computation in the ordinary
 two-dimensional Abelian sandpile.
 
-The repository begins with an exact four-terminal odometer-parity identity
+## Current results
+
+### Packet 71: local parity AND and an eight-terminal transducer
+
+From the stable core
+
+```text
+1 1
+2 2
+```
+
+add `71a` and `71b` grains at the two top cells. For every
+`a,b in {0,1,2,3}`, two exterior sites have odometer parity
+
+```text
+(a mod 2) AND (b mod 2).
+```
+
+An exhaustive audit of all 256 stable `2 x 2` cores, every common packet
+`1 <= p <= 71`, all sixteen inputs, and every reached exterior site finds no
+such tap below 71 and exactly sixteen at 71.
+
+The Boolean restriction supplies an exact hybrid interface. Eight initially
+empty boundary cells receive exactly one grain iff `a=b=1`, without toppling.
+Precharge those cells and arbitrary prescribed finite outward fuse leads to
+height three before supplying the inputs. In the three false cases no
+terminal or fuse cell topples; in the true case every terminal and fuse cell
+topples exactly once. This is a one-stabilization,
+packet-input/presence-output one-shot AND module with eight unloaded
+terminals and no separate read pulse.
+
+Fuse signaling, presence-AND, and branching are classical sandpile-circuit
+ingredients. The result here is the exact certified packet-to-presence
+interface. Its one-toppling output encoding does not match its 71-grain input
+encoding, so self-cascade and arbitrary downstream loading are not claimed.
+
+See [the packet-71 audit](sandpile_packet71_and_latch_audit.md), its independent
+Python certificate, and the independent C++ exhaustive audit.
+
+### Packet 672: a local odometer-residue half-adder
+
+From the stable core
+
+```text
+0 3
+3 2
+```
+
+add `672a` and `672b` grains at the two top cells. At the exterior sites
+`SUM=(-3,3)` and `CARRY=(-1,3)`,
+
+```text
+u(SUM)   mod 2 = (a mod 2) XOR (b mod 2)
+u(CARRY) mod 2 = (a mod 2) AND (b mod 2)
+```
+
+for all sixteen `a,b in {0,1,2,3}`. Thus the two taps form a half-adder of
+the input parity bits over a four-symbol packet-multiplicity alphabet; this
+is not a base-four adder. Two independent exhaustive engines find no such
+two-tap half-adder in the same 256-core, equal-packet class below 672; at 672
+there are ten cores and 28 role-labelled output pairs.
+
+This is a decisive nonlinear two-output local observable, but its integer
+output counts are not yet normalized packets and attaching a receiver can
+feed back into the same avalanche. See
+[the packet-672 audit](sandpile_halfadder672_audit.md).
+
+### Packet 925: a crossed parity identity
+
+The repository began with an exact four-terminal odometer-parity identity
 on the infinite square lattice. From the stable `2 x 2` seed
 
 ```text
@@ -40,9 +109,33 @@ Hosting this repository under `heartpunk` denotes publication stewardship,
 not technical authorship. The technical claims are unreviewed AI-produced
 research and should be checked independently.
 
-## Reproduce the main result
+## Reproduce the results
 
-The quick checks require only Python 3:
+The packet-71 certificates and scoped exhaustive audit:
+
+```bash
+python3 generate_packet71_and_latch_certificate.py
+python3 verify_packet71_and_latch_certificate.py
+
+c++ -O3 -std=c++20 sandpile_packet71_and_latch_audit.cpp -o audit71
+./audit71 packet71_and_latch_cpp_audit.json
+```
+
+The packet-672 half-adder certificates and two independent scoped exhaustive
+audits:
+
+```bash
+python3 generate_halfadder672_certificate.py
+python3 verify_halfadder672_certificate.py
+
+c++ -O3 -std=c++20 audit_halfadder672_exhaustive.cpp -o audit672
+./audit672
+
+c++ -O3 -std=c++20 audit_halfadder672_unit_exhaustive.cpp -o audit672-unit
+./audit672-unit
+```
+
+The original packet-925 checks require only Python 3:
 
 ```bash
 python3 verify_packet925_full_alphabet_certificate.py
@@ -84,10 +177,11 @@ make the path to later claims auditable.
 
 ## Ongoing direction
 
-Further work will be committed publicly. The immediate target is a genuine
-nonlinear computational primitive under odometer-parity signaling, followed
-by a load-tested interface that can turn a local observable into a physically
-composable signal.
+Further work will be committed publicly. The immediate target is to close the
+encoding gap between packet inputs, parity observables, and ordinary fuse-wire
+outputs without losing exactness under physical attachment. No claim of
+functional completeness, a crossover gate, P-completeness, or universality is
+made.
 
 ## License
 

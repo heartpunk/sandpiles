@@ -1,0 +1,89 @@
+{
+  "title":"Packet-71 full-alphabet AND, memory, and packet-to-presence interface certificate",
+  "model":{"lattice":"infinite Z^2","threshold":4,"neighborhood":"von Neumann","background_outside_core":0},
+  "exhaustive_search":{
+    "core_sites_A_B_D_C":[[0,0],[0,1],[1,0],[1,1]],
+    "input_sites_A_B":[[0,0],[0,1]],
+    "stable_cores_checked":256,
+    "equal_packet_range":[1,71],
+    "amplitude_alphabet":[0,1,2,3],
+    "logical_configurations_checked":290816,
+    "tap_scope":"every reached site outside the four core sites",
+    "target":"odometer parity equals (a mod 2) AND (b mod 2)",
+    "target_signature_hex":"a0a0",
+    "hits_for_packets_1_through_70":0,
+    "packet_71_hit_count":16,
+    "packet_71_hits":[
+      {"core_code":59,"core":[[0,3],[2,3]],"tap":[-3,1],"count_table_rows_a_columns_b":[[0,0,4,12],[0,3,10,19],[4,10,18,28],[10,17,28,37]]},
+      {"core_code":90,"core":[[1,1],[2,2]],"tap":[3,-1],"count_table_rows_a_columns_b":[[0,0,2,6],[0,1,6,13],[4,8,14,22],[10,15,24,31]]},
+      {"core_code":90,"core":[[1,1],[2,2]],"tap":[3,2],"count_table_rows_a_columns_b":[[0,0,4,10],[0,1,8,15],[2,6,14,24],[6,13,22,31]]},
+      {"core_code":126,"core":[[1,3],[3,2]],"tap":[-3,1],"count_table_rows_a_columns_b":[[0,0,4,12],[0,3,10,19],[4,10,18,28],[10,17,28,37]]},
+      {"core_code":179,"core":[[2,3],[0,3]],"tap":[-3,1],"count_table_rows_a_columns_b":[[0,0,4,12],[0,3,10,19],[4,10,18,28],[10,17,28,37]]},
+      {"core_code":183,"core":[[2,3],[1,3]],"tap":[-3,1],"count_table_rows_a_columns_b":[[0,0,4,12],[0,3,10,19],[4,10,18,28],[10,17,28,37]]},
+      {"core_code":190,"core":[[2,3],[3,2]],"tap":[-3,1],"count_table_rows_a_columns_b":[[0,0,4,12],[0,3,10,19],[4,10,18,28],[10,17,28,37]]},
+      {"core_code":206,"core":[[3,0],[3,2]],"tap":[-3,0],"count_table_rows_a_columns_b":[[0,0,4,10],[0,3,10,17],[4,10,18,28],[12,19,28,37]]},
+      {"core_code":219,"core":[[3,1],[2,3]],"tap":[-3,0],"count_table_rows_a_columns_b":[[0,0,4,10],[0,3,10,17],[4,10,18,28],[12,19,28,37]]},
+      {"core_code":235,"core":[[3,2],[2,3]],"tap":[-3,0],"count_table_rows_a_columns_b":[[0,0,4,10],[0,3,10,17],[4,10,18,28],[12,19,28,37]]},
+      {"core_code":236,"core":[[3,2],[3,0]],"tap":[-3,0],"count_table_rows_a_columns_b":[[0,0,4,10],[0,3,10,17],[4,10,18,28],[12,19,28,37]]},
+      {"core_code":237,"core":[[3,2],[3,1]],"tap":[-3,0],"count_table_rows_a_columns_b":[[0,0,4,10],[0,3,10,17],[4,10,18,28],[12,19,28,37]]},
+      {"core_code":243,"core":[[3,3],[0,3]],"tap":[-3,1],"count_table_rows_a_columns_b":[[0,0,4,12],[0,3,10,19],[4,10,18,28],[10,17,28,37]]},
+      {"core_code":247,"core":[[3,3],[1,3]],"tap":[-3,1],"count_table_rows_a_columns_b":[[0,0,4,12],[0,3,10,19],[4,10,18,28],[10,17,28,37]]},
+      {"core_code":252,"core":[[3,3],[3,0]],"tap":[-3,0],"count_table_rows_a_columns_b":[[0,0,4,10],[0,3,10,17],[4,10,18,28],[12,19,28,37]]},
+      {"core_code":253,"core":[[3,3],[3,1]],"tap":[-3,0],"count_table_rows_a_columns_b":[[0,0,4,10],[0,3,10,17],[4,10,18,28],[12,19,28,37]]}
+    ],
+    "dense_window_side":65,
+    "dominating_case":{"core":[[3,3],[3,3]],"packet":71,"amplitudes":[3,3],"odometer_support_sites":174,"odometer_bounds_row_min_row_max_col_min_col_max":[-7,7,-6,7],"total_unit_topplings":3570,"maximum_site_topplings":167},
+    "exact_window_argument":"The dominating initial configuration pointwise dominates every searched case. Odometer monotonicity confines all searched topplings to its reported support, strictly inside the 65x65 window."
+  },
+  "specified_witness":{
+    "packet":71,
+    "core":[[1,1],[2,2]],
+    "left_tap":[3,-1],
+    "right_tap":[3,2],
+    "left_count_table_rows_a_columns_b":[[0,0,2,6],[0,1,6,13],[4,8,14,22],[10,15,24,31]],
+    "right_count_table_rows_a_columns_b":[[0,0,4,10],[0,1,8,15],[2,6,14,24],[6,13,22,31]],
+    "both_output_parity_tables":[[[0,0,0,0],[0,1,0,1],[0,0,0,0],[0,1,0,1]],[[0,0,0,0],[0,1,0,1],[0,0,0,0],[0,1,0,1]]],
+    "independent_sparse_replay":true
+  },
+  "boolean_write_read_clock":{
+    "boolean_inputs":[[0,0],[0,1],[1,0],[1,1]],
+    "memory_sites":[[-4,-1],[-4,2],[-1,-4],[-1,5],[1,-4],[1,5],[4,-1],[4,2]],
+    "write_rule":"stabilize after adding 71a at A and 71b at B",
+    "read_clock_rule":"after write stabilization, add three grains simultaneously to every memory site and stabilize again",
+    "cases":[
+      {"input":[0,0],"write_total_unit_topplings":0,"write_odometer_support_sites":0,"memory_write_odometers":[0,0,0,0,0,0,0,0],"memory_heights_after_write":[0,0,0,0,0,0,0,0],"read_incremental_total_unit_topplings":0,"read_incremental_odometer_support_sites":0,"memory_read_incremental_odometers":[0,0,0,0,0,0,0,0],"memory_heights_after_read":[3,3,3,3,3,3,3,3],"read_incremental_odometer":[]},
+      {"input":[0,1],"write_total_unit_topplings":109,"write_odometer_support_sites":22,"memory_write_odometers":[0,0,0,0,0,0,0,0],"memory_heights_after_write":[0,0,0,0,0,0,0,0],"read_incremental_total_unit_topplings":0,"read_incremental_odometer_support_sites":0,"memory_read_incremental_odometers":[0,0,0,0,0,0,0,0],"memory_heights_after_read":[3,3,3,3,3,3,3,3],"read_incremental_odometer":[]},
+      {"input":[1,0],"write_total_unit_topplings":109,"write_odometer_support_sites":22,"memory_write_odometers":[0,0,0,0,0,0,0,0],"memory_heights_after_write":[0,0,0,0,0,0,0,0],"read_incremental_total_unit_topplings":0,"read_incremental_odometer_support_sites":0,"memory_read_incremental_odometers":[0,0,0,0,0,0,0,0],"memory_heights_after_read":[3,3,3,3,3,3,3,3],"read_incremental_odometer":[]},
+      {"input":[1,1],"write_total_unit_topplings":356,"write_odometer_support_sites":44,"memory_write_odometers":[0,0,0,0,0,0,0,0],"memory_heights_after_write":[1,1,1,1,1,1,1,1],"read_incremental_total_unit_topplings":66,"read_incremental_odometer_support_sites":66,"memory_read_incremental_odometers":[1,1,1,1,1,1,1,1],"memory_heights_after_read":[2,2,2,2,2,2,2,2],"read_incremental_odometer":[[-4,-1,1],[-4,0,1],[-4,1,1],[-4,2,1],[-3,-2,1],[-3,-1,1],[-3,0,1],[-3,1,1],[-3,2,1],[-3,3,1],[-2,-3,1],[-2,-2,1],[-2,-1,1],[-2,0,1],[-2,1,1],[-2,2,1],[-2,3,1],[-2,4,1],[-1,-4,1],[-1,-3,1],[-1,-2,1],[-1,-1,1],[-1,0,1],[-1,1,1],[-1,2,1],[-1,3,1],[-1,4,1],[-1,5,1],[0,-4,1],[0,-3,1],[0,-2,1],[0,-1,1],[0,0,1],[0,1,1],[0,2,1],[0,3,1],[0,4,1],[0,5,1],[1,-4,1],[1,-3,1],[1,-2,1],[1,-1,1],[1,0,1],[1,1,1],[1,2,1],[1,3,1],[1,4,1],[1,5,1],[2,-3,1],[2,-2,1],[2,-1,1],[2,0,1],[2,1,1],[2,2,1],[2,3,1],[2,4,1],[3,-2,1],[3,-1,1],[3,0,1],[3,1,1],[3,2,1],[3,3,1],[4,-1,1],[4,0,1],[4,1,1],[4,2,1]]}
+    ],
+    "verified_statement":"During write, all eight memory cells have odometer zero and finish at height a*b. A false stored value makes the read clock completely quiescent. A true stored value makes every memory cell topple exactly once and causes 66 incremental unit topplings in total."
+  },
+  "integrated_height_three_fuse_rays":{
+    "geometry":"From each memory port, attach a one-cell-wide outward ray whose cells all start at height three. Top ports point up, bottom ports down, left ports left, and right ports right.",
+    "tested_lengths":[1,2,8,32,100],
+    "regressions":[
+      {"length":1,"fuse_cell_count":8,"cases":[{"input":[0,0],"write_total_unit_topplings":0,"read_incremental_total_unit_topplings":0,"read_incremental_odometer_support_sites":0,"all_ports_and_fuse_cells_topple_exactly_ab_times":true},{"input":[0,1],"write_total_unit_topplings":109,"read_incremental_total_unit_topplings":0,"read_incremental_odometer_support_sites":0,"all_ports_and_fuse_cells_topple_exactly_ab_times":true},{"input":[1,0],"write_total_unit_topplings":109,"read_incremental_total_unit_topplings":0,"read_incremental_odometer_support_sites":0,"all_ports_and_fuse_cells_topple_exactly_ab_times":true},{"input":[1,1],"write_total_unit_topplings":356,"read_incremental_total_unit_topplings":74,"read_incremental_odometer_support_sites":74,"all_ports_and_fuse_cells_topple_exactly_ab_times":true}]},
+      {"length":2,"fuse_cell_count":16,"cases":[{"input":[0,0],"write_total_unit_topplings":0,"read_incremental_total_unit_topplings":0,"read_incremental_odometer_support_sites":0,"all_ports_and_fuse_cells_topple_exactly_ab_times":true},{"input":[0,1],"write_total_unit_topplings":109,"read_incremental_total_unit_topplings":0,"read_incremental_odometer_support_sites":0,"all_ports_and_fuse_cells_topple_exactly_ab_times":true},{"input":[1,0],"write_total_unit_topplings":109,"read_incremental_total_unit_topplings":0,"read_incremental_odometer_support_sites":0,"all_ports_and_fuse_cells_topple_exactly_ab_times":true},{"input":[1,1],"write_total_unit_topplings":356,"read_incremental_total_unit_topplings":82,"read_incremental_odometer_support_sites":82,"all_ports_and_fuse_cells_topple_exactly_ab_times":true}]},
+      {"length":8,"fuse_cell_count":64,"cases":[{"input":[0,0],"write_total_unit_topplings":0,"read_incremental_total_unit_topplings":0,"read_incremental_odometer_support_sites":0,"all_ports_and_fuse_cells_topple_exactly_ab_times":true},{"input":[0,1],"write_total_unit_topplings":109,"read_incremental_total_unit_topplings":0,"read_incremental_odometer_support_sites":0,"all_ports_and_fuse_cells_topple_exactly_ab_times":true},{"input":[1,0],"write_total_unit_topplings":109,"read_incremental_total_unit_topplings":0,"read_incremental_odometer_support_sites":0,"all_ports_and_fuse_cells_topple_exactly_ab_times":true},{"input":[1,1],"write_total_unit_topplings":356,"read_incremental_total_unit_topplings":130,"read_incremental_odometer_support_sites":130,"all_ports_and_fuse_cells_topple_exactly_ab_times":true}]},
+      {"length":32,"fuse_cell_count":256,"cases":[{"input":[0,0],"write_total_unit_topplings":0,"read_incremental_total_unit_topplings":0,"read_incremental_odometer_support_sites":0,"all_ports_and_fuse_cells_topple_exactly_ab_times":true},{"input":[0,1],"write_total_unit_topplings":109,"read_incremental_total_unit_topplings":0,"read_incremental_odometer_support_sites":0,"all_ports_and_fuse_cells_topple_exactly_ab_times":true},{"input":[1,0],"write_total_unit_topplings":109,"read_incremental_total_unit_topplings":0,"read_incremental_odometer_support_sites":0,"all_ports_and_fuse_cells_topple_exactly_ab_times":true},{"input":[1,1],"write_total_unit_topplings":356,"read_incremental_total_unit_topplings":322,"read_incremental_odometer_support_sites":322,"all_ports_and_fuse_cells_topple_exactly_ab_times":true}]},
+      {"length":100,"fuse_cell_count":800,"cases":[{"input":[0,0],"write_total_unit_topplings":0,"read_incremental_total_unit_topplings":0,"read_incremental_odometer_support_sites":0,"all_ports_and_fuse_cells_topple_exactly_ab_times":true},{"input":[0,1],"write_total_unit_topplings":109,"read_incremental_total_unit_topplings":0,"read_incremental_odometer_support_sites":0,"all_ports_and_fuse_cells_topple_exactly_ab_times":true},{"input":[1,0],"write_total_unit_topplings":109,"read_incremental_total_unit_topplings":0,"read_incremental_odometer_support_sites":0,"all_ports_and_fuse_cells_topple_exactly_ab_times":true},{"input":[1,1],"write_total_unit_topplings":356,"read_incremental_total_unit_topplings":866,"read_incremental_odometer_support_sites":866,"all_ports_and_fuse_cells_topple_exactly_ab_times":true}]}
+    ],
+    "verified_statement":"For every tested finite length, the rays remain at height three and never topple during Boolean write. A false read is silent. A true read makes every memory port and every fuse cell topple exactly once, with total incremental topplings 66 + 8L."
+  },
+  "integrated_precharged_boolean_and_module":{
+    "construction":"Precharge all eight output ports and every cell of each optional outward fuse ray to height three before applying the Boolean packet inputs. No separate clock addition is used.",
+    "signal":"A port or fuse cell topples during the input avalanche",
+    "tested_lengths":[0,1,2,8,32,100,500],
+    "regressions":[
+      {"length":0,"precharged_output_cell_count":8,"cases":[{"input":[0,0],"total_unit_topplings":0,"odometer_support_sites":0,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true},{"input":[0,1],"total_unit_topplings":109,"odometer_support_sites":22,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true},{"input":[1,0],"total_unit_topplings":109,"odometer_support_sites":22,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true},{"input":[1,1],"total_unit_topplings":422,"odometer_support_sites":66,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true}]},
+      {"length":1,"precharged_output_cell_count":16,"cases":[{"input":[0,0],"total_unit_topplings":0,"odometer_support_sites":0,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true},{"input":[0,1],"total_unit_topplings":109,"odometer_support_sites":22,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true},{"input":[1,0],"total_unit_topplings":109,"odometer_support_sites":22,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true},{"input":[1,1],"total_unit_topplings":430,"odometer_support_sites":74,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true}]},
+      {"length":2,"precharged_output_cell_count":24,"cases":[{"input":[0,0],"total_unit_topplings":0,"odometer_support_sites":0,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true},{"input":[0,1],"total_unit_topplings":109,"odometer_support_sites":22,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true},{"input":[1,0],"total_unit_topplings":109,"odometer_support_sites":22,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true},{"input":[1,1],"total_unit_topplings":438,"odometer_support_sites":82,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true}]},
+      {"length":8,"precharged_output_cell_count":72,"cases":[{"input":[0,0],"total_unit_topplings":0,"odometer_support_sites":0,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true},{"input":[0,1],"total_unit_topplings":109,"odometer_support_sites":22,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true},{"input":[1,0],"total_unit_topplings":109,"odometer_support_sites":22,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true},{"input":[1,1],"total_unit_topplings":486,"odometer_support_sites":130,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true}]},
+      {"length":32,"precharged_output_cell_count":264,"cases":[{"input":[0,0],"total_unit_topplings":0,"odometer_support_sites":0,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true},{"input":[0,1],"total_unit_topplings":109,"odometer_support_sites":22,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true},{"input":[1,0],"total_unit_topplings":109,"odometer_support_sites":22,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true},{"input":[1,1],"total_unit_topplings":678,"odometer_support_sites":322,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true}]},
+      {"length":100,"precharged_output_cell_count":808,"cases":[{"input":[0,0],"total_unit_topplings":0,"odometer_support_sites":0,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true},{"input":[0,1],"total_unit_topplings":109,"odometer_support_sites":22,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true},{"input":[1,0],"total_unit_topplings":109,"odometer_support_sites":22,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true},{"input":[1,1],"total_unit_topplings":1222,"odometer_support_sites":866,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true}]},
+      {"length":500,"precharged_output_cell_count":4008,"cases":[{"input":[0,0],"total_unit_topplings":0,"odometer_support_sites":0,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true},{"input":[0,1],"total_unit_topplings":109,"odometer_support_sites":22,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true},{"input":[1,0],"total_unit_topplings":109,"odometer_support_sites":22,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true},{"input":[1,1],"total_unit_topplings":4422,"odometer_support_sites":4066,"all_ports_and_fuses_topple_exactly_ab_times":true,"if_false_all_ports_and_fuses_remain_at_height_three":true}]}
+    ],
+    "verified_statement":"For every tested length, every precharged output port and fuse cell has odometer exactly a*b. Thus false Boolean inputs leave every output cell untoppled at height three, while input 11 makes every output cell topple exactly once. The true total is 422 + 8L."
+  },
+  "checks":{"dense_search_exhaustive":true,"sparse_batches_unitwise_legal":true,"sparse_final_states_stable":true,"sparse_laplacian_reconstruction":true,"mass_conserved":true}
+}
