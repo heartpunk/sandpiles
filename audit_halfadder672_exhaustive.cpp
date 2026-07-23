@@ -337,10 +337,29 @@ int main(int argc, char** argv) {
         std::find(
             least_cores.begin(), least_cores.end(), Core{0, 3, 3, 2}) !=
             least_cores.end();
-    return hits_before_672 == 0 && witness_present &&
+    return hits_before_672 == 0 &&
+                   half_adder_core_packet_hits == 10 &&
+                   half_adder_output_pairs == 28 &&
+                   least_cores.size() == 10 &&
+                   witness_present &&
+                   bounds.sites == 1774 &&
+                   bounds.row_min == -23 &&
+                   bounds.row_max == 23 &&
+                   bounds.column_min == -22 &&
+                   bounds.column_max == 23 &&
                    bounds.linf_radius == 23
                ? 0
                : 4;
+  }
+  if (maximum_packet == kDefaultMaximumPacket &&
+      allow_core_outputs) {
+    return hits_before_672 == 0 &&
+                   half_adder_core_packet_hits == 10 &&
+                   half_adder_output_pairs == 28 &&
+                   least_cores.size() == 10 &&
+                   least_packet == 672
+               ? 0
+               : 5;
   }
   return 0;
 }

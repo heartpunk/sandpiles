@@ -1,5 +1,5 @@
 {
-  "title":"Packet-71 full-alphabet AND and eight-cell read-clock certificate",
+  "title":"Packet-71 full-alphabet AND, memory, and packet-to-presence interface certificate",
   "model":{"lattice":"infinite Z^2","threshold":4,"neighborhood":"von Neumann","background_outside_core":0},
   "exhaustive_search":{
     "core_sites_A_B_D_C":[[0,0],[0,1],[1,0],[1,1]],
@@ -70,7 +70,7 @@
     ],
     "verified_statement":"For every tested finite length, the rays remain at height three and never topple during Boolean write. A false read is silent. A true read makes every memory port and every fuse cell topple exactly once, with total incremental topplings 66 + 8L."
   },
-  "integrated_precharged_boolean_and_gate":{
+  "integrated_precharged_boolean_and_module":{
     "construction":"Precharge all eight output ports and every cell of each optional outward fuse ray to height three before applying the Boolean packet inputs. No separate clock addition is used.",
     "signal":"A port or fuse cell topples during the input avalanche",
     "tested_lengths":[0,1,2,8,32,100,500],

@@ -1,4 +1,4 @@
-# Audit: a packet-71 AND with eight arbitrary-length fuse outputs
+# Audit: packet-71 parity AND and an eight-terminal transducer
 
 ## Result at a glance
 
@@ -19,9 +19,10 @@ stabilize once.
 - On input \((1,1)\), every output port and every fuse cell topples exactly
   once.
 
-Thus each of eight output terminals carries ordinary avalanche presence
-equal to \(a\mathbin{\mathrm{AND}}b\), at an arbitrarily chosen finite
-distance. There is no external read clock in this primary construction.
+Thus each of eight unloaded output terminals carries ordinary avalanche
+presence equal to \(a\mathbin{\mathrm{AND}}b\), at an arbitrarily chosen
+finite distance. There is no external read clock in this primary
+construction.
 
 The same four-cell core also has a stronger full-alphabet property when the
 ports and fuses are absent. Two remote sites,
@@ -43,9 +44,11 @@ The zero-height version of the eight output ports stores eight stable copies
 of AND. Adding three grains later recovers the fuse emission as a two-phase
 latch variant.
 
-This is an exact one-shot AND with eight conventional fuse outputs. Its
-output signals are not yet regenerated into the 71-grain input packets
-expected by another copy.
+This is an exact packet-input/presence-output one-shot AND module with eight
+conventional fuse outputs. Fuse signaling, presence-AND, and branching are
+classical sandpile-circuit ingredients; the certified contribution here is
+the packet-to-presence interface. Its output signals are not yet regenerated
+into the 71-grain input packets expected by another copy.
 
 ## Model and coordinates
 

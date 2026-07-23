@@ -5,7 +5,7 @@ two-dimensional Abelian sandpile.
 
 ## Current results
 
-### Packet 71: parity AND and an extensible eight-output gate
+### Packet 71: local parity AND and an eight-terminal transducer
 
 From the stable core
 
@@ -25,18 +25,24 @@ An exhaustive audit of all 256 stable `2 x 2` cores, every common packet
 `1 <= p <= 71`, all sixteen inputs, and every reached exterior site finds no
 such tap below 71 and exactly sixteen at 71.
 
-The Boolean restriction is physically stronger. Eight initially empty
-boundary cells receive exactly one grain iff `a=b=1`, without toppling.
-Precharge those cells and arbitrary finite outward fuse wires to height three
-before supplying the inputs. In the three false cases no output-wire cell
-topples; in the true case every cell of all eight wires topples exactly once.
-The construction is therefore a clockless eight-output AND gate under the
-packet encoding `1 = 71 grains`, with ordinary avalanche-presence outputs.
+The Boolean restriction supplies an exact hybrid interface. Eight initially
+empty boundary cells receive exactly one grain iff `a=b=1`, without toppling.
+Precharge those cells and arbitrary prescribed finite outward fuse leads to
+height three before supplying the inputs. In the three false cases no
+terminal or fuse cell topples; in the true case every terminal and fuse cell
+topples exactly once. This is a one-stabilization,
+packet-input/presence-output one-shot AND module with eight unloaded
+terminals and no separate read pulse.
+
+Fuse signaling, presence-AND, and branching are classical sandpile-circuit
+ingredients. The result here is the exact certified packet-to-presence
+interface. Its one-toppling output encoding does not match its 71-grain input
+encoding, so self-cascade and arbitrary downstream loading are not claimed.
 
 See [the packet-71 audit](sandpile_packet71_and_latch_audit.md), its independent
 Python certificate, and the independent C++ exhaustive audit.
 
-### Packet 672: a full-alphabet odometer-parity half-adder
+### Packet 672: a local odometer-residue half-adder
 
 From the stable core
 
@@ -53,9 +59,11 @@ u(SUM)   mod 2 = (a mod 2) XOR (b mod 2)
 u(CARRY) mod 2 = (a mod 2) AND (b mod 2)
 ```
 
-for all sixteen `a,b in {0,1,2,3}`. Two independent exhaustive engines find
-no half-adder in the same 256-core, equal-packet class below 672; at 672 there
-are ten cores and 28 role-labelled output pairs.
+for all sixteen `a,b in {0,1,2,3}`. Thus the two taps form a half-adder of
+the input parity bits over a four-symbol packet-multiplicity alphabet; this
+is not a base-four adder. Two independent exhaustive engines find no such
+two-tap half-adder in the same 256-core, equal-packet class below 672; at 672
+there are ten cores and 28 role-labelled output pairs.
 
 This is a decisive nonlinear two-output local observable, but its integer
 output counts are not yet normalized packets and attaching a receiver can

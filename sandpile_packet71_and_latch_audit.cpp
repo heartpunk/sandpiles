@@ -211,7 +211,7 @@ class DensePile {
   }
 
   std::int64_t odometer(int site) const {
-    return odometer_[site];
+    return stamp_[site] == generation_ ? odometer_[site] : 0;
   }
 
  private:
@@ -376,6 +376,11 @@ SearchResult exhaustive_search() {
   }
   if (result.hits_at_71.empty()) {
     throw std::runtime_error("no packet-71 hit was found");
+  }
+  if (result.hits_at_71.size() != 16) {
+    throw std::runtime_error(
+        "packet-71 exterior hit count changed from 16"
+    );
   }
   return result;
 }
@@ -945,8 +950,8 @@ void write_json(
   }
 
   output << "{\n";
-  output << "  \"title\":\"Packet-71 full-alphabet AND and "
-            "eight-cell read-clock certificate\",\n";
+  output << "  \"title\":\"Packet-71 full-alphabet AND, memory, and "
+            "packet-to-presence interface certificate\",\n";
   output << "  \"model\":{"
             "\"lattice\":\"infinite Z^2\","
             "\"threshold\":4,"
@@ -1117,7 +1122,7 @@ void write_json(
             "makes every memory port and every fuse cell topple exactly "
             "once, with total incremental topplings 66 + 8L.\"\n";
   output << "  },\n";
-  output << "  \"integrated_precharged_boolean_and_gate\":{\n";
+  output << "  \"integrated_precharged_boolean_and_module\":{\n";
   output << "    \"construction\":\"Precharge all eight output ports and "
             "every cell of each optional outward fuse ray to height three "
             "before applying the Boolean packet inputs. No separate clock "
@@ -1260,8 +1265,11 @@ int main(int argc, char** argv) {
         dominating_bounds.minimum_row != -7 ||
         dominating_bounds.maximum_row != 7 ||
         dominating_bounds.minimum_column != -6 ||
-        dominating_bounds.maximum_column != 7) {
-      throw std::runtime_error("dominating support bounds changed");
+        dominating_bounds.maximum_column != 7 ||
+        dominating.odometer.size() != 174 ||
+        dominating.total_unit_topplings != 3570 ||
+        maximum_value(dominating.odometer) != 167) {
+      throw std::runtime_error("dominating-run audit values changed");
     }
 
     const std::vector<MemoryCase> memory_cases =
@@ -1301,7 +1309,7 @@ int main(int argc, char** argv) {
               << "false reads quiescent; true read topplings=66\n";
     std::cout << "PASS integrated height-three fuse rays "
               << "lengths=1,2,8,32,100; true totals=66+8L\n";
-    std::cout << "PASS integrated precharged Boolean AND gate "
+    std::cout << "PASS integrated precharged Boolean AND module "
               << "lengths=0,1,2,8,32,100,500; true totals=422+8L\n";
     std::cout << "WROTE " << output_path << "\n";
     return 0;
