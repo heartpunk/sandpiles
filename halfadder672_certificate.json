@@ -1,0 +1,1569 @@
+{
+  "cases": [
+    {
+      "a": 0,
+      "additions_at_A_B": [
+        0,
+        0
+      ],
+      "b": 0,
+      "checks": {
+        "all_four_output_parities_correct": true,
+        "discrete_laplacian_reconstruction": true,
+        "every_toppling_individually_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true
+      },
+      "final_configuration_sha256": "5ea312813f8f0ec9b2ddbc8766f6843c3ad738b05279dd1bf177905ed9dffcb3",
+      "final_mass": 8,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "l1_radius_from_origin": 2,
+        "linf_radius_from_origin": 1,
+        "sites": 3
+      },
+      "initial_mass": 8,
+      "maximum_pending_heap": 0,
+      "maximum_site_topplings": 0,
+      "odometer_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": null,
+        "l1_radius_from_origin": 0,
+        "linf_radius_from_origin": 0,
+        "sites": 0
+      },
+      "output_counts_sum_east_carry_east_sum_west_carry_west": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "output_parities_sum_east_carry_east_sum_west_carry_west": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_parities_sum_carry_sum_carry": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "total_unit_topplings": 0
+    },
+    {
+      "a": 0,
+      "additions_at_A_B": [
+        0,
+        672
+      ],
+      "b": 1,
+      "checks": {
+        "all_four_output_parities_correct": true,
+        "discrete_laplacian_reconstruction": true,
+        "every_toppling_individually_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true
+      },
+      "final_configuration_sha256": "6bed213baad751d0d7fba8d88480a4d8b8621bbf4cbbb5a3f7ecc1408463c113",
+      "final_mass": 680,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -10,
+          10,
+          -9,
+          11
+        ],
+        "l1_radius_from_origin": 15,
+        "linf_radius_from_origin": 11,
+        "sites": 319
+      },
+      "initial_mass": 680,
+      "maximum_pending_heap": 27,
+      "maximum_site_topplings": 369,
+      "odometer_sha256": "492080136178c473f92313b827204723cb476fd3aa7aff0b40437880916110da",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -9,
+          9,
+          -8,
+          10
+        ],
+        "l1_radius_from_origin": 14,
+        "linf_radius_from_origin": 10,
+        "sites": 293
+      },
+      "output_counts_sum_east_carry_east_sum_west_carry_west": [
+        63,
+        110,
+        49,
+        76
+      ],
+      "output_parities_sum_east_carry_east_sum_west_carry_west": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "target_parities_sum_carry_sum_carry": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "total_unit_topplings": 8674
+    },
+    {
+      "a": 0,
+      "additions_at_A_B": [
+        0,
+        1344
+      ],
+      "b": 2,
+      "checks": {
+        "all_four_output_parities_correct": true,
+        "discrete_laplacian_reconstruction": true,
+        "every_toppling_individually_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true
+      },
+      "final_configuration_sha256": "3dd5fa2b2b93674e244fa4535b006aa353eb86a46e7db33b0894443239dff79d",
+      "final_mass": 1352,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -14,
+          14,
+          -13,
+          15
+        ],
+        "l1_radius_from_origin": 21,
+        "linf_radius_from_origin": 15,
+        "sites": 602
+      },
+      "initial_mass": 1352,
+      "maximum_pending_heap": 40,
+      "maximum_site_topplings": 813,
+      "odometer_sha256": "ed2d48bfaa269d2f2bab6924657d041058e78a96e019e3c7185f9a1916151169",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -13,
+          13,
+          -12,
+          14
+        ],
+        "l1_radius_from_origin": 20,
+        "linf_radius_from_origin": 14,
+        "sites": 585
+      },
+      "output_counts_sum_east_carry_east_sum_west_carry_west": [
+        196,
+        294,
+        164,
+        224
+      ],
+      "output_parities_sum_east_carry_east_sum_west_carry_west": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_parities_sum_carry_sum_carry": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "total_unit_topplings": 34788
+    },
+    {
+      "a": 0,
+      "additions_at_A_B": [
+        0,
+        2016
+      ],
+      "b": 3,
+      "checks": {
+        "all_four_output_parities_correct": true,
+        "discrete_laplacian_reconstruction": true,
+        "every_toppling_individually_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true
+      },
+      "final_configuration_sha256": "22d28c725e3708eaf9ee30e9a5a319f4276ac26decc23504d391b29486f63573",
+      "final_mass": 2024,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -17,
+          17,
+          -16,
+          18
+        ],
+        "l1_radius_from_origin": 26,
+        "linf_radius_from_origin": 18,
+        "sites": 914
+      },
+      "initial_mass": 2024,
+      "maximum_pending_heap": 53,
+      "maximum_site_topplings": 1283,
+      "odometer_sha256": "81191cbae0d45a8c6d50b7f5860862031132752319c15b6c3d94bf76a9a5a051",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -16,
+          16,
+          -15,
+          17
+        ],
+        "l1_radius_from_origin": 25,
+        "linf_radius_from_origin": 17,
+        "sites": 889
+      },
+      "output_counts_sum_east_carry_east_sum_west_carry_west": [
+        355,
+        504,
+        305,
+        398
+      ],
+      "output_parities_sum_east_carry_east_sum_west_carry_west": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "target_parities_sum_carry_sum_carry": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "total_unit_topplings": 78307
+    },
+    {
+      "a": 1,
+      "additions_at_A_B": [
+        672,
+        0
+      ],
+      "b": 0,
+      "checks": {
+        "all_four_output_parities_correct": true,
+        "discrete_laplacian_reconstruction": true,
+        "every_toppling_individually_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true
+      },
+      "final_configuration_sha256": "ac65a280f185e8b02777db90ba25583e1f88c926c075a5c31168c7e85b7552cd",
+      "final_mass": 680,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -10,
+          10,
+          -10,
+          10
+        ],
+        "l1_radius_from_origin": 14,
+        "linf_radius_from_origin": 10,
+        "sites": 319
+      },
+      "initial_mass": 680,
+      "maximum_pending_heap": 28,
+      "maximum_site_topplings": 368,
+      "odometer_sha256": "470a47228d04f8488510786388726b493f4b21c502c9cb6195b32565024cafd5",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -9,
+          9,
+          -9,
+          9
+        ],
+        "l1_radius_from_origin": 13,
+        "linf_radius_from_origin": 9,
+        "sites": 293
+      },
+      "output_counts_sum_east_carry_east_sum_west_carry_west": [
+        49,
+        76,
+        63,
+        110
+      ],
+      "output_parities_sum_east_carry_east_sum_west_carry_west": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "target_parities_sum_carry_sum_carry": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "total_unit_topplings": 8671
+    },
+    {
+      "a": 1,
+      "additions_at_A_B": [
+        672,
+        672
+      ],
+      "b": 1,
+      "checks": {
+        "all_four_output_parities_correct": true,
+        "discrete_laplacian_reconstruction": true,
+        "every_toppling_individually_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true
+      },
+      "final_configuration_sha256": "688dbcdd62b5f1ddcbe46a0df096b05f2c4e989c1ff5ecd149a5905fb374755e",
+      "final_mass": 1352,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -14,
+          14,
+          -13,
+          14
+        ],
+        "l1_radius_from_origin": 20,
+        "linf_radius_from_origin": 14,
+        "sites": 609
+      },
+      "initial_mass": 1352,
+      "maximum_pending_heap": 42,
+      "maximum_site_topplings": 641,
+      "odometer_sha256": "10d84d59bdb96739d49ec41dbe934fc6dedd836623f9bc63d2ad0e2e4bebda74",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -13,
+          13,
+          -12,
+          13
+        ],
+        "l1_radius_from_origin": 19,
+        "linf_radius_from_origin": 13,
+        "sites": 570
+      },
+      "output_counts_sum_east_carry_east_sum_west_carry_west": [
+        176,
+        255,
+        176,
+        255
+      ],
+      "output_parities_sum_east_carry_east_sum_west_carry_west": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "target_parities_sum_carry_sum_carry": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "total_unit_topplings": 33677
+    },
+    {
+      "a": 1,
+      "additions_at_A_B": [
+        672,
+        1344
+      ],
+      "b": 2,
+      "checks": {
+        "all_four_output_parities_correct": true,
+        "discrete_laplacian_reconstruction": true,
+        "every_toppling_individually_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true
+      },
+      "final_configuration_sha256": "8f63e6bbaf9c675c142ffe816909ea6a995b9831f833149e87b154d5a4c2e0ff",
+      "final_mass": 2024,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -17,
+          17,
+          -16,
+          17
+        ],
+        "l1_radius_from_origin": 25,
+        "linf_radius_from_origin": 17,
+        "sites": 918
+      },
+      "initial_mass": 2024,
+      "maximum_pending_heap": 48,
+      "maximum_site_topplings": 1109,
+      "odometer_sha256": "39407777b2a88603d561e34c9b48d3086447cd5a43189ba18a0a37202d45e9bb",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -16,
+          16,
+          -15,
+          16
+        ],
+        "l1_radius_from_origin": 24,
+        "linf_radius_from_origin": 16,
+        "sites": 868
+      },
+      "output_counts_sum_east_carry_east_sum_west_carry_west": [
+        333,
+        462,
+        317,
+        428
+      ],
+      "output_parities_sum_east_carry_east_sum_west_carry_west": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "target_parities_sum_carry_sum_carry": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "total_unit_topplings": 75967
+    },
+    {
+      "a": 1,
+      "additions_at_A_B": [
+        672,
+        2016
+      ],
+      "b": 3,
+      "checks": {
+        "all_four_output_parities_correct": true,
+        "discrete_laplacian_reconstruction": true,
+        "every_toppling_individually_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true
+      },
+      "final_configuration_sha256": "2dc0a036af3a3480ea71bafdb20d884d49ab52aa303304bfdbcc2f0eb5057a3e",
+      "final_mass": 2696,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -19,
+          19,
+          -19,
+          20
+        ],
+        "l1_radius_from_origin": 29,
+        "linf_radius_from_origin": 20,
+        "sites": 1179
+      },
+      "initial_mass": 2696,
+      "maximum_pending_heap": 63,
+      "maximum_site_topplings": 1601,
+      "odometer_sha256": "2b82b148a3dd084b5191843f1f1133f41f473899976d988220ac4da97b0d5661",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -18,
+          18,
+          -18,
+          19
+        ],
+        "l1_radius_from_origin": 28,
+        "linf_radius_from_origin": 19,
+        "sites": 1170
+      },
+      "output_counts_sum_east_carry_east_sum_west_carry_west": [
+        514,
+        695,
+        480,
+        623
+      ],
+      "output_parities_sum_east_carry_east_sum_west_carry_west": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "target_parities_sum_carry_sum_carry": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "total_unit_topplings": 137369
+    },
+    {
+      "a": 2,
+      "additions_at_A_B": [
+        1344,
+        0
+      ],
+      "b": 0,
+      "checks": {
+        "all_four_output_parities_correct": true,
+        "discrete_laplacian_reconstruction": true,
+        "every_toppling_individually_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true
+      },
+      "final_configuration_sha256": "dafffea8a58af08eda000a8dc0c8e5618800e25a2b01af7d639f0d4ea26465d6",
+      "final_mass": 1352,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -14,
+          14,
+          -14,
+          14
+        ],
+        "l1_radius_from_origin": 20,
+        "linf_radius_from_origin": 14,
+        "sites": 603
+      },
+      "initial_mass": 1352,
+      "maximum_pending_heap": 40,
+      "maximum_site_topplings": 812,
+      "odometer_sha256": "57b9ed71154bf7259e1803e9b28cbc0731ee4b833c6d8e466f1c51a0fca7284b",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -13,
+          13,
+          -13,
+          13
+        ],
+        "l1_radius_from_origin": 19,
+        "linf_radius_from_origin": 13,
+        "sites": 585
+      },
+      "output_counts_sum_east_carry_east_sum_west_carry_west": [
+        164,
+        224,
+        196,
+        294
+      ],
+      "output_parities_sum_east_carry_east_sum_west_carry_west": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_parities_sum_carry_sum_carry": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "total_unit_topplings": 34785
+    },
+    {
+      "a": 2,
+      "additions_at_A_B": [
+        1344,
+        672
+      ],
+      "b": 1,
+      "checks": {
+        "all_four_output_parities_correct": true,
+        "discrete_laplacian_reconstruction": true,
+        "every_toppling_individually_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true
+      },
+      "final_configuration_sha256": "37d2f53ff36641d1e058e42a788a831c900ff2c9f7569a2998d3da3db7b71b71",
+      "final_mass": 2024,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -17,
+          17,
+          -16,
+          17
+        ],
+        "l1_radius_from_origin": 25,
+        "linf_radius_from_origin": 17,
+        "sites": 918
+      },
+      "initial_mass": 2024,
+      "maximum_pending_heap": 51,
+      "maximum_site_topplings": 1108,
+      "odometer_sha256": "f73e64ed4cc89f661032dcf161b56a7b8a773c44cdfccba7ab74a7150b3fd976",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -16,
+          16,
+          -15,
+          16
+        ],
+        "l1_radius_from_origin": 24,
+        "linf_radius_from_origin": 16,
+        "sites": 868
+      },
+      "output_counts_sum_east_carry_east_sum_west_carry_west": [
+        317,
+        428,
+        333,
+        462
+      ],
+      "output_parities_sum_east_carry_east_sum_west_carry_west": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "target_parities_sum_carry_sum_carry": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "total_unit_topplings": 75985
+    },
+    {
+      "a": 2,
+      "additions_at_A_B": [
+        1344,
+        1344
+      ],
+      "b": 2,
+      "checks": {
+        "all_four_output_parities_correct": true,
+        "discrete_laplacian_reconstruction": true,
+        "every_toppling_individually_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true
+      },
+      "final_configuration_sha256": "45c6404e2562a1cbd04840323b863910ac31766266db6c066e24724f729eeaad",
+      "final_mass": 2696,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -19,
+          19,
+          -19,
+          20
+        ],
+        "l1_radius_from_origin": 28,
+        "linf_radius_from_origin": 20,
+        "sites": 1179
+      },
+      "initial_mass": 2696,
+      "maximum_pending_heap": 61,
+      "maximum_site_topplings": 1424,
+      "odometer_sha256": "5c6aba98383b217c063f92cdb33fcd46b13e970535d5a4f2c45f87f442d3b4d6",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -18,
+          18,
+          -18,
+          19
+        ],
+        "l1_radius_from_origin": 27,
+        "linf_radius_from_origin": 19,
+        "sites": 1146
+      },
+      "output_counts_sum_east_carry_east_sum_west_carry_west": [
+        488,
+        650,
+        488,
+        650
+      ],
+      "output_parities_sum_east_carry_east_sum_west_carry_west": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_parities_sum_carry_sum_carry": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "total_unit_topplings": 132261
+    },
+    {
+      "a": 2,
+      "additions_at_A_B": [
+        1344,
+        2016
+      ],
+      "b": 3,
+      "checks": {
+        "all_four_output_parities_correct": true,
+        "discrete_laplacian_reconstruction": true,
+        "every_toppling_individually_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true
+      },
+      "final_configuration_sha256": "d75062016c2abc811de6f5b763605fe6e3a2623fba34148578144d5b29aea593",
+      "final_mass": 3368,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -22,
+          22,
+          -21,
+          22
+        ],
+        "l1_radius_from_origin": 32,
+        "linf_radius_from_origin": 22,
+        "sites": 1473
+      },
+      "initial_mass": 3368,
+      "maximum_pending_heap": 73,
+      "maximum_site_topplings": 1931,
+      "odometer_sha256": "e7af93e9947000ae29c35e112b23bd8a2bcb257f6fa9af8e77d6af72472e4cf6",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -21,
+          21,
+          -20,
+          21
+        ],
+        "l1_radius_from_origin": 31,
+        "linf_radius_from_origin": 21,
+        "sites": 1474
+      },
+      "output_counts_sum_east_carry_east_sum_west_carry_west": [
+        683,
+        896,
+        667,
+        860
+      ],
+      "output_parities_sum_east_carry_east_sum_west_carry_west": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "target_parities_sum_carry_sum_carry": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "total_unit_topplings": 212437
+    },
+    {
+      "a": 3,
+      "additions_at_A_B": [
+        2016,
+        0
+      ],
+      "b": 0,
+      "checks": {
+        "all_four_output_parities_correct": true,
+        "discrete_laplacian_reconstruction": true,
+        "every_toppling_individually_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true
+      },
+      "final_configuration_sha256": "d450d76598232202e7e688d1724ab94354bd86c3239afecf64c12ad51e1cd7a7",
+      "final_mass": 2024,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -17,
+          17,
+          -17,
+          17
+        ],
+        "l1_radius_from_origin": 25,
+        "linf_radius_from_origin": 17,
+        "sites": 913
+      },
+      "initial_mass": 2024,
+      "maximum_pending_heap": 53,
+      "maximum_site_topplings": 1282,
+      "odometer_sha256": "5fb9014c7d85a72e4962fbf7000c11baef17794f6a114ca94be42da3e7463a36",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -16,
+          16,
+          -16,
+          16
+        ],
+        "l1_radius_from_origin": 24,
+        "linf_radius_from_origin": 16,
+        "sites": 889
+      },
+      "output_counts_sum_east_carry_east_sum_west_carry_west": [
+        305,
+        398,
+        355,
+        504
+      ],
+      "output_parities_sum_east_carry_east_sum_west_carry_west": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "target_parities_sum_carry_sum_carry": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "total_unit_topplings": 78304
+    },
+    {
+      "a": 3,
+      "additions_at_A_B": [
+        2016,
+        672
+      ],
+      "b": 1,
+      "checks": {
+        "all_four_output_parities_correct": true,
+        "discrete_laplacian_reconstruction": true,
+        "every_toppling_individually_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true
+      },
+      "final_configuration_sha256": "9f097b03205e11f8689958b76baa331dc259a285bccfc16a40e0dbc5d254aa96",
+      "final_mass": 2696,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -19,
+          19,
+          -19,
+          20
+        ],
+        "l1_radius_from_origin": 29,
+        "linf_radius_from_origin": 20,
+        "sites": 1180
+      },
+      "initial_mass": 2696,
+      "maximum_pending_heap": 60,
+      "maximum_site_topplings": 1600,
+      "odometer_sha256": "f4a43d3d3c4ba3250ced2ace518b3d618d6bf9ee5eb2c9c75d181db4644a6be8",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -18,
+          18,
+          -18,
+          19
+        ],
+        "l1_radius_from_origin": 28,
+        "linf_radius_from_origin": 19,
+        "sites": 1170
+      },
+      "output_counts_sum_east_carry_east_sum_west_carry_west": [
+        480,
+        623,
+        514,
+        695
+      ],
+      "output_parities_sum_east_carry_east_sum_west_carry_west": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "target_parities_sum_carry_sum_carry": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "total_unit_topplings": 137369
+    },
+    {
+      "a": 3,
+      "additions_at_A_B": [
+        2016,
+        1344
+      ],
+      "b": 2,
+      "checks": {
+        "all_four_output_parities_correct": true,
+        "discrete_laplacian_reconstruction": true,
+        "every_toppling_individually_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true
+      },
+      "final_configuration_sha256": "fe7a8dcf22c9c3b37bd5fe12246752a1318cda3f3445cb9287fd2a723f216ee5",
+      "final_mass": 3368,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -22,
+          22,
+          -21,
+          22
+        ],
+        "l1_radius_from_origin": 32,
+        "linf_radius_from_origin": 22,
+        "sites": 1474
+      },
+      "initial_mass": 3368,
+      "maximum_pending_heap": 71,
+      "maximum_site_topplings": 1929,
+      "odometer_sha256": "8a56801c97a1679aa0ff602014855ac338874eb81099700a3bbc460bba501ef4",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -21,
+          21,
+          -20,
+          21
+        ],
+        "l1_radius_from_origin": 31,
+        "linf_radius_from_origin": 21,
+        "sites": 1474
+      },
+      "output_counts_sum_east_carry_east_sum_west_carry_west": [
+        667,
+        860,
+        683,
+        896
+      ],
+      "output_parities_sum_east_carry_east_sum_west_carry_west": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "target_parities_sum_carry_sum_carry": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "total_unit_topplings": 212432
+    },
+    {
+      "a": 3,
+      "additions_at_A_B": [
+        2016,
+        2016
+      ],
+      "b": 3,
+      "checks": {
+        "all_four_output_parities_correct": true,
+        "discrete_laplacian_reconstruction": true,
+        "every_toppling_individually_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true
+      },
+      "final_configuration_sha256": "8cb8914e9fd192e420b5daa549ec18ff34523a763b00921966574970502620fb",
+      "final_mass": 4040,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -24,
+          24,
+          -23,
+          24
+        ],
+        "l1_radius_from_origin": 35,
+        "linf_radius_from_origin": 24,
+        "sites": 1750
+      },
+      "initial_mass": 4040,
+      "maximum_pending_heap": 81,
+      "maximum_site_topplings": 2270,
+      "odometer_sha256": "a2a6f866db5545b71bb0385881c4192c4e6acf7fbe20e51f5801dd93d77acdb1",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -23,
+          23,
+          -22,
+          23
+        ],
+        "l1_radius_from_origin": 34,
+        "linf_radius_from_origin": 23,
+        "sites": 1774
+      },
+      "output_counts_sum_east_carry_east_sum_west_carry_west": [
+        864,
+        1109,
+        864,
+        1109
+      ],
+      "output_parities_sum_east_carry_east_sum_west_carry_west": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "target_parities_sum_carry_sum_carry": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "total_unit_topplings": 303324
+    }
+  ],
+  "composition_caveat": {
+    "bounded_audit_source": "audit_halfadder672_composition.cpp",
+    "bounded_negative_audit": "For each complete 16-value output-count alphabet, all 256 stable 2x2 cores, each of the four core cells as the input, and every reached lattice site as a possible tap were tested as isolated abstract parity decoders. Neither the SUM nor CARRY alphabet had a hit.",
+    "reason": "The SUM and CARRY values are irregular toppling counts, not normalized 672-grain packets. Attaching a receiver also feeds grains back through undirected Z^2 edges and can change the producing avalanche.",
+    "scope_warning": "That finite negative result rules out only this tiny isolated decoder family. It is not a no-go theorem for larger decoders, wires, or physically coupled modules.",
+    "status": "This is a decisive two-output Boolean primitive as a local odometer observable, but not yet a cascadable sandpile circuit gate."
+  },
+  "dense_search_boundary_exactness": {
+    "conclusion": "Every audited avalanche stays at least 40 lattice steps from the artificial boundary, so the dense calculation agrees with the infinite lattice.",
+    "dense_board_origin_margin": 64,
+    "dense_board_side": 129,
+    "dominating_configuration": "all-3 stable 2x2 core with the largest tested additions, 2016 grains at each input",
+    "dominating_odometer_bounding_box": [
+      -23,
+      23,
+      -22,
+      23
+    ],
+    "dominating_odometer_linf_radius_from_origin": 23,
+    "dominating_odometer_support_sites": 1774,
+    "monotonicity_argument": "This initial state pointwise dominates every stable 2x2 core and every a,b<=3, p<=672 candidate. Odometer monotonicity therefore makes its toppling support contain every support in the exhaustive search."
+  },
+  "encoding": {
+    "all_output_ports_for_this_core": {
+      "CARRY": [
+        [
+          1,
+          -2
+        ],
+        [
+          -1,
+          3
+        ]
+      ],
+      "SUM": [
+        [
+          -3,
+          3
+        ],
+        [
+          -3,
+          -2
+        ]
+      ]
+    },
+    "canonical_output_ports": {
+      "CARRY": [
+        -1,
+        3
+      ],
+      "SUM": [
+        -3,
+        3
+      ]
+    },
+    "core_row_major_A_B_D_C": [
+      0,
+      3,
+      3,
+      2
+    ],
+    "core_rows": [
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "input_additions": "672a at A and 672b at B",
+    "input_alphabet": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "input_ports": {
+      "A": [
+        0,
+        0
+      ],
+      "B": [
+        0,
+        1
+      ]
+    },
+    "packet_size": 672,
+    "readout": "parity of total local odometer values",
+    "semantic_map": "SUM=(a mod 2) XOR (b mod 2), CARRY=(a mod 2) AND (b mod 2)"
+  },
+  "minimality": {
+    "allowing_core_sites_as_outputs": "An additional exhaustive run allowing the four seeded core sites as taps produced the same least packet, same ten cores, and same 28 output pairs.",
+    "conclusion": "p=672 is globally minimal in the stated fixed equal-packet class. The witness core is not unique at p=672.",
+    "core_packet_hits_at_packet_672": 10,
+    "core_packet_pairs_through_671": 171776,
+    "core_packet_pairs_through_672": 172032,
+    "half_adder_hits_for_packets_1_through_671": 0,
+    "independent_exhaustive_implementations": [
+      {
+        "file": "audit_halfadder672_exhaustive.cpp",
+        "method": "generation-stamped dense arrays, batched legal topplings, and a FIFO work queue",
+        "observed_summary": "core_packet_pairs=172032, half_adder_core_packet_hits=10, half_adder_output_pairs=28, hits_before_672=0, least_packet=672"
+      },
+      {
+        "file": "audit_halfadder672_unit_exhaustive.cpp",
+        "method": "fresh dense-array resets, exactly one legal toppling per event, and a LIFO work stack",
+        "observed_summary": "core_packet_pairs=172032, hits_before_672=0, hits_at_672=10, output_pairs_at_672=28"
+      }
+    ],
+    "least_packet": 672,
+    "packet_672_hits": [
+      {
+        "carry_taps": [
+          [
+            1,
+            -2
+          ],
+          [
+            -1,
+            3
+          ]
+        ],
+        "core_row_major_A_B_D_C": [
+          0,
+          3,
+          3,
+          2
+        ],
+        "sum_taps": [
+          [
+            -3,
+            3
+          ],
+          [
+            -3,
+            -2
+          ]
+        ]
+      },
+      {
+        "carry_taps": [
+          [
+            -1,
+            3
+          ],
+          [
+            1,
+            -2
+          ]
+        ],
+        "core_row_major_A_B_D_C": [
+          1,
+          3,
+          2,
+          2
+        ],
+        "sum_taps": [
+          [
+            -3,
+            3
+          ],
+          [
+            3,
+            -2
+          ],
+          [
+            -3,
+            -2
+          ]
+        ]
+      },
+      {
+        "carry_taps": [
+          [
+            -1,
+            3
+          ],
+          [
+            -1,
+            -2
+          ]
+        ],
+        "core_row_major_A_B_D_C": [
+          1,
+          3,
+          2,
+          3
+        ],
+        "sum_taps": [
+          [
+            -3,
+            3
+          ]
+        ]
+      },
+      {
+        "carry_taps": [
+          [
+            -1,
+            -2
+          ]
+        ],
+        "core_row_major_A_B_D_C": [
+          1,
+          3,
+          3,
+          2
+        ],
+        "sum_taps": [
+          [
+            -3,
+            -2
+          ]
+        ]
+      },
+      {
+        "carry_taps": [
+          [
+            -1,
+            -2
+          ]
+        ],
+        "core_row_major_A_B_D_C": [
+          2,
+          3,
+          2,
+          2
+        ],
+        "sum_taps": [
+          [
+            -3,
+            -2
+          ]
+        ]
+      },
+      {
+        "carry_taps": [
+          [
+            1,
+            3
+          ],
+          [
+            -1,
+            -2
+          ]
+        ],
+        "core_row_major_A_B_D_C": [
+          3,
+          0,
+          2,
+          3
+        ],
+        "sum_taps": [
+          [
+            -3,
+            3
+          ],
+          [
+            -3,
+            -2
+          ]
+        ]
+      },
+      {
+        "carry_taps": [
+          [
+            -1,
+            -2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "core_row_major_A_B_D_C": [
+          3,
+          1,
+          2,
+          2
+        ],
+        "sum_taps": [
+          [
+            3,
+            3
+          ],
+          [
+            -3,
+            3
+          ],
+          [
+            -3,
+            -2
+          ]
+        ]
+      },
+      {
+        "carry_taps": [
+          [
+            -1,
+            3
+          ]
+        ],
+        "core_row_major_A_B_D_C": [
+          3,
+          1,
+          2,
+          3
+        ],
+        "sum_taps": [
+          [
+            -3,
+            3
+          ]
+        ]
+      },
+      {
+        "carry_taps": [
+          [
+            -1,
+            -2
+          ],
+          [
+            -1,
+            3
+          ]
+        ],
+        "core_row_major_A_B_D_C": [
+          3,
+          1,
+          3,
+          2
+        ],
+        "sum_taps": [
+          [
+            -3,
+            -2
+          ]
+        ]
+      },
+      {
+        "carry_taps": [
+          [
+            -1,
+            3
+          ]
+        ],
+        "core_row_major_A_B_D_C": [
+          3,
+          2,
+          2,
+          2
+        ],
+        "sum_taps": [
+          [
+            -3,
+            3
+          ]
+        ]
+      }
+    ],
+    "packets_exhausted": [
+      1,
+      672
+    ],
+    "role_labelled_output_pairs_at_packet_672": 28,
+    "scope": "All 4^4 stable backgrounds on the fixed 2x2 support, zeros elsewhere, fixed inputs A=(0,0), B=(0,1), one equal positive integer packet p, amplitudes a,b in {0,1,2,3}, and two role-labelled external lattice sites whose odometer parities are SUM and CARRY.",
+    "stable_cores_per_packet": 256
+  },
+  "model": {
+    "lattice": "Z^2 with radius-one von Neumann neighbors",
+    "outside_background": 0,
+    "sink": null,
+    "stabilization": "ordinary conservative Abelian sandpile stabilization with finite support",
+    "threshold": 4
+  },
+  "output_count_tables_rows_a_columns_b": {
+    "carry_east": [
+      [
+        0,
+        110,
+        294,
+        504
+      ],
+      [
+        76,
+        255,
+        462,
+        695
+      ],
+      [
+        224,
+        428,
+        650,
+        896
+      ],
+      [
+        398,
+        623,
+        860,
+        1109
+      ]
+    ],
+    "carry_west": [
+      [
+        0,
+        76,
+        224,
+        398
+      ],
+      [
+        110,
+        255,
+        428,
+        623
+      ],
+      [
+        294,
+        462,
+        650,
+        860
+      ],
+      [
+        504,
+        695,
+        896,
+        1109
+      ]
+    ],
+    "sum_east": [
+      [
+        0,
+        63,
+        196,
+        355
+      ],
+      [
+        49,
+        176,
+        333,
+        514
+      ],
+      [
+        164,
+        317,
+        488,
+        683
+      ],
+      [
+        305,
+        480,
+        667,
+        864
+      ]
+    ],
+    "sum_west": [
+      [
+        0,
+        49,
+        164,
+        305
+      ],
+      [
+        63,
+        176,
+        317,
+        480
+      ],
+      [
+        196,
+        333,
+        488,
+        667
+      ],
+      [
+        355,
+        514,
+        683,
+        864
+      ]
+    ]
+  },
+  "title": "Minimal equal-packet full-alphabet odometer-parity half-adder in the fixed stable-2x2-core search class on the ordinary infinite square lattice",
+  "truth_table_rows_a_columns_b_entries_sum_carry": [
+    [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  ],
+  "verification": {
+    "all_16_discrete_laplacian_equations_checked": true,
+    "all_16_final_states_stable": true,
+    "all_16_legal_stabilizations_checked": true,
+    "all_16_mass_conservation_checks_pass": true,
+    "all_16_sparse_state_and_odometer_hashes_recorded": true,
+    "independence": "The verifier uses signed-coordinate dictionaries, a lexicographic heap, and exactly one legal toppling per event; it shares no stabilization code with the dense exhaustive implementation.",
+    "independent_sparse_infinite_verifier": "verify_halfadder672_certificate.py",
+    "reproduction_commands": [
+      "python3 generate_halfadder672_certificate.py",
+      "python3 verify_halfadder672_certificate.py",
+      "g++ -O3 -std=c++20 -Wall -Wextra -pedantic audit_halfadder672_exhaustive.cpp -o audit_halfadder672",
+      "./audit_halfadder672",
+      "./audit_halfadder672 --allow-core-outputs",
+      "g++ -O3 -std=c++20 -Wall -Wextra -pedantic audit_halfadder672_unit_exhaustive.cpp -o audit_halfadder672_unit",
+      "./audit_halfadder672_unit",
+      "g++ -O3 -std=c++20 -Wall -Wextra -pedantic audit_halfadder672_composition.cpp -o audit_halfadder672_composition",
+      "./audit_halfadder672_composition"
+    ]
+  }
+}
