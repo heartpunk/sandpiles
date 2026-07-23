@@ -1,0 +1,1860 @@
+{
+  "background": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "cases": {
+    "a": {
+      "additions": [
+        {
+          "amount": 15,
+          "position": [
+            3,
+            3
+          ]
+        }
+      ],
+      "final_configuration": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          2,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          2,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          2,
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_trace": [
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "maximum_site_topplings": 6,
+      "odometer": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          6,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "output_counts_c_d": [
+        1,
+        2
+      ],
+      "output_parities_c_d": [
+        1,
+        0
+      ],
+      "total_topplings": 13
+    },
+    "b": {
+      "additions": [
+        {
+          "amount": 15,
+          "position": [
+            3,
+            4
+          ]
+        }
+      ],
+      "final_configuration": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          2,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          2,
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          3,
+          2,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_trace": [
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "maximum_site_topplings": 6,
+      "odometer": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          6,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "output_counts_c_d": [
+        2,
+        1
+      ],
+      "output_parities_c_d": [
+        0,
+        1
+      ],
+      "total_topplings": 13
+    },
+    "both": {
+      "additions": [
+        {
+          "amount": 15,
+          "position": [
+            3,
+            3
+          ]
+        },
+        {
+          "amount": 15,
+          "position": [
+            3,
+            4
+          ]
+        }
+      ],
+      "final_configuration": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          3,
+          3,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          2,
+          1,
+          1,
+          2,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          3,
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_trace": [
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "maximum_site_topplings": 8,
+      "odometer": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          8,
+          8,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          3,
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "output_counts_c_d": [
+        3,
+        3
+      ],
+      "output_parities_c_d": [
+        1,
+        1
+      ],
+      "total_topplings": 34
+    }
+  },
+  "core": {
+    "background_rows": [
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "cyclic_port_order": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "paired_crossing_channels": [
+      "A-C",
+      "B-D"
+    ],
+    "ports": {
+      "a_input_top_left": [
+        3,
+        3
+      ],
+      "a_output_c_bottom_right": [
+        4,
+        4
+      ],
+      "b_input_top_right": [
+        3,
+        4
+      ],
+      "b_output_d_bottom_left": [
+        4,
+        3
+      ]
+    },
+    "pulse": 15
+  },
+  "minimality": {
+    "all_exhaustive_search_boundary_odometers_zero": true,
+    "backgrounds_checked_per_pulse": 256,
+    "claim": "Among all 4^4 stable backgrounds supported on this 2x2 core, with zeros elsewhere, equal positive pulses p at A/B, and C/D odometer-parity readout required to give A -> (1,0), B -> (0,1), and A+B -> (1,1), no crossing exists for integer p=1 through 14. At p=15 there are exactly 17 backgrounds.",
+    "enumeration": [
+      {
+        "pulse": 1,
+        "solutions": 0
+      },
+      {
+        "pulse": 2,
+        "solutions": 0
+      },
+      {
+        "pulse": 3,
+        "solutions": 0
+      },
+      {
+        "pulse": 4,
+        "solutions": 0
+      },
+      {
+        "pulse": 5,
+        "solutions": 0
+      },
+      {
+        "pulse": 6,
+        "solutions": 0
+      },
+      {
+        "pulse": 7,
+        "solutions": 0
+      },
+      {
+        "pulse": 8,
+        "solutions": 0
+      },
+      {
+        "pulse": 9,
+        "solutions": 0
+      },
+      {
+        "pulse": 10,
+        "solutions": 0
+      },
+      {
+        "pulse": 11,
+        "solutions": 0
+      },
+      {
+        "pulse": 12,
+        "solutions": 0
+      },
+      {
+        "pulse": 13,
+        "solutions": 0
+      },
+      {
+        "pulse": 14,
+        "solutions": 0
+      },
+      {
+        "pulse": 15,
+        "solutions": 17
+      }
+    ],
+    "pulse_15_solutions": [
+      {
+        "core_row_major": [
+          0,
+          3,
+          3,
+          3
+        ],
+        "core_rows": [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "output_counts_c_d": {
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            2,
+            1
+          ],
+          "both": [
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "core_row_major": [
+          1,
+          3,
+          2,
+          3
+        ],
+        "core_rows": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "output_counts_c_d": {
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            2,
+            1
+          ],
+          "both": [
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "core_row_major": [
+          1,
+          3,
+          3,
+          2
+        ],
+        "core_rows": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "output_counts_c_d": {
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            2,
+            1
+          ],
+          "both": [
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "core_row_major": [
+          1,
+          3,
+          3,
+          3
+        ],
+        "core_rows": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "output_counts_c_d": {
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            2,
+            1
+          ],
+          "both": [
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "core_row_major": [
+          2,
+          3,
+          2,
+          3
+        ],
+        "core_rows": [
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "output_counts_c_d": {
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            2,
+            1
+          ],
+          "both": [
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "core_row_major": [
+          2,
+          3,
+          3,
+          2
+        ],
+        "core_rows": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "output_counts_c_d": {
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            2,
+            1
+          ],
+          "both": [
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "core_row_major": [
+          2,
+          3,
+          3,
+          3
+        ],
+        "core_rows": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "output_counts_c_d": {
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            2,
+            1
+          ],
+          "both": [
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "core_row_major": [
+          3,
+          0,
+          3,
+          3
+        ],
+        "core_rows": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "output_counts_c_d": {
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            2,
+            1
+          ],
+          "both": [
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "core_row_major": [
+          3,
+          1,
+          2,
+          3
+        ],
+        "core_rows": [
+          [
+            3,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "output_counts_c_d": {
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            2,
+            1
+          ],
+          "both": [
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "core_row_major": [
+          3,
+          1,
+          3,
+          2
+        ],
+        "core_rows": [
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "output_counts_c_d": {
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            2,
+            1
+          ],
+          "both": [
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "core_row_major": [
+          3,
+          1,
+          3,
+          3
+        ],
+        "core_rows": [
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "output_counts_c_d": {
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            2,
+            1
+          ],
+          "both": [
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "core_row_major": [
+          3,
+          2,
+          2,
+          3
+        ],
+        "core_rows": [
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "output_counts_c_d": {
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            2,
+            1
+          ],
+          "both": [
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "core_row_major": [
+          3,
+          2,
+          3,
+          2
+        ],
+        "core_rows": [
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "output_counts_c_d": {
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            2,
+            1
+          ],
+          "both": [
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "core_row_major": [
+          3,
+          2,
+          3,
+          3
+        ],
+        "core_rows": [
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "output_counts_c_d": {
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            2,
+            1
+          ],
+          "both": [
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "core_row_major": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "core_rows": [
+          [
+            3,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "output_counts_c_d": {
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            2,
+            1
+          ],
+          "both": [
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "core_row_major": [
+          3,
+          3,
+          3,
+          2
+        ],
+        "core_rows": [
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "output_counts_c_d": {
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            2,
+            1
+          ],
+          "both": [
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "core_row_major": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "core_rows": [
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "output_counts_c_d": {
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            2,
+            1
+          ],
+          "both": [
+            3,
+            3
+          ]
+        }
+      }
+    ],
+    "scope": "This is minimality within the explicitly exhausted 2x2-core/equal-positive-integer-pulse/fixed-port/odometer-parity encoding class. A 2x2 square is the smallest square core that can hold four distinct cyclically ordered ports. This is not a minimality claim among every larger or differently encoded gadget.",
+    "total_background_pulse_pairs_checked": 3840,
+    "total_input_cases_stabilized": 11520
+  },
+  "model": {
+    "finite_board_used_for_certificate": 8,
+    "lattice": "infinite square von Neumann lattice",
+    "outside_background": 0,
+    "padding": 3,
+    "reason_padding_is_exact": "Every certified boundary odometer is zero, so the finite calculation equals stabilization on Z^2.",
+    "threshold": 4
+  },
+  "pulse_multiplicity_table_0_through_3": [
+    {
+      "a_pulse_multiplicity": 0,
+      "b_pulse_multiplicity": 0,
+      "output_counts_c_d": [
+        0,
+        0
+      ],
+      "output_parities_c_d": [
+        0,
+        0
+      ],
+      "parity_linear": true,
+      "target_parities": [
+        0,
+        0
+      ],
+      "total_topplings": 0
+    },
+    {
+      "a_pulse_multiplicity": 0,
+      "b_pulse_multiplicity": 1,
+      "output_counts_c_d": [
+        2,
+        1
+      ],
+      "output_parities_c_d": [
+        0,
+        1
+      ],
+      "parity_linear": true,
+      "target_parities": [
+        0,
+        1
+      ],
+      "total_topplings": 13
+    },
+    {
+      "a_pulse_multiplicity": 0,
+      "b_pulse_multiplicity": 2,
+      "output_counts_c_d": [
+        4,
+        2
+      ],
+      "output_parities_c_d": [
+        0,
+        0
+      ],
+      "parity_linear": true,
+      "target_parities": [
+        0,
+        0
+      ],
+      "total_topplings": 32
+    },
+    {
+      "a_pulse_multiplicity": 0,
+      "b_pulse_multiplicity": 3,
+      "output_counts_c_d": [
+        6,
+        4
+      ],
+      "output_parities_c_d": [
+        0,
+        0
+      ],
+      "parity_linear": false,
+      "target_parities": [
+        0,
+        1
+      ],
+      "total_topplings": 55
+    },
+    {
+      "a_pulse_multiplicity": 1,
+      "b_pulse_multiplicity": 0,
+      "output_counts_c_d": [
+        1,
+        2
+      ],
+      "output_parities_c_d": [
+        1,
+        0
+      ],
+      "parity_linear": true,
+      "target_parities": [
+        1,
+        0
+      ],
+      "total_topplings": 13
+    },
+    {
+      "a_pulse_multiplicity": 1,
+      "b_pulse_multiplicity": 1,
+      "output_counts_c_d": [
+        3,
+        3
+      ],
+      "output_parities_c_d": [
+        1,
+        1
+      ],
+      "parity_linear": true,
+      "target_parities": [
+        1,
+        1
+      ],
+      "total_topplings": 34
+    },
+    {
+      "a_pulse_multiplicity": 1,
+      "b_pulse_multiplicity": 2,
+      "output_counts_c_d": [
+        6,
+        5
+      ],
+      "output_parities_c_d": [
+        0,
+        1
+      ],
+      "parity_linear": false,
+      "target_parities": [
+        1,
+        0
+      ],
+      "total_topplings": 64
+    },
+    {
+      "a_pulse_multiplicity": 1,
+      "b_pulse_multiplicity": 3,
+      "output_counts_c_d": [
+        9,
+        7
+      ],
+      "output_parities_c_d": [
+        1,
+        1
+      ],
+      "parity_linear": true,
+      "target_parities": [
+        1,
+        1
+      ],
+      "total_topplings": 111
+    },
+    {
+      "a_pulse_multiplicity": 2,
+      "b_pulse_multiplicity": 0,
+      "output_counts_c_d": [
+        2,
+        4
+      ],
+      "output_parities_c_d": [
+        0,
+        0
+      ],
+      "parity_linear": true,
+      "target_parities": [
+        0,
+        0
+      ],
+      "total_topplings": 32
+    },
+    {
+      "a_pulse_multiplicity": 2,
+      "b_pulse_multiplicity": 1,
+      "output_counts_c_d": [
+        5,
+        6
+      ],
+      "output_parities_c_d": [
+        1,
+        0
+      ],
+      "parity_linear": false,
+      "target_parities": [
+        0,
+        1
+      ],
+      "total_topplings": 64
+    },
+    {
+      "a_pulse_multiplicity": 2,
+      "b_pulse_multiplicity": 2,
+      "output_counts_c_d": [
+        7,
+        7
+      ],
+      "output_parities_c_d": [
+        1,
+        1
+      ],
+      "parity_linear": false,
+      "target_parities": [
+        0,
+        0
+      ],
+      "total_topplings": 90
+    },
+    {
+      "a_pulse_multiplicity": 2,
+      "b_pulse_multiplicity": 3,
+      "output_counts_c_d": [
+        11,
+        10
+      ],
+      "output_parities_c_d": [
+        1,
+        0
+      ],
+      "parity_linear": false,
+      "target_parities": [
+        0,
+        1
+      ],
+      "total_topplings": 150
+    },
+    {
+      "a_pulse_multiplicity": 3,
+      "b_pulse_multiplicity": 0,
+      "output_counts_c_d": [
+        4,
+        6
+      ],
+      "output_parities_c_d": [
+        0,
+        0
+      ],
+      "parity_linear": false,
+      "target_parities": [
+        1,
+        0
+      ],
+      "total_topplings": 55
+    },
+    {
+      "a_pulse_multiplicity": 3,
+      "b_pulse_multiplicity": 1,
+      "output_counts_c_d": [
+        7,
+        9
+      ],
+      "output_parities_c_d": [
+        1,
+        1
+      ],
+      "parity_linear": true,
+      "target_parities": [
+        1,
+        1
+      ],
+      "total_topplings": 111
+    },
+    {
+      "a_pulse_multiplicity": 3,
+      "b_pulse_multiplicity": 2,
+      "output_counts_c_d": [
+        10,
+        11
+      ],
+      "output_parities_c_d": [
+        0,
+        1
+      ],
+      "parity_linear": false,
+      "target_parities": [
+        1,
+        0
+      ],
+      "total_topplings": 150
+    },
+    {
+      "a_pulse_multiplicity": 3,
+      "b_pulse_multiplicity": 3,
+      "output_counts_c_d": [
+        12,
+        12
+      ],
+      "output_parities_c_d": [
+        0,
+        0
+      ],
+      "parity_linear": false,
+      "target_parities": [
+        1,
+        1
+      ],
+      "total_topplings": 188
+    }
+  ],
+  "title": "Minimal-pulse parity crossover on the smallest four-distinct-port square core",
+  "verification": {
+    "all_11520_search_avalanches_finite_inside_padding": true,
+    "complete_2x2_background_enumeration": true,
+    "final_stability_checked": true,
+    "laplacian_reconstruction_checked": true,
+    "legal_trace_checked_at_every_step": true,
+    "mass_conservation_checked": true,
+    "two_independent_stabilizers_agree": true,
+    "zero_boundary_odometer_checked": true
+  }
+}

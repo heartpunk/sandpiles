@@ -1,0 +1,8 @@
+{
+  "name": "outer-totalistic-period-search",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "z3-solver": "5.0.0"
+  }
+}

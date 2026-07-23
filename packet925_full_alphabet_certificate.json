@@ -1,0 +1,1110 @@
+{
+  "cases": [
+    {
+      "a": 0,
+      "additions_at_A_B": [
+        0,
+        0
+      ],
+      "b": 0,
+      "checks": {
+        "discrete_laplacian_reconstruction": true,
+        "every_batched_toppling_unitwise_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true,
+        "output_parity_correct": true
+      },
+      "final_configuration_sha256": "ae196f2bfe3e859c50c71f42335acc6ee69928ca898c82d8de1c35bb66ca573d",
+      "final_mass": 4,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "l1_radius_from_origin": 2,
+        "linf_radius_from_origin": 1,
+        "sites": 2
+      },
+      "initial_mass": 4,
+      "legal_toppling_batches": 0,
+      "maximum_pending_queue": 0,
+      "maximum_site_topplings": 0,
+      "odometer_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": null,
+        "l1_radius_from_origin": 0,
+        "linf_radius_from_origin": 0,
+        "sites": 0
+      },
+      "output_counts_C_D": [
+        0,
+        0
+      ],
+      "output_parities_C_D": [
+        0,
+        0
+      ],
+      "target_parities": [
+        0,
+        0
+      ],
+      "total_unit_topplings": 0
+    },
+    {
+      "a": 0,
+      "additions_at_A_B": [
+        0,
+        925
+      ],
+      "b": 1,
+      "checks": {
+        "discrete_laplacian_reconstruction": true,
+        "every_batched_toppling_unitwise_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true,
+        "output_parity_correct": true
+      },
+      "final_configuration_sha256": "d1ba0b6756191ac4b1ff07aa9434fed84185a6e6a9ad0e5b386bc9276fc7bc91",
+      "final_mass": 929,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -11,
+          11,
+          -10,
+          12
+        ],
+        "l1_radius_from_origin": 18,
+        "linf_radius_from_origin": 12,
+        "sites": 402
+      },
+      "initial_mass": 929,
+      "legal_toppling_batches": 10909,
+      "maximum_pending_queue": 113,
+      "maximum_site_topplings": 530,
+      "odometer_sha256": "cd12aecae245ec68485ceb459fedc11a800585e6bbc375f230f378262fd7d954",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -10,
+          10,
+          -9,
+          11
+        ],
+        "l1_radius_from_origin": 17,
+        "linf_radius_from_origin": 11,
+        "sites": 385
+      },
+      "output_counts_C_D": [
+        300,
+        237
+      ],
+      "output_parities_C_D": [
+        0,
+        1
+      ],
+      "target_parities": [
+        0,
+        1
+      ],
+      "total_unit_topplings": 16501
+    },
+    {
+      "a": 0,
+      "additions_at_A_B": [
+        0,
+        1850
+      ],
+      "b": 2,
+      "checks": {
+        "discrete_laplacian_reconstruction": true,
+        "every_batched_toppling_unitwise_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true,
+        "output_parity_correct": true
+      },
+      "final_configuration_sha256": "83bdab6cf4a2516234044ae4f96c7f04d69aaf39c0bccdf062a7623a9063c41c",
+      "final_mass": 1854,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -16,
+          16,
+          -15,
+          17
+        ],
+        "l1_radius_from_origin": 24,
+        "linf_radius_from_origin": 17,
+        "sites": 798
+      },
+      "initial_mass": 1854,
+      "legal_toppling_batches": 41402,
+      "maximum_pending_queue": 228,
+      "maximum_site_topplings": 1159,
+      "odometer_sha256": "5d264dde4614ed2e9e41c1f311de1ac9016d920caa135cf43fd6c4edd40f9725",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -15,
+          15,
+          -14,
+          16
+        ],
+        "l1_radius_from_origin": 23,
+        "linf_radius_from_origin": 16,
+        "sites": 785
+      },
+      "output_counts_C_D": [
+        698,
+        572
+      ],
+      "output_parities_C_D": [
+        0,
+        0
+      ],
+      "target_parities": [
+        0,
+        0
+      ],
+      "total_unit_topplings": 63607
+    },
+    {
+      "a": 0,
+      "additions_at_A_B": [
+        0,
+        2775
+      ],
+      "b": 3,
+      "checks": {
+        "discrete_laplacian_reconstruction": true,
+        "every_batched_toppling_unitwise_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true,
+        "output_parity_correct": true
+      },
+      "final_configuration_sha256": "12b16064c59f71e239c285f4679aa6c22a6d5a8a7b1cc3c292cd4ef0938e4ed3",
+      "final_mass": 2779,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -20,
+          20,
+          -19,
+          21
+        ],
+        "l1_radius_from_origin": 30,
+        "linf_radius_from_origin": 21,
+        "sites": 1232
+      },
+      "initial_mass": 2779,
+      "legal_toppling_batches": 94179,
+      "maximum_pending_queue": 325,
+      "maximum_site_topplings": 1823,
+      "odometer_sha256": "d21171b5e0db50adf215b67c77a2c833af0aee4034553e81bbaa7f877a37bfbf",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -19,
+          19,
+          -18,
+          20
+        ],
+        "l1_radius_from_origin": 29,
+        "linf_radius_from_origin": 20,
+        "sites": 1213
+      },
+      "output_counts_C_D": [
+        1130,
+        941
+      ],
+      "output_parities_C_D": [
+        0,
+        1
+      ],
+      "target_parities": [
+        0,
+        1
+      ],
+      "total_unit_topplings": 142918
+    },
+    {
+      "a": 1,
+      "additions_at_A_B": [
+        925,
+        0
+      ],
+      "b": 0,
+      "checks": {
+        "discrete_laplacian_reconstruction": true,
+        "every_batched_toppling_unitwise_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true,
+        "output_parity_correct": true
+      },
+      "final_configuration_sha256": "99903250c153f2283cb4dd6ffe573431893723d64a2d5aa128bf78fac3a914d5",
+      "final_mass": 929,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -11,
+          11,
+          -11,
+          11
+        ],
+        "l1_radius_from_origin": 17,
+        "linf_radius_from_origin": 11,
+        "sites": 402
+      },
+      "initial_mass": 929,
+      "legal_toppling_batches": 10909,
+      "maximum_pending_queue": 113,
+      "maximum_site_topplings": 530,
+      "odometer_sha256": "3ea68f507544dc6936d6335dadca10d88f7dd0165d8a21e9ec8274afa8594dc7",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -10,
+          10,
+          -10,
+          10
+        ],
+        "l1_radius_from_origin": 16,
+        "linf_radius_from_origin": 10,
+        "sites": 385
+      },
+      "output_counts_C_D": [
+        237,
+        300
+      ],
+      "output_parities_C_D": [
+        1,
+        0
+      ],
+      "target_parities": [
+        1,
+        0
+      ],
+      "total_unit_topplings": 16501
+    },
+    {
+      "a": 1,
+      "additions_at_A_B": [
+        925,
+        925
+      ],
+      "b": 1,
+      "checks": {
+        "discrete_laplacian_reconstruction": true,
+        "every_batched_toppling_unitwise_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true,
+        "output_parity_correct": true
+      },
+      "final_configuration_sha256": "2bc111783e0c8c3cc19e825e01ccc00b9034bb82bad191b1a061ce568cea80cc",
+      "final_mass": 1854,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -16,
+          16,
+          -16,
+          17
+        ],
+        "l1_radius_from_origin": 24,
+        "linf_radius_from_origin": 17,
+        "sites": 812
+      },
+      "initial_mass": 1854,
+      "legal_toppling_batches": 40569,
+      "maximum_pending_queue": 203,
+      "maximum_site_topplings": 918,
+      "odometer_sha256": "b8ed8708c14fb0901932e7938c8b24bbfad7d161b8c4a155a37c9c31a3309e0e",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -15,
+          15,
+          -15,
+          16
+        ],
+        "l1_radius_from_origin": 23,
+        "linf_radius_from_origin": 16,
+        "sites": 794
+      },
+      "output_counts_C_D": [
+        625,
+        625
+      ],
+      "output_parities_C_D": [
+        1,
+        1
+      ],
+      "target_parities": [
+        1,
+        1
+      ],
+      "total_unit_topplings": 62184
+    },
+    {
+      "a": 1,
+      "additions_at_A_B": [
+        925,
+        1850
+      ],
+      "b": 2,
+      "checks": {
+        "discrete_laplacian_reconstruction": true,
+        "every_batched_toppling_unitwise_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true,
+        "output_parity_correct": true
+      },
+      "final_configuration_sha256": "af0a90d100c505d9a5674e7be02674bf7f94d6bbd536cbd0db16273b7eab4c5e",
+      "final_mass": 2779,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -20,
+          20,
+          -19,
+          20
+        ],
+        "l1_radius_from_origin": 29,
+        "linf_radius_from_origin": 20,
+        "sites": 1226
+      },
+      "initial_mass": 2779,
+      "legal_toppling_batches": 96913,
+      "maximum_pending_queue": 296,
+      "maximum_site_topplings": 1597,
+      "odometer_sha256": "935e93c7bb8886da91b2d23ae21e5e0b396311447496dde96a6c73f9dc7fb128",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -19,
+          19,
+          -18,
+          19
+        ],
+        "l1_radius_from_origin": 28,
+        "linf_radius_from_origin": 19,
+        "sites": 1218
+      },
+      "output_counts_C_D": [
+        1073,
+        1010
+      ],
+      "output_parities_C_D": [
+        1,
+        0
+      ],
+      "target_parities": [
+        1,
+        0
+      ],
+      "total_unit_topplings": 145865
+    },
+    {
+      "a": 1,
+      "additions_at_A_B": [
+        925,
+        2775
+      ],
+      "b": 3,
+      "checks": {
+        "discrete_laplacian_reconstruction": true,
+        "every_batched_toppling_unitwise_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true,
+        "output_parity_correct": true
+      },
+      "final_configuration_sha256": "375135593cef4bd50f28735ac04ef2a493ff4f579ec705e1d54701e874e8942d",
+      "final_mass": 3704,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -23,
+          23,
+          -22,
+          24
+        ],
+        "l1_radius_from_origin": 34,
+        "linf_radius_from_origin": 24,
+        "sites": 1608
+      },
+      "initial_mass": 3704,
+      "legal_toppling_batches": 167918,
+      "maximum_pending_queue": 394,
+      "maximum_site_topplings": 2286,
+      "odometer_sha256": "3098105feb7a3b2193fb5acf50bc289b148a2ed72478f408111a04447d16b0b3",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -22,
+          22,
+          -21,
+          23
+        ],
+        "l1_radius_from_origin": 33,
+        "linf_radius_from_origin": 23,
+        "sites": 1635
+      },
+      "output_counts_C_D": [
+        1531,
+        1405
+      ],
+      "output_parities_C_D": [
+        1,
+        1
+      ],
+      "target_parities": [
+        1,
+        1
+      ],
+      "total_unit_topplings": 254992
+    },
+    {
+      "a": 2,
+      "additions_at_A_B": [
+        1850,
+        0
+      ],
+      "b": 0,
+      "checks": {
+        "discrete_laplacian_reconstruction": true,
+        "every_batched_toppling_unitwise_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true,
+        "output_parity_correct": true
+      },
+      "final_configuration_sha256": "d34513d78311699634a6d480249b7db1ac834745bc9ed8247f17115b96b6da6b",
+      "final_mass": 1854,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -16,
+          16,
+          -16,
+          16
+        ],
+        "l1_radius_from_origin": 23,
+        "linf_radius_from_origin": 16,
+        "sites": 798
+      },
+      "initial_mass": 1854,
+      "legal_toppling_batches": 41402,
+      "maximum_pending_queue": 228,
+      "maximum_site_topplings": 1159,
+      "odometer_sha256": "d81a4777c0489a1fb6cfc3307115e79f68c36a69e1000ebe9532c407ed1e0dc2",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -15,
+          15,
+          -15,
+          15
+        ],
+        "l1_radius_from_origin": 22,
+        "linf_radius_from_origin": 15,
+        "sites": 785
+      },
+      "output_counts_C_D": [
+        572,
+        698
+      ],
+      "output_parities_C_D": [
+        0,
+        0
+      ],
+      "target_parities": [
+        0,
+        0
+      ],
+      "total_unit_topplings": 63607
+    },
+    {
+      "a": 2,
+      "additions_at_A_B": [
+        1850,
+        925
+      ],
+      "b": 1,
+      "checks": {
+        "discrete_laplacian_reconstruction": true,
+        "every_batched_toppling_unitwise_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true,
+        "output_parity_correct": true
+      },
+      "final_configuration_sha256": "ff4566def32d8864aaf874c1b54bc16755dd1f0c24d5c2c1c6ab7cf82e5095fe",
+      "final_mass": 2779,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -20,
+          20,
+          -19,
+          20
+        ],
+        "l1_radius_from_origin": 29,
+        "linf_radius_from_origin": 20,
+        "sites": 1226
+      },
+      "initial_mass": 2779,
+      "legal_toppling_batches": 96894,
+      "maximum_pending_queue": 298,
+      "maximum_site_topplings": 1597,
+      "odometer_sha256": "2a4902c32dc2a2735845c4900899d4bed3ec0d090100bbd8cb53011352ddc055",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -19,
+          19,
+          -18,
+          19
+        ],
+        "l1_radius_from_origin": 28,
+        "linf_radius_from_origin": 19,
+        "sites": 1218
+      },
+      "output_counts_C_D": [
+        1010,
+        1073
+      ],
+      "output_parities_C_D": [
+        0,
+        1
+      ],
+      "target_parities": [
+        0,
+        1
+      ],
+      "total_unit_topplings": 145865
+    },
+    {
+      "a": 2,
+      "additions_at_A_B": [
+        1850,
+        1850
+      ],
+      "b": 2,
+      "checks": {
+        "discrete_laplacian_reconstruction": true,
+        "every_batched_toppling_unitwise_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true,
+        "output_parity_correct": true
+      },
+      "final_configuration_sha256": "60c472e54afae04f5655d5885515e382f5e8413697ab70da222b9c53b4bfafcc",
+      "final_mass": 3704,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -22,
+          22,
+          -22,
+          23
+        ],
+        "l1_radius_from_origin": 33,
+        "linf_radius_from_origin": 23,
+        "sites": 1586
+      },
+      "initial_mass": 3704,
+      "legal_toppling_batches": 161630,
+      "maximum_pending_queue": 400,
+      "maximum_site_topplings": 2044,
+      "odometer_sha256": "0beaa11515336bea4220324cd7640477565192e9d730a74b52aeb115ec5a3b79",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -21,
+          21,
+          -21,
+          22
+        ],
+        "l1_radius_from_origin": 32,
+        "linf_radius_from_origin": 22,
+        "sites": 1580
+      },
+      "output_counts_C_D": [
+        1456,
+        1456
+      ],
+      "output_parities_C_D": [
+        0,
+        0
+      ],
+      "target_parities": [
+        0,
+        0
+      ],
+      "total_unit_topplings": 248392
+    },
+    {
+      "a": 2,
+      "additions_at_A_B": [
+        1850,
+        2775
+      ],
+      "b": 3,
+      "checks": {
+        "discrete_laplacian_reconstruction": true,
+        "every_batched_toppling_unitwise_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true,
+        "output_parity_correct": true
+      },
+      "final_configuration_sha256": "65dec0bc803323b280d8dd57561ed471d55c5f1ac7e48cbb3251c4b0369be142",
+      "final_mass": 4629,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -25,
+          25,
+          -25,
+          26
+        ],
+        "l1_radius_from_origin": 37,
+        "linf_radius_from_origin": 26,
+        "sites": 1988
+      },
+      "initial_mass": 4629,
+      "legal_toppling_batches": 260978,
+      "maximum_pending_queue": 484,
+      "maximum_site_topplings": 2765,
+      "odometer_sha256": "0b3e48160dd3d04203d2bf1353f2fd776c6bd0c808ff18dfe5b2d96feddbc0ef",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -24,
+          24,
+          -24,
+          25
+        ],
+        "l1_radius_from_origin": 36,
+        "linf_radius_from_origin": 25,
+        "sites": 2018
+      },
+      "output_counts_C_D": [
+        1946,
+        1883
+      ],
+      "output_parities_C_D": [
+        0,
+        1
+      ],
+      "target_parities": [
+        0,
+        1
+      ],
+      "total_unit_topplings": 396357
+    },
+    {
+      "a": 3,
+      "additions_at_A_B": [
+        2775,
+        0
+      ],
+      "b": 0,
+      "checks": {
+        "discrete_laplacian_reconstruction": true,
+        "every_batched_toppling_unitwise_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true,
+        "output_parity_correct": true
+      },
+      "final_configuration_sha256": "ec4470982cb0b3e296b68ead955a5ad9cd70044bf9b31226e2616f1c7ced0698",
+      "final_mass": 2779,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -20,
+          20,
+          -20,
+          20
+        ],
+        "l1_radius_from_origin": 29,
+        "linf_radius_from_origin": 20,
+        "sites": 1232
+      },
+      "initial_mass": 2779,
+      "legal_toppling_batches": 94179,
+      "maximum_pending_queue": 325,
+      "maximum_site_topplings": 1823,
+      "odometer_sha256": "eff9960d40666d07c41472c5af958a3d8cfc81b2a6a5babfa57a6c2f5ee78565",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -19,
+          19,
+          -19,
+          19
+        ],
+        "l1_radius_from_origin": 28,
+        "linf_radius_from_origin": 19,
+        "sites": 1213
+      },
+      "output_counts_C_D": [
+        941,
+        1130
+      ],
+      "output_parities_C_D": [
+        1,
+        0
+      ],
+      "target_parities": [
+        1,
+        0
+      ],
+      "total_unit_topplings": 142918
+    },
+    {
+      "a": 3,
+      "additions_at_A_B": [
+        2775,
+        925
+      ],
+      "b": 1,
+      "checks": {
+        "discrete_laplacian_reconstruction": true,
+        "every_batched_toppling_unitwise_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true,
+        "output_parity_correct": true
+      },
+      "final_configuration_sha256": "76c24717c0613a49d8e93182b512e9935e8e1f33fc43329027aa17e6028fa486",
+      "final_mass": 3704,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -23,
+          23,
+          -23,
+          23
+        ],
+        "l1_radius_from_origin": 33,
+        "linf_radius_from_origin": 23,
+        "sites": 1608
+      },
+      "initial_mass": 3704,
+      "legal_toppling_batches": 167941,
+      "maximum_pending_queue": 403,
+      "maximum_site_topplings": 2286,
+      "odometer_sha256": "785e7cbcaa7fe0e2dbbd33da363613360fc480cbf89cf1a1abe45b115ce45d28",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -22,
+          22,
+          -22,
+          22
+        ],
+        "l1_radius_from_origin": 32,
+        "linf_radius_from_origin": 22,
+        "sites": 1635
+      },
+      "output_counts_C_D": [
+        1405,
+        1531
+      ],
+      "output_parities_C_D": [
+        1,
+        1
+      ],
+      "target_parities": [
+        1,
+        1
+      ],
+      "total_unit_topplings": 254992
+    },
+    {
+      "a": 3,
+      "additions_at_A_B": [
+        2775,
+        1850
+      ],
+      "b": 2,
+      "checks": {
+        "discrete_laplacian_reconstruction": true,
+        "every_batched_toppling_unitwise_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true,
+        "output_parity_correct": true
+      },
+      "final_configuration_sha256": "3e1d82c89c7e4fe8014f968a6ad7cf309df2776932f060b6aae2e776bcd0c87b",
+      "final_mass": 4629,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -25,
+          25,
+          -25,
+          26
+        ],
+        "l1_radius_from_origin": 37,
+        "linf_radius_from_origin": 26,
+        "sites": 1988
+      },
+      "initial_mass": 4629,
+      "legal_toppling_batches": 260823,
+      "maximum_pending_queue": 481,
+      "maximum_site_topplings": 2765,
+      "odometer_sha256": "7a9c1a4b99799d115f68ee0541d20fd3455f1fd916ac19fa81fe0e7df4843b76",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -24,
+          24,
+          -24,
+          25
+        ],
+        "l1_radius_from_origin": 36,
+        "linf_radius_from_origin": 25,
+        "sites": 2018
+      },
+      "output_counts_C_D": [
+        1883,
+        1946
+      ],
+      "output_parities_C_D": [
+        1,
+        0
+      ],
+      "target_parities": [
+        1,
+        0
+      ],
+      "total_unit_topplings": 396357
+    },
+    {
+      "a": 3,
+      "additions_at_A_B": [
+        2775,
+        2775
+      ],
+      "b": 3,
+      "checks": {
+        "discrete_laplacian_reconstruction": true,
+        "every_batched_toppling_unitwise_legal": true,
+        "final_stable": true,
+        "mass_conserved_on_Z2": true,
+        "output_parity_correct": true
+      },
+      "final_configuration_sha256": "eed2ea3140df8dd3ef28e6172567e4b3dde6f679e14390f18ec9390ec34a3306",
+      "final_mass": 5554,
+      "final_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -28,
+          28,
+          -27,
+          28
+        ],
+        "l1_radius_from_origin": 41,
+        "linf_radius_from_origin": 28,
+        "sites": 2388
+      },
+      "initial_mass": 5554,
+      "legal_toppling_batches": 373731,
+      "maximum_pending_queue": 586,
+      "maximum_site_topplings": 3253,
+      "odometer_sha256": "8ca0672931e56d855deb7a06b80cddaab5dd8a0f3851eea3f3508a2fc0792e35",
+      "odometer_support": {
+        "bounding_box_row_min_row_max_col_min_col_max": [
+          -27,
+          27,
+          -26,
+          27
+        ],
+        "l1_radius_from_origin": 40,
+        "linf_radius_from_origin": 27,
+        "sites": 2434
+      },
+      "output_counts_C_D": [
+        2371,
+        2371
+      ],
+      "output_parities_C_D": [
+        1,
+        1
+      ],
+      "target_parities": [
+        1,
+        1
+      ],
+      "total_unit_topplings": 568110
+    }
+  ],
+  "composition_caveat": "This is a full 16-case input-alphabet parity crossover, but its output counts are not re-encoded as 925-grain packets. It is therefore not, by itself, a cascadable packet gate or an exact-reset module.",
+  "dense_search_boundary_exactness": {
+    "conclusion": "No candidate can approach the artificial dense-board boundary; the dense exhaustive calculation equals Z^2.",
+    "dense_board_origin_margin": 128,
+    "dense_board_side": 257,
+    "dominating_configuration": "all-3 2x2 core with the largest tested additions, 2775 grains at each input",
+    "dominating_odometer_bounding_box": [
+      -27,
+      27,
+      -26,
+      27
+    ],
+    "dominating_odometer_linf_radius_from_origin": 27,
+    "dominating_odometer_support_sites": 2434,
+    "monotonicity_argument": "This initial state dominates every stable 2x2 core and every a,b<=3, p<=925 candidate, so its toppling support contains every exhaustive-search support."
+  },
+  "encoding": {
+    "core_row_major_A_B_D_C": [
+      0,
+      0,
+      2,
+      2
+    ],
+    "core_rows": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "crossing_channels": [
+      "A-C",
+      "B-D"
+    ],
+    "cyclic_port_order": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "input_additions": "925a at A and 925b at B",
+    "input_alphabet": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "packet_size": 925,
+    "ports": {
+      "A_input": [
+        0,
+        0
+      ],
+      "B_input": [
+        0,
+        1
+      ],
+      "C_output_for_A": [
+        1,
+        1
+      ],
+      "D_output_for_B": [
+        1,
+        0
+      ]
+    },
+    "readout": "parity of total toppling counts at C,D after stabilizing from the original core",
+    "semantic_map": "(C mod 2,D mod 2)=(a mod 2,b mod 2)"
+  },
+  "minimality": {
+    "boolean_three_case_filter_hits_through_925": 12693,
+    "conclusion": "p=925 is globally minimal in the stated fixed equal-packet class, and (0,0,2,2) is its unique core.",
+    "core_packet_pairs_through_924": 236544,
+    "core_packet_pairs_through_925": 236800,
+    "full_hits_at_packet_925": 1,
+    "full_hits_for_packets_1_through_924": 0,
+    "independent_exhaustive_implementations": [
+      {
+        "file": "sandpile_2x2_full_alphabet_fast.cpp",
+        "representation": "257x257 generation-stamped dense array; incremental single-grain Abelian updates"
+      },
+      {
+        "file": "sandpile_2x2_full_alphabet_sparse_exhaustive.cpp",
+        "observed_summary": "maximum_pulse=925, core_packet_pairs=236800, boolean_hits=12693, full_hits=1, least_full_pulse=925",
+        "representation": "unordered sparse maps on literal signed Z^2; independent fail-fast full-alphabet test"
+      }
+    ],
+    "packets_exhausted": [
+      1,
+      925
+    ],
+    "scope": "All 4^4 stable backgrounds on the fixed 2x2 support, zeros elsewhere, fixed ports A,B,C,D, one equal positive integer packet p, input multiplicities a,b in {0,1,2,3}, and C,D odometer-parity readout.",
+    "stable_cores_per_packet": 256,
+    "unique_packet_925_core_row_major": [
+      0,
+      0,
+      2,
+      2
+    ]
+  },
+  "model": {
+    "lattice": "Z^2 with von Neumann neighbors",
+    "outside_background": 0,
+    "sink": null,
+    "stabilization": "ordinary conservative Abelian sandpile stabilization with finite support",
+    "threshold": 4
+  },
+  "output_count_table_rows_a_columns_b": [
+    [
+      [
+        0,
+        0
+      ],
+      [
+        300,
+        237
+      ],
+      [
+        698,
+        572
+      ],
+      [
+        1130,
+        941
+      ]
+    ],
+    [
+      [
+        237,
+        300
+      ],
+      [
+        625,
+        625
+      ],
+      [
+        1073,
+        1010
+      ],
+      [
+        1531,
+        1405
+      ]
+    ],
+    [
+      [
+        572,
+        698
+      ],
+      [
+        1010,
+        1073
+      ],
+      [
+        1456,
+        1456
+      ],
+      [
+        1946,
+        1883
+      ]
+    ],
+    [
+      [
+        941,
+        1130
+      ],
+      [
+        1405,
+        1531
+      ],
+      [
+        1883,
+        1946
+      ],
+      [
+        2371,
+        2371
+      ]
+    ]
+  ],
+  "title": "Unique minimal equal-packet full-alphabet parity crossover in the fixed stable-2x2-core encoding class on the ordinary infinite square lattice",
+  "verification": {
+    "all_16_discrete_laplacian_equations_checked": true,
+    "all_16_final_states_stable": true,
+    "all_16_legal_stabilizations_checked": true,
+    "all_16_mass_conservation_checks_pass": true,
+    "all_16_sparse_state_and_odometer_hashes_recorded": true,
+    "pure_stdlib_sparse_infinite_verifier": "verify_packet925_full_alphabet_certificate.py",
+    "reproduction_commands": [
+      "python3 generate_packet925_full_alphabet_certificate.py",
+      "python3 verify_packet925_full_alphabet_certificate.py",
+      "g++ -O3 -std=c++20 sandpile_2x2_full_alphabet_sparse_exhaustive.cpp -o packet_search",
+      "./packet_search --maximum-pulse 925"
+    ]
+  }
+}

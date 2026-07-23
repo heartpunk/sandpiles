@@ -1,0 +1,1000 @@
+{
+  "axial_five_by_five": {
+    "background": [
+      [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    ],
+    "cases": {
+      "both": {
+        "additions": [
+          {
+            "amount": 102960,
+            "position": [
+              0,
+              1
+            ]
+          },
+          {
+            "amount": 102960,
+            "position": [
+              3,
+              0
+            ]
+          }
+        ],
+        "final_configuration": [
+          [
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        ],
+        "laplacian_of_odometer": [
+          [
+            0,
+            102960,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            102960,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "odometer": [
+          [
+            12390,
+            37351,
+            14164,
+            5969,
+            2302
+          ],
+          [
+            12209,
+            19890,
+            13336,
+            7410,
+            3239
+          ],
+          [
+            16556,
+            16664,
+            11880,
+            7096,
+            3244
+          ],
+          [
+            37351,
+            18330,
+            10424,
+            5850,
+            2641
+          ],
+          [
+            11558,
+            8881,
+            5636,
+            3239,
+            1470
+          ]
+        ],
+        "output_counts_south_east": [
+          8881,
+          2641
+        ],
+        "output_parities_south_east": [
+          1,
+          1
+        ],
+        "total_topplings": 289080
+      },
+      "north": {
+        "additions": [
+          {
+            "amount": 102960,
+            "position": [
+              0,
+              1
+            ]
+          }
+        ],
+        "final_configuration": [
+          [
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        ],
+        "laplacian_of_odometer": [
+          [
+            0,
+            102960,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "odometer": [
+          [
+            10654,
+            35206,
+            12390,
+            4799,
+            1736
+          ],
+          [
+            7410,
+            14820,
+            9555,
+            5070,
+            2145
+          ],
+          [
+            4166,
+            7109,
+            5940,
+            3781,
+            1774
+          ],
+          [
+            2145,
+            3510,
+            3315,
+            2340,
+            1170
+          ],
+          [
+            904,
+            1471,
+            1470,
+            1094,
+            566
+          ]
+        ],
+        "output_counts_south_east": [
+          1471,
+          1170
+        ],
+        "output_parities_south_east": [
+          1,
+          0
+        ],
+        "total_topplings": 144540
+      },
+      "west": {
+        "additions": [
+          {
+            "amount": 102960,
+            "position": [
+              3,
+              0
+            ]
+          }
+        ],
+        "final_configuration": [
+          [
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        ],
+        "laplacian_of_odometer": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            102960,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "odometer": [
+          [
+            1736,
+            2145,
+            1774,
+            1170,
+            566
+          ],
+          [
+            4799,
+            5070,
+            3781,
+            2340,
+            1094
+          ],
+          [
+            12390,
+            9555,
+            5940,
+            3315,
+            1470
+          ],
+          [
+            35206,
+            14820,
+            7109,
+            3510,
+            1471
+          ],
+          [
+            10654,
+            7410,
+            4166,
+            2145,
+            904
+          ]
+        ],
+        "output_counts_south_east": [
+          7410,
+          1471
+        ],
+        "output_parities_south_east": [
+          0,
+          1
+        ],
+        "total_topplings": 144540
+      }
+    },
+    "derivation": "The displayed integer Green columns satisfy L*u_n=p*e_n and L*u_w=p*e_w exactly. Their sum is the both-input odometer.",
+    "name": "5x5 four-side axial resetting parity crossover",
+    "ports": {
+      "east_output": [
+        3,
+        4
+      ],
+      "north_input": [
+        0,
+        1
+      ],
+      "south_output": [
+        4,
+        1
+      ],
+      "west_input": [
+        3,
+        0
+      ]
+    },
+    "pulse": 102960
+  },
+  "enumeration_summary": {
+    "arbitrary_alternating_boundary_ports": {
+      "exact_exhaustive_artifact": "sinked_boundary_parity_crossover_exhaustive.json",
+      "n=2": "8/8 ordered alternating port labelings work; least p=24",
+      "n=3": "0/560 ordered alternating port labelings work at any common exact-reset pulse",
+      "n=4": "264/3960 ordered alternating port labelings work; least p=6600",
+      "n=5": "1032/14560 ordered alternating port labelings work; least p=102960"
+    },
+    "four_distinct_side_axial_ports": "The 5x5 witness is the smallest found through n=7."
+  },
+  "general_exact_reset_lemma": "Let L be the reduced toppling matrix of a finite dissipative graph sandpile and let s_v=L_vv-1 be the maximal stable state. If an integer u>=0 satisfies L*u=x for a nonnegative addition x, then stabilization of s+x has odometer exactly u and returns to s. Indeed least action gives v<=u; w=u-v>=0 and final stability gives L*w<=0; the reduced-Laplacian maximum principle gives w=0. Consequently integer Green columns compose linearly for arbitrary nonnegative input multiplicities.",
+  "model": "Finite square von Neumann grid with threshold four and off-grid neighbors identified with a sink.",
+  "scope_caveat": "These modules use their entire perimeter as a sink. They are exact resetting crossovers, but they are not directly tileable as internal gadgets in the sink-free interior of a larger standard grid.",
+  "title": "Resetting parity crossovers in sinked square sandpiles",
+  "two_by_two": {
+    "arbitrary_nonnegative_multiplicities": {
+      "exact_final": "all-3 background",
+      "inputs": "add 24a at A and 24b at B for any a,b >= 0",
+      "odometer_formula_rows": [
+        [
+          "7a+2b",
+          "2a+7b"
+        ],
+        [
+          "2a+b",
+          "a+2b"
+        ]
+      ],
+      "output_counts_c_d": [
+        "a+2b",
+        "2a+b"
+      ],
+      "output_parities_c_d": [
+        "a mod 2",
+        "b mod 2"
+      ],
+      "proof": "Set u=a*u_A+b*u_B. Then L*u=24a*e_A+24b*e_B and u is nonnegative, so u algebraically stabilizes back to all-3. Least action gives the true odometer v<=u. For w=u-v>=0, final stability implies L*w<=0; the sink-connected reduced-Laplacian maximum principle forces w=0. Thus v=u exactly."
+    },
+    "background": [
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "cases": {
+      "a": {
+        "additions": [
+          {
+            "amount": 24,
+            "position": [
+              0,
+              0
+            ]
+          }
+        ],
+        "final_configuration": [
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "laplacian_of_odometer": [
+          [
+            24,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "legal_trace": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "odometer": [
+          [
+            7,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "output_counts_c_d": [
+          1,
+          2
+        ],
+        "output_parities_c_d": [
+          1,
+          0
+        ],
+        "total_topplings": 12
+      },
+      "b": {
+        "additions": [
+          {
+            "amount": 24,
+            "position": [
+              0,
+              1
+            ]
+          }
+        ],
+        "final_configuration": [
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "laplacian_of_odometer": [
+          [
+            0,
+            24
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "legal_trace": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "odometer": [
+          [
+            2,
+            7
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "output_counts_c_d": [
+          2,
+          1
+        ],
+        "output_parities_c_d": [
+          0,
+          1
+        ],
+        "total_topplings": 12
+      },
+      "both": {
+        "additions": [
+          {
+            "amount": 24,
+            "position": [
+              0,
+              0
+            ]
+          },
+          {
+            "amount": 24,
+            "position": [
+              0,
+              1
+            ]
+          }
+        ],
+        "final_configuration": [
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "laplacian_of_odometer": [
+          [
+            24,
+            24
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "legal_trace": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "odometer": [
+          [
+            9,
+            9
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "output_counts_c_d": [
+          3,
+          3
+        ],
+        "output_parities_c_d": [
+          1,
+          1
+        ],
+        "total_topplings": 24
+      }
+    },
+    "cyclic_boundary_order": [
+      "a_input",
+      "b_input",
+      "a_output_c",
+      "b_output_d"
+    ],
+    "derivation": "Direct multiplication gives L*u_a=24*e_a and L*u_b=24*e_b. Therefore all-3 plus the pulse minus L*u is all-3 again. The included legal traces prove these stabilizing vectors are the actual odometers.",
+    "full_inverse": {
+      "denominator": 24,
+      "numerator_row_major_site_order": [
+        [
+          7,
+          2,
+          2,
+          1
+        ],
+        [
+          2,
+          7,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          7,
+          2
+        ],
+        [
+          1,
+          2,
+          2,
+          7
+        ]
+      ],
+      "site_order": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "green_columns": {
+      "L_inverse_e_a": {
+        "denominator": 24,
+        "numerator": [
+          7,
+          2,
+          2,
+          1
+        ]
+      },
+      "L_inverse_e_b": {
+        "denominator": 24,
+        "numerator": [
+          2,
+          7,
+          1,
+          2
+        ]
+      }
+    },
+    "minimality": {
+      "claim": "p=24 is the least positive exact-reset pulse at either input, hence the least common exact-reset pulse and the least pulse for an exact-reset parity crossover on this fixed 2x2 encoding.",
+      "proof": "The opposite-corner entry of L^-1 e_x is 1/24. If an integer pulse p resets exactly, its odometer is p L^-1 e_x and must be integral, so 24 divides p. The displayed p=24 integer Green columns show that this bound is attained."
+    },
+    "name": "minimal 2x2 resetting parity crossover",
+    "ports": {
+      "a_input": [
+        0,
+        0
+      ],
+      "a_output_c": [
+        1,
+        1
+      ],
+      "b_input": [
+        0,
+        1
+      ],
+      "b_output_d": [
+        1,
+        0
+      ]
+    },
+    "pulse": 24,
+    "reduced_laplacian": [
+      [
+        4,
+        -1,
+        -1,
+        0
+      ],
+      [
+        -1,
+        4,
+        0,
+        -1
+      ],
+      [
+        -1,
+        0,
+        4,
+        -1
+      ],
+      [
+        0,
+        -1,
+        -1,
+        4
+      ]
+    ]
+  },
+  "verification": {
+    "2x2_legal_traces_checked": true,
+    "final_exact_reset_checked": true,
+    "integer_laplacian_equations_checked": true,
+    "two_independent_stabilizers_agree": true
+  }
+}
