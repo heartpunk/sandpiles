@@ -1,7 +1,9 @@
-# Anneal proof kernel
+# Anneal formal track
 
-This crate is the deliberately small first stage of the formal trust track. It
-is not a new sandpile result. It establishes that one pinned pipeline can:
+This directory contains two deliberately separated proof layers.
+
+The Rust crate is a translation smoke kernel, not a new sandpile result. It
+establishes that one pinned pipeline can:
 
 1. compile safe Rust with `unsafe_code = "forbid"`;
 2. translate the actual Rust functions through Charon and Aeneas;
@@ -21,8 +23,19 @@ The subtraction proof is not a wrapping-arithmetic shortcut. It invokes
 Aeneas's checked `U8.sub_spec`, proves that subtracting one cannot underflow,
 and carries the resulting value equation into the postcondition.
 
-This crate does not yet prove graph connectivity, schedule legality,
+The Rust crate alone does not prove graph connectivity, schedule legality,
 stabilization uniqueness, the load theorem, or a circuit.
+
+[`lean/UnitTopplingLoad.lean`](lean/UnitTopplingLoad.lean) is the next layer.
+It proves that an explicit rooted order is a legal, operational once-each
+execution; that `List.foldl` of the literal toppling function reaches the
+closed-form endpoint; and an exact iff characterization of endpoint
+stability. On the square lattice, that characterization reduces to the two
+local degree conditions in the accompanying mathematical note.
+
+The standalone Lean theorem does not re-formalize Abelian uniqueness or
+least action, discharge the concrete square-lattice geometry, or prove a
+circuit.
 
 ## Reproduce
 
@@ -40,9 +53,13 @@ Then run, from this directory:
 cargo fmt --check
 cargo test
 cargo anneal verify
+python3 verify_lean.py
 ```
 
-The last command must be run without `--allow-sorry`.
+The Anneal verification must be run without `--allow-sorry`.
+`verify_lean.py` generates Anneal's exact Lake workspace, ensures the one
+required Mathlib module is built from the vendored source, and compiles the
+standalone theorem with warnings treated as errors.
 
 One hosted-sandbox caveat affected this validation run. Lean discovers its
 executable through `/proc/<pid>/exe`; this environment permits the equivalent
@@ -65,10 +82,10 @@ Aeneas 42c0e90dacf486f7d3ed5b6cde3a9a81f04915a4
 
 ## Trust boundary
 
-After successful verification, the generated module containing these two
-specifications contains no `sorry`, `admit`, or declared `axiom`. Lean's
-`#print axioms` reports the same dependency set for both top-level
-specification theorems:
+After successful verification, neither the generated Rust specifications nor
+the standalone load theorem contains `sorry`, `admit`, or a declared `axiom`.
+Lean's `#print axioms` reports the same dependency set for the two audited
+Rust specification theorems and the audited load-characterization theorem:
 
 ```text
 [propext, Classical.choice, Quot.sound]
@@ -79,6 +96,7 @@ axiom. The packaged Anneal/Aeneas environment does contain unrelated axioms
 and admitted declarations; the theorem-level dependency check is why this note
 does not claim that every upstream module is admission-free.
 
-The remaining trusted computing base includes Lean and its three standard
-axioms above, the Rust/Charon/Aeneas translation chain, the Anneal generator,
-and the native tools used to execute that chain.
+The standalone theorem's trusted computing base is Lean, Mathlib, and the
+three standard axioms above. The Rust specifications additionally trust the
+Rust/Charon/Aeneas translation chain. Anneal provisions the exact toolchain
+and generated workspace used for both checks.
