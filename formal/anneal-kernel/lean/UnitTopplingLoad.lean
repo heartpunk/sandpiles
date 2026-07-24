@@ -1,21 +1,23 @@
 import Mathlib.Data.Finset.Card
 
 /-!
-# An exact unit-toppling load characterization
+# Exact unit-toppling load characterization
 
 This file isolates the combinatorial core of the unit-toppling polyomino
-theorem.  The active set is finite, but the ambient type need not be, so the
-result can be instantiated directly on the infinite square lattice.  A
-`RootedOrder` is an explicit connectedness witness:
+theorem. The active set is finite, but the ambient type need not be. In
+particular, the result applies after instantiating the locally finite
+adjacency of the infinite square lattice. A `RootedOrder` is an explicit
+connectedness witness:
 
 * every active vertex occurs exactly once;
 * the first vertex is the trigger; and
 * every later vertex is adjacent to an earlier vertex.
 
 The theorem proves that this order is a literal operational toppling
-schedule.  It also proves an exact characterization: the once-each endpoint
-is stable if and only if the trigger has at most three active neighbors and
-every exterior vertex has at most three active neighbors.
+schedule. It also proves an exact characterization of endpoint stability.
+On the square lattice this reduces to two conditions: the trigger has at
+most three active neighbors, and every exterior vertex has at most three
+active neighbors.
 
 For the square lattice, the additional degree assumptions follow from:
 
@@ -27,6 +29,12 @@ The file intentionally uses integer-valued heights.  Legality and final
 nonnegativity show that the displayed execution never relies on truncated
 subtraction.
 
+The abstract relation may be directed and may contain self-loops; a self-loop
+returns one grain to its sender. The algebraic kernel does not assume local
+finiteness, so an arbitrary infinite relation need not preserve finite
+support. Ordinary square-lattice adjacency is the symmetric, irreflexive,
+locally finite instance of interest here.
+
 Validated with Lean 4.30.0-rc2 and the Mathlib snapshot bundled with
 `cargo-anneal 0.1.0-alpha.24`.  The file contains no `sorry`, `admit`, or
 added axiom.
@@ -37,7 +45,10 @@ namespace Sandpile.UnitTopplingLoad
 variable {α : Type*} [DecidableEq α]
 variable (adj : α → α → Prop) [DecidableRel adj]
 
-/-- Number of vertices of `P` adjacent to `x`. -/
+/--
+Number of scheduled senders `y ∈ P` satisfying `adj x y`, equivalently the
+number of grains received at target `x`.
+-/
 def neighborCount (P : Finset α) (x : α) : ℕ :=
   (P.filter fun y => adj x y).card
 
@@ -61,15 +72,19 @@ def stateAfter (S P : Finset α) (t x : α) : ℤ :=
 /--
 One threshold-four toppling at `x`.
 
-`adj y x` means that a toppling at `x` sends one grain to `y`.  Symmetry in
-the main theorem identifies this incoming-neighbor convention with ordinary
-undirected adjacency.
+`adj y x` means that a toppling at `x` sends one grain to `y`. The entire
+kernel consistently uses this target-first convention; no symmetry assumption
+is needed. If `adj x x`, the toppling returns one grain to `x`.
 -/
 def topple (h : α → ℤ) (x : α) : α → ℤ :=
   fun y =>
     h y
       - (if y = x then 4 else 0)
       + (if adj y x then 1 else 0)
+
+/-- Execute a list of topplings from left to right. -/
+def runTopplings (h : α → ℤ) (order : List α) : α → ℤ :=
+  order.foldl (topple adj) h
 
 /-- State after every active vertex has toppled once. -/
 def finalHeight (S : Finset α) (t x : α) : ℤ :=
@@ -234,8 +249,10 @@ theorem rootedOrder_legal
       neighborCount_pos_of_mem adj hyFinset hxy
     by_cases hxt : x = t
     · subst x
-      simp [stateAfter, initialHeight, hxS, hxNotPrefix] <;> omega
-    · simp [stateAfter, initialHeight, hxS, hxNotPrefix, hxt] <;> omega
+      simp [stateAfter, initialHeight, hxS, hxNotPrefix]
+      omega
+    · simp [stateAfter, initialHeight, hxS, hxNotPrefix, hxt]
+      omega
 
 /--
 The prefix formula composes into an actual step-by-step toppling execution.
@@ -255,6 +272,45 @@ theorem rootedOrder_operational
     simpa using
       (stateAfter_insert adj
         (S := S) (P := pre.toFinset) (t := t) (x := x) hxFinset)
+
+/--
+The operational prefix equations compose through an arbitrary remaining
+suffix.
+-/
+theorem operational_run_to_end
+    {S : Finset α} {t : α} {order : List α}
+    (operational : OperationalSchedule adj S t order) :
+    ∀ (pre suffix : List α),
+      order = pre ++ suffix →
+      runTopplings adj (stateAfter adj S pre.toFinset t) suffix =
+        stateAfter adj S order.toFinset t := by
+  intro pre suffix hsplit
+  induction suffix generalizing pre with
+  | nil =>
+      simp [runTopplings] at hsplit ⊢
+      simp [hsplit]
+  | cons x suffix ih =>
+      have hstep :=
+        operational.2 pre x suffix (by simpa using hsplit)
+      simp only [runTopplings, List.foldl_cons]
+      rw [← hstep]
+      apply ih (pre := pre ++ [x])
+      simpa [List.append_assoc] using hsplit
+
+/--
+The rooted order, executed by `List.foldl`, reaches the advertised final
+state.
+-/
+theorem rootedOrder_run
+    {S : Finset α} {t : α} {order : List α}
+    (cert : RootedOrder adj S t order) :
+    runTopplings adj (initialHeight S t) order =
+      finalHeight adj S t := by
+  have operational := rootedOrder_operational adj cert
+  have run :=
+    operational_run_to_end adj operational [] order (by simp)
+  rw [← operational.1]
+  simpa [cert.covers, finalHeight] using run
 
 omit [DecidableRel adj] in
 /--
@@ -289,7 +345,9 @@ theorem RootedOrder.internalSupport
 /--
 Arithmetic stability lemma for the once-each final state.
 
-`internalDegreeFour` is the finite-graph form of ambient maximum degree four.
+`internalDegreeFour` bounds the number of active senders into each vertex.
+On the undirected square lattice it follows immediately from ambient degree
+four.
 -/
 theorem finalHeight_stable
     {S : Finset α} {t : α}
@@ -308,42 +366,47 @@ theorem finalHeight_stable
   · by_cases hxt : x = t
     · subst x
       have hupper := triggerDegreeThree
-      simp [finalHeight, stateAfter, initialHeight, htS] <;> omega
+      simp [finalHeight, stateAfter, initialHeight, htS]
+      omega
     · obtain ⟨y, hyS, hxy⟩ := internalSupport x hxS hxt
       have hlower : 0 < neighborCount adj S x :=
         neighborCount_pos_of_mem adj hyS hxy
       have hupper := internalDegreeFour x
-      simp [finalHeight, stateAfter, initialHeight, hxS, hxt] <;> omega
+      simp [finalHeight, stateAfter, initialHeight, hxS, hxt]
+      omega
   · have hxt : x ≠ t := by
       intro h
       apply hxS
       simpa [h] using htS
     have hupper := exteriorDegreeThree x hxS
-    simp [finalHeight, stateAfter, initialHeight, hxS, hxt] <;> omega
+    simp [finalHeight, stateAfter, initialHeight, hxS, hxt]
+    omega
 
 /--
 Exact characterization of stability after the once-each execution.
 
-Under the automatic internal conditions supplied by a rooted degree-four
-active set, the trigger and exterior upper bounds are not merely sufficient:
-they are necessary, because their final heights are exactly their active
-neighbor counts.
+For a rooted active set, endpoint stability is equivalent to the three local
+upper bounds visible in the closed-form final heights. On a degree-four
+ambient graph, the middle condition is automatic.
 -/
 theorem finalHeight_stable_iff
     {S : Finset α} {t : α}
     (htS : t ∈ S)
-    (internalDegreeFour :
-      ∀ x, neighborCount adj S x ≤ 4)
     (internalSupport :
       ∀ x, x ∈ S → x ≠ t → ∃ y, y ∈ S ∧ adj x y) :
     Stable (finalHeight adj S t) ↔
       neighborCount adj S t ≤ 3 ∧
+        (∀ x, x ∈ S → x ≠ t → neighborCount adj S x ≤ 4) ∧
         ∀ x, x ∉ S → neighborCount adj S x ≤ 3 := by
   constructor
   · intro stable
-    constructor
+    refine ⟨?_, ?_, ?_⟩
     · have hupper := (stable t).2
       simp [finalHeight, stateAfter, initialHeight, htS] at hupper
+      omega
+    · intro x hxS hxt
+      have hupper := (stable x).2
+      simp [finalHeight, stateAfter, initialHeight, hxS, hxt] at hupper
       omega
     · intro x hxS
       have hxt : x ≠ t := by
@@ -353,29 +416,36 @@ theorem finalHeight_stable_iff
       have hupper := (stable x).2
       simp [finalHeight, stateAfter, initialHeight, hxS, hxt] at hupper
       omega
-  · rintro ⟨triggerDegreeThree, exteriorDegreeThree⟩
-    exact finalHeight_stable adj htS internalDegreeFour
+  · rintro ⟨triggerDegreeThree, internalDegreeFour, exteriorDegreeThree⟩
+    apply finalHeight_stable adj htS ?_
       triggerDegreeThree exteriorDegreeThree internalSupport
+    intro x
+    by_cases hxS : x ∈ S
+    · by_cases hxt : x = t
+      · subst x
+        omega
+      · exact internalDegreeFour x hxS hxt
+    · have hupper := exteriorDegreeThree x hxS
+      omega
 
 /--
 Exact finite-active-set kernel.
 
-Every rooted order is an operational and legal once-each execution. Subject
-only to ambient degree four, its endpoint is stable exactly when the trigger
-and exterior degree bounds hold.
+Every rooted order is an operational and legal once-each execution. Its
+endpoint is stable exactly when the trigger, non-trigger active, and exterior
+degree bounds visible in the final-height formula hold.
 -/
 theorem unitTopplingLoad_characterization
     {S : Finset α} {t : α} {order : List α}
-    (cert : RootedOrder adj S t order)
-    (internalDegreeFour :
-      ∀ x, neighborCount adj S x ≤ 4) :
+    (cert : RootedOrder adj S t order) :
     OperationalSchedule adj S t order ∧
       LegalSchedule adj S t order ∧
       (Stable (finalHeight adj S t) ↔
         neighborCount adj S t ≤ 3 ∧
+          (∀ x, x ∈ S → x ≠ t → neighborCount adj S x ≤ 4) ∧
           ∀ x, x ∉ S → neighborCount adj S x ≤ 3) := by
   refine ⟨rootedOrder_operational adj cert, rootedOrder_legal adj cert, ?_⟩
-  exact finalHeight_stable_iff adj cert.trigger_mem internalDegreeFour
+  exact finalHeight_stable_iff adj cert.trigger_mem
     (fun x hxS hxt =>
       RootedOrder.internalSupport adj cert hxS hxt)
 
@@ -398,9 +468,12 @@ theorem unitTopplingLoad
       LegalSchedule adj S t order ∧
       Stable (finalHeight adj S t) := by
   obtain ⟨operational, legal, characterization⟩ :=
-    unitTopplingLoad_characterization adj cert internalDegreeFour
+    unitTopplingLoad_characterization adj cert
   exact ⟨operational, legal,
-    characterization.mpr ⟨triggerDegreeThree, exteriorDegreeThree⟩⟩
+    characterization.mpr
+      ⟨triggerDegreeThree,
+        (fun x _ _ => internalDegreeFour x),
+        exteriorDegreeThree⟩⟩
 
 /--
 Existential form: constructive connectedness supplies an explicit legal
@@ -428,10 +501,11 @@ theorem unitTopplingLoad_of_rootConnected
   exact ⟨order, cert.nodup, cert.covers, operational, legal, stable⟩
 
 /--
-Requested finite-graph form, with ambient maximum degree at most four.
+Finite-graph form, with maximum incoming degree at most four.
 
 The active-set degree bound needed by the core theorem follows by restricting
-the ambient neighbor set to `S`.
+the ambient incoming-neighbor set to `S`. For symmetric adjacency this is the
+usual maximum-degree condition.
 -/
 theorem unitTopplingLoad_of_rootConnected_maxDegreeFour
     [Fintype α]
@@ -466,5 +540,7 @@ theorem stateAfter_fullOrder
   intro x
   rw [cert.covers]
   rfl
+
+#print axioms unitTopplingLoad_characterization
 
 end Sandpile.UnitTopplingLoad
