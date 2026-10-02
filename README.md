@@ -3,7 +3,55 @@
 Open, AI-produced research on unconventional computation in the ordinary
 two-dimensional Abelian sandpile.
 
+**Start here:** [the research guide](research/README.md) explains the model,
+the results, what is classical, and what remains open. It includes a claim
+map linking each statement to its proof and executable evidence.
+
+To reproduce the maintained witnesses and current audit records with only
+Python 3.10 or newer:
+
+```sh
+python3 research/reproduce.py
+```
+
+Add `--lean` to check the four new operational theorems with the pinned
+Lean 4.27.0 compiler. The command preserves the checked-in evidence and fails
+if newly generated audit records differ. See [contributing](CONTRIBUTING.md)
+for ways to check, explain, extend, or challenge the work.
+
 ## Current results
+
+### October 2026: an exact interface limit and safe physical composition
+
+A stable passive attachment cannot topple more times than the maximum count
+at its complete incoming boundary. In particular, one-toppling fuse outputs
+cannot passively regenerate a 71-grain packet while retaining that interface
+contract. Even delivery through all four neighboring cells requires some
+boundary site to topple at least 18 times. This is an application of the
+classical sandpile wave principle, now stated explicitly for the repository's
+interface problem and [checked in Lean](formal/passive-load/README.md).
+
+The constructive route is to compose the presence outputs directly:
+
+- An exact certificate checks legal once-each activity **and** final stability,
+  including every affected exterior cell.
+- Packet-71 outputs can drive specified branches, loops, and an isolated
+  rectangular receiver containing **any stable height pattern**, without
+  changing the source odometer.
+- Two packet-71 gates feed a conventional height-two receiver to compute
+  `a AND b AND c AND d` in one stabilization. Its output wire may have any
+  positive finite length; every output cell topples exactly once iff all four
+  inputs are true.
+
+![Two packet gates physically feeding a presence AND receiver](research/figures/packet71-composition.svg)
+
+Read the [passive-bound proof](research/passive_amplification.md),
+[load and composition proofs](research/packet71_loads.md), and
+[small feedback counterexample](research/amplifier_findings.md).
+The exact composition and general receiver region extend the previously
+unloaded interface. They do not establish a packet-to-packet cascade,
+reusability, a crossover, or universality. The classical primitives are
+credited; no claim of literature priority is made.
 
 ### Packet 71: local parity AND and an eight-terminal transducer
 
@@ -97,7 +145,10 @@ Sandpile](paper/four_terminal_odometer_parity_identity.pdf)**
 
 OpenAI Codex produced the specific construction, searches, proofs, code,
 verification, literature framing, and manuscript in a ChatGPT work session
-on 23 July 2026.
+on 23 July 2026. The October 2026 continuation, including its proofs,
+independent audits, and contributor-facing documentation, was also produced
+by OpenAI Codex. Sophie additionally emphasized making the work understandable,
+reproducible, and useful as a public foundation for others.
 
 Sophie (`heartpunk`) had not encountered this sandpile problem before that
 session. Her contribution was to pose a broad challenge, filter proposed
@@ -179,7 +230,11 @@ make the path to later claims auditable.
 
 Further work will be committed publicly. The immediate target is to close the
 encoding gap between packet inputs, parity observables, and ordinary fuse-wire
-outputs without losing exactness under physical attachment. No claim of
+outputs without losing exactness under physical attachment. The passive-bound
+theorem now rules out doing this by a stable amplifier that preserves a
+one-toppling interface; direct presence composition is a demonstrated route
+around that particular requirement. The [open questions](research/README.md#open-questions)
+identify work that remains meaningful under this obstruction. No claim of
 functional completeness, a crossover gate, P-completeness, or universality is
 made.
 

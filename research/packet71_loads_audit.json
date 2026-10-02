@@ -1,0 +1,1325 @@
+{
+  "arbitrary_chambers": [
+    {
+      "activity_histograms": [
+        {
+          "active_load_cells_and_case_counts": [
+            [
+              0,
+              256
+            ]
+          ],
+          "input": [
+            0,
+            0
+          ]
+        },
+        {
+          "active_load_cells_and_case_counts": [
+            [
+              0,
+              256
+            ]
+          ],
+          "input": [
+            0,
+            1
+          ]
+        },
+        {
+          "active_load_cells_and_case_counts": [
+            [
+              0,
+              256
+            ]
+          ],
+          "input": [
+            1,
+            0
+          ]
+        },
+        {
+          "active_load_cells_and_case_counts": [
+            [
+              5,
+              192
+            ],
+            [
+              6,
+              36
+            ],
+            [
+              7,
+              18
+            ],
+            [
+              8,
+              6
+            ],
+            [
+              9,
+              4
+            ]
+          ],
+          "input": [
+            1,
+            1
+          ]
+        }
+      ],
+      "all_stable_patterns_exhausted": true,
+      "case_stream_sha256": "608853fc45c484ab25b31a637cc40de72678de4bdd1fdbc9176bc136a0e74fca",
+      "height": 2,
+      "patterns": 256,
+      "source_input_cases": 1024,
+      "stem_cells_outside_chamber": 5,
+      "width": 2
+    },
+    {
+      "activity_histograms": [
+        {
+          "active_load_cells_and_case_counts": [
+            [
+              0,
+              6
+            ]
+          ],
+          "input": [
+            0,
+            0
+          ]
+        },
+        {
+          "active_load_cells_and_case_counts": [
+            [
+              0,
+              6
+            ]
+          ],
+          "input": [
+            0,
+            1
+          ]
+        },
+        {
+          "active_load_cells_and_case_counts": [
+            [
+              0,
+              6
+            ]
+          ],
+          "input": [
+            1,
+            0
+          ]
+        },
+        {
+          "active_load_cells_and_case_counts": [
+            [
+              5,
+              1
+            ],
+            [
+              69,
+              1
+            ],
+            [
+              102,
+              1
+            ],
+            [
+              114,
+              1
+            ],
+            [
+              198,
+              1
+            ],
+            [
+              948,
+              1
+            ]
+          ],
+          "input": [
+            1,
+            1
+          ]
+        }
+      ],
+      "all_stable_patterns_exhausted": false,
+      "case_stream_sha256": "6afe89ba03ad1ca0e45649c7da233f16e821ad6b38fe0a11e71aba35c16259d6",
+      "height": 23,
+      "patterns": 6,
+      "source_input_cases": 24,
+      "stem_cells_outside_chamber": 5,
+      "width": 41
+    }
+  ],
+  "counterexamples": [
+    {
+      "name": "root_with_four_load_neighbors",
+      "repeated_sites": [
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "unintended_sites": [],
+      "unit_topplings": 6,
+      "unstable_once_endpoint": [
+        [
+          0,
+          0,
+          4
+        ]
+      ]
+    },
+    {
+      "name": "enclosed_zero_cell",
+      "repeated_sites": [],
+      "unintended_sites": [
+        [
+          1,
+          1
+        ]
+      ],
+      "unit_topplings": 9,
+      "unstable_once_endpoint": [
+        [
+          1,
+          1,
+          4
+        ]
+      ]
+    }
+  ],
+  "load_examples": [
+    {
+      "cases": [
+        {
+          "final_sha256": "44ce619a6c99a041ceec7674e38442fbbb12eb20716f4d72b325724469b0243e",
+          "input": [
+            0,
+            0
+          ],
+          "odometer_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "unit_topplings": 0
+        },
+        {
+          "final_sha256": "f0c5f12576169070fab565a04c11af385a567cbf490f4496b8bf0b55e72c976f",
+          "input": [
+            0,
+            1
+          ],
+          "odometer_sha256": "9fe35f42f68e955a633293f087abb73c03990d00e365b57dc1130c96b7f4fd2e",
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "2ffd16b4e9c0a1f325190494e3fcff7861647e821aaea178079bcd01e95a24a4",
+          "input": [
+            1,
+            0
+          ],
+          "odometer_sha256": "63efda2734c67127fd757b46fdd538094a89a1b574a8eb7614692c10abe649ce",
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "971bd57d68e83768cbb73fa4d3e6a4ff3788b858dd6242039203b34d3e2865d2",
+          "input": [
+            1,
+            1
+          ],
+          "odometer_sha256": "e65df95bec61c3d98861a81218a55e69121472a6e3ec71df3cc64320c6902fa5",
+          "unit_topplings": 481
+        }
+      ],
+      "load_cells": 59,
+      "maximum_internal_degree": 4,
+      "name": "branched_loop_1",
+      "roots": [
+        [
+          -5,
+          -1
+        ]
+      ]
+    },
+    {
+      "cases": [
+        {
+          "final_sha256": "76f4e172ecf84ac41ae7ce00fc036019af6d57811f2697048aa2f09256367b78",
+          "input": [
+            0,
+            0
+          ],
+          "odometer_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "unit_topplings": 0
+        },
+        {
+          "final_sha256": "9d9c40ac4fc7fd35a8375a098c06a26906a63f4a005b14163e2d2ad520dcdcca",
+          "input": [
+            0,
+            1
+          ],
+          "odometer_sha256": "9fe35f42f68e955a633293f087abb73c03990d00e365b57dc1130c96b7f4fd2e",
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "0788cd7e328a35b6b1785024d08ec691df09306a2aa4edb846a7d13c2fe1d1f0",
+          "input": [
+            1,
+            0
+          ],
+          "odometer_sha256": "63efda2734c67127fd757b46fdd538094a89a1b574a8eb7614692c10abe649ce",
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "12e8f913de3d60eab282275248413d530faa91421d179c6db020e1e026321932",
+          "input": [
+            1,
+            1
+          ],
+          "odometer_sha256": "bba40e87275b9fc7617b6769e5045537ad66232ab5dc72898336c59100ea182c",
+          "unit_topplings": 531
+        }
+      ],
+      "load_cells": 109,
+      "maximum_internal_degree": 4,
+      "name": "branched_loop_2",
+      "roots": [
+        [
+          -5,
+          -1
+        ]
+      ]
+    },
+    {
+      "cases": [
+        {
+          "final_sha256": "168537517652faa991a7e37984db52829f2f8556e15778d9ea285c22a2286cbf",
+          "input": [
+            0,
+            0
+          ],
+          "odometer_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "unit_topplings": 0
+        },
+        {
+          "final_sha256": "570e33728688464b3ac390615ed1d133ae52d37007c42702d9a2dc20f13c0ec3",
+          "input": [
+            0,
+            1
+          ],
+          "odometer_sha256": "9fe35f42f68e955a633293f087abb73c03990d00e365b57dc1130c96b7f4fd2e",
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "95c850ef1fa56ca11f8adc2c9c8129f1f76dac35fedc7075a3033eb36edbdaf1",
+          "input": [
+            1,
+            0
+          ],
+          "odometer_sha256": "63efda2734c67127fd757b46fdd538094a89a1b574a8eb7614692c10abe649ce",
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "91be6e4145a9550aeeb0e974c9b20e83662163d943232b45265b9e6c0a368fd2",
+          "input": [
+            1,
+            1
+          ],
+          "odometer_sha256": "368ad5b8c8e53d98d26904a8a0bba68f109687a94ec3ea65bc6cee036f030d7c",
+          "unit_topplings": 781
+        }
+      ],
+      "load_cells": 359,
+      "maximum_internal_degree": 4,
+      "name": "branched_loop_7",
+      "roots": [
+        [
+          -5,
+          -1
+        ]
+      ]
+    },
+    {
+      "cases": [
+        {
+          "final_sha256": "eb36e67bc28ee992669c8af3f146988d380a0beda3653da7c698cca075f0586f",
+          "input": [
+            0,
+            0
+          ],
+          "odometer_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "unit_topplings": 0
+        },
+        {
+          "final_sha256": "8c050455014cd322bb2ac0f46b183cfeeb9fc2b37d06629574480d90e5ffd2d6",
+          "input": [
+            0,
+            1
+          ],
+          "odometer_sha256": "9fe35f42f68e955a633293f087abb73c03990d00e365b57dc1130c96b7f4fd2e",
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "0127860b06a035e9b923b9d26f1dd841bd0570e47be2e96c1d55ae159300320d",
+          "input": [
+            1,
+            0
+          ],
+          "odometer_sha256": "63efda2734c67127fd757b46fdd538094a89a1b574a8eb7614692c10abe649ce",
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "35cd2f50c1cbe3be110e765df6d182595907bd0778084fc89ebd3f986d07e964",
+          "input": [
+            1,
+            1
+          ],
+          "odometer_sha256": "e049fb912c63d01cc473610370b5c8b1f7a77b08846441c34c70928dd918b9ab",
+          "unit_topplings": 470
+        }
+      ],
+      "load_cells": 48,
+      "maximum_internal_degree": 3,
+      "name": "two_root_loop_1",
+      "roots": [
+        [
+          -5,
+          -1
+        ],
+        [
+          -5,
+          2
+        ]
+      ]
+    },
+    {
+      "cases": [
+        {
+          "final_sha256": "82d8277e9ccc7c8093deeec0766219ee1df085c5edf00d3247470f9dbf51ba22",
+          "input": [
+            0,
+            0
+          ],
+          "odometer_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "unit_topplings": 0
+        },
+        {
+          "final_sha256": "01e7c6e69ed4183cb1d27dc84bc436a7130b518ad3343a8c812bb40597f98446",
+          "input": [
+            0,
+            1
+          ],
+          "odometer_sha256": "9fe35f42f68e955a633293f087abb73c03990d00e365b57dc1130c96b7f4fd2e",
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "9c8d0717aeea2c33875c6fb06d66bcc6ef8750931c5d5b059d3a1ae3b65585eb",
+          "input": [
+            1,
+            0
+          ],
+          "odometer_sha256": "63efda2734c67127fd757b46fdd538094a89a1b574a8eb7614692c10abe649ce",
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "ba4d6fc3a97d5da327f3ce711d256dca101b78d8888a3be4700b655340ef87a9",
+          "input": [
+            1,
+            1
+          ],
+          "odometer_sha256": "c32afc2b5b6060b0f04b08528f9387117b84cc1f40982f7ca3f1f1a20a4f9334",
+          "unit_topplings": 502
+        }
+      ],
+      "load_cells": 80,
+      "maximum_internal_degree": 3,
+      "name": "two_root_loop_2",
+      "roots": [
+        [
+          -5,
+          -1
+        ],
+        [
+          -5,
+          2
+        ]
+      ]
+    },
+    {
+      "cases": [
+        {
+          "final_sha256": "2d4eaf221c68a5bb9ffed122d1a4f09e141b73944ecb2f95574e0952f8129856",
+          "input": [
+            0,
+            0
+          ],
+          "odometer_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "unit_topplings": 0
+        },
+        {
+          "final_sha256": "6fa6cda7813c521dbb08c8d5ddacf94bff2716c4c9897540aebc34cb8a1c821e",
+          "input": [
+            0,
+            1
+          ],
+          "odometer_sha256": "9fe35f42f68e955a633293f087abb73c03990d00e365b57dc1130c96b7f4fd2e",
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "9595a067f01c3baf5a701870c9131a4213e600ef5ff8f8a6de0e7d494d46b584",
+          "input": [
+            1,
+            0
+          ],
+          "odometer_sha256": "63efda2734c67127fd757b46fdd538094a89a1b574a8eb7614692c10abe649ce",
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "e5e2a18e08a66260be88b7404f1703c8300d32262ac3d152682ef3e619691d63",
+          "input": [
+            1,
+            1
+          ],
+          "odometer_sha256": "4c47e70c6537df5197282b338daaa0238609c29631c6d9ce389df1fedbb5baf5",
+          "unit_topplings": 662
+        }
+      ],
+      "load_cells": 240,
+      "maximum_internal_degree": 3,
+      "name": "two_root_loop_7",
+      "roots": [
+        [
+          -5,
+          -1
+        ],
+        [
+          -5,
+          2
+        ]
+      ]
+    }
+  ],
+  "model": "sinkless threshold-four sandpile on the literal infinite square lattice",
+  "receiver_examples": [
+    {
+      "cases": [
+        {
+          "final_sha256": "18e500509afe7c265e967912277d7b32dcab1a3865a4de275db69bc9cac75032",
+          "input": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "odometer_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 0
+        },
+        {
+          "final_sha256": "730579320ce2cd056b614e07a39ee2dfbe3c346c880020998df41c606b0a5904",
+          "input": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "odometer_sha256": "f25fe1fed2b838486710614f2fbc90f15e8b42c2dbd800f7ce30b3fd6479e431",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "b0dd5a84aebf7e67da383fa22867cd59c531fdaa07a0e8127b43dd7794183126",
+          "input": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "odometer_sha256": "808f9fac47d269da188d3e9317f354cde44c3d50cbd45b4b0de35b373bffd508",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "9f63115085628b26d02ebddf0fd560fa291f9b3da3fdb2ade79a9f71cdcb1001",
+          "input": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "odometer_sha256": "d48d9a99a031082024328d31baec919f6b785ba617514cd13aedcdfa2bc11b03",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            1
+          ],
+          "unit_topplings": 429
+        },
+        {
+          "final_sha256": "0409a8023dac875eaa96486f86e4b976dcf11750f39401ef1a159106d2fcb182",
+          "input": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "odometer_sha256": "6c7c597c417d0dd9d4dba43cf76012cbf598292f1242f71172a100f7fff559fa",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "3f1416150593a816f64c307ead0510805541cc8a0f642cd815911f806140a1fb",
+          "input": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "odometer_sha256": "b499d0bce10ead6def3ee1125785fa81cf97e236c644f86b32abdfa75d6858d6",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 218
+        },
+        {
+          "final_sha256": "86cf03460ec075fdb68ee430d044dffa5d875b1783d265cb512d868b62467f32",
+          "input": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "odometer_sha256": "dd2060d4d4a6d9a31aab7209da1e0711848b45c0e0d61ce7775a55dc541fcd63",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 218
+        },
+        {
+          "final_sha256": "bde543ec2477cdb63de3320d0849198c841532063e5668773da8d94c3e145836",
+          "input": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "odometer_sha256": "8445d8e48adb1322adc424519f139eafc43addd6130fad51d3be87fa65da0d96",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            1
+          ],
+          "unit_topplings": 538
+        },
+        {
+          "final_sha256": "4f058809935086ab5851548c6c26374eec2b31c4e4d5362f601f111c9637a843",
+          "input": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "odometer_sha256": "5fe2ffe752f9a1677ea7c44f00d1e81ae257b1318b3c7b3507716df8717b0de2",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "fc40a3af3b3c59057d0ad359980525348a8965902dfb54819d649749536f2e84",
+          "input": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "odometer_sha256": "d5de54e590152bf9bdccc9f32e9ad06c745eb0052a557c46ac6c3f191d4a5117",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 218
+        },
+        {
+          "final_sha256": "b30c0207b8389f05db874190384d1b10ee28e6ade14a4553eca9f2cf8a520328",
+          "input": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "odometer_sha256": "caba0bfb550ec7f598e1b409ea1518548419a3be31e49cf0630b9fa5d9ac45a7",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 218
+        },
+        {
+          "final_sha256": "63f51eeafb12825da7a0f098ff025a8629b452bd181eb3ca74d21ffce48d3169",
+          "input": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "odometer_sha256": "9470b69c4310550980fb7dc1d2f656f59332e49d7d3e70947bbf65feeee7ce14",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            1
+          ],
+          "unit_topplings": 538
+        },
+        {
+          "final_sha256": "447e763fd523c9a184ff7585a53888f5e3eac584ae10723d4c3ce986da36f7c1",
+          "input": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "odometer_sha256": "00a61982be001e1edf92d109bba6b16818ed51069697e18ceb11efa4bcb5c24c",
+          "receiver_topplings": 0,
+          "source_signals": [
+            1,
+            0
+          ],
+          "unit_topplings": 428
+        },
+        {
+          "final_sha256": "5f26f090ade60a9dcd39b8c2a223325365218ca28c96ce635e9915cc8e3feaa3",
+          "input": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "odometer_sha256": "9f21a8b17b6c1633976ae5cddfd4cbdbd8bbd2f05a945f5b00fccf756ebdfba6",
+          "receiver_topplings": 0,
+          "source_signals": [
+            1,
+            0
+          ],
+          "unit_topplings": 537
+        },
+        {
+          "final_sha256": "c7ac06e25692bb8f41a4434ca890a7bfded4ab529e1ef780fe679c6254f8f350",
+          "input": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "odometer_sha256": "59d46c327cc268af4684b2472f903d757c3650df2d1313f43d0b77d9e26ae361",
+          "receiver_topplings": 0,
+          "source_signals": [
+            1,
+            0
+          ],
+          "unit_topplings": 537
+        },
+        {
+          "final_sha256": "eba35d4d9fe98ba0a82d8bc854f6f4ed469f04156c3748e74ef0588a13c147a0",
+          "input": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "odometer_sha256": "11c3fb311b473b3dac7b95259f0b75efc06eaf807aa6892491db2823c7f45fbb",
+          "receiver_topplings": 1,
+          "source_signals": [
+            1,
+            1
+          ],
+          "unit_topplings": 859
+        }
+      ],
+      "core_column_offsets": [
+        -12,
+        12
+      ],
+      "input_wire_cells": [
+        6,
+        7
+      ],
+      "output_wire_cells": 1
+    },
+    {
+      "cases": [
+        {
+          "final_sha256": "9284f34ae35e5b659e904ce628fe3091e11fafd58f8dc83f93d2c475bbbe147b",
+          "input": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "odometer_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 0
+        },
+        {
+          "final_sha256": "41eb401ed4b7964ff16c3300a3a7a4509cd14119c96f34246d3d6d054aa820c5",
+          "input": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "odometer_sha256": "e726d0bb0aea373bd6df43caafb9ca651a4beda75ca76c99042a33988e83cd21",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "bd58bffe41e887560e3fa5f870aa98019d99eee4f8316c36155f58c09c7d1ecd",
+          "input": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "odometer_sha256": "11292641e51993ec6b18865810a994cbb7f8c7658f3415ad6c39a49123a29d5a",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "f3e1d55e77d16a03f5b67a8207e39c963918bfab2885138a9e97c0f0be50e85c",
+          "input": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "odometer_sha256": "14eab4126bef3476de46c9d7fc7983fc7362a329dbefe2e6f8724bf5dd8ab2fa",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            1
+          ],
+          "unit_topplings": 437
+        },
+        {
+          "final_sha256": "7d3cd7408da74c7d392bedfa3c416d95b33ad61328c2c8a43dc1e47c5f07f835",
+          "input": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "odometer_sha256": "33add025c0d3e047aaafcc136e5bde9f8d2f78edac92028c7e0b446d6b2c8a94",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "768a9876d810813c457519d960b4c0520a0acde5544eebd2cfcbe19389f15972",
+          "input": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "odometer_sha256": "6f244e7aea872acd92f3c36a6726ae501561874f1a35ddc85985a10b1dd5b901",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 218
+        },
+        {
+          "final_sha256": "0fa701f2e00abd68b06a572e3b5cd35a1b0cb70ac73fbf77c01cecf215835880",
+          "input": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "odometer_sha256": "a11034f46cd6bb0912209afbb10f5903d4e26524ba244576761c32a3704e1bd9",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 218
+        },
+        {
+          "final_sha256": "37c97acf8d3e13ab43b385479351da0c6fc3452cdb133484e0f8236a70967a11",
+          "input": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "odometer_sha256": "4703ccae7b29ff1490afd868fc80aed961d954009680801c4b0a9e7ac4153d49",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            1
+          ],
+          "unit_topplings": 546
+        },
+        {
+          "final_sha256": "72ccdca625ccb7871b39efe303b3a2862db4bb62f426c54eabf090af8ee7c2a8",
+          "input": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "odometer_sha256": "a4d1e8e7d89c88ce4a47ef70c42480bc98bf42b2647896607e41f95011743c04",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "f4a2204bd8e2d493ef1a5895be17fd8988f6efeb7040bbd7f08604830ae6ffe2",
+          "input": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "odometer_sha256": "05a807cbea3817efe3b7391b199a2a548207b5d2b06936a281d577a423def767",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 218
+        },
+        {
+          "final_sha256": "c60c51e2e01314c1c686fe8fb24816fa0dc0b8d1c0ef8075d36a5a4e6a8dca83",
+          "input": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "odometer_sha256": "07674277f0e99eec4b22489ce25a9e86e32ed5fa6749d97791833124bc4cc86a",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 218
+        },
+        {
+          "final_sha256": "4f7d435594347c73885e8fb91003f3bca9822158c855c8901ad6e45f4e2e27f1",
+          "input": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "odometer_sha256": "de8a0fbc343e849eab6c6edd29fc58d0c5fa55b58c50f9f38c67fa67e3f85702",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            1
+          ],
+          "unit_topplings": 546
+        },
+        {
+          "final_sha256": "a4dce92f8cdad86c882bf8d652eccd5ebe7c3d1d1c6e1584a58fec64e29dd491",
+          "input": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "odometer_sha256": "b099932f1561b63a815c07c74a1f1a1c9e62ec801dda96ff37d34cad40e653c4",
+          "receiver_topplings": 0,
+          "source_signals": [
+            1,
+            0
+          ],
+          "unit_topplings": 436
+        },
+        {
+          "final_sha256": "70151e87722168057d3b9ecfd786c8d811f2a65698bdf1e9e3caf3ce33cc3324",
+          "input": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "odometer_sha256": "c82e3cc7062b88180fc24fb9ef0b9264aa34157e65115b3cf516eff04e877787",
+          "receiver_topplings": 0,
+          "source_signals": [
+            1,
+            0
+          ],
+          "unit_topplings": 545
+        },
+        {
+          "final_sha256": "6e8d1ef05474cc197336b3a342f6cd17f833d24b87455f097dc0a762bd43cba5",
+          "input": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "odometer_sha256": "364bf024bdefa0f5ddf55097be58b963ea094525604b0e8592acbcc3ab611ffc",
+          "receiver_topplings": 0,
+          "source_signals": [
+            1,
+            0
+          ],
+          "unit_topplings": 545
+        },
+        {
+          "final_sha256": "2eaf732cdad70e4ffe55bf7c077c1ca012d3a0e96e949dff9d3302e010a48f8d",
+          "input": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "odometer_sha256": "bc87b56a656113c11a087cb461488d7e930840c0794c79ddc6201acafeae01fb",
+          "receiver_topplings": 1,
+          "source_signals": [
+            1,
+            1
+          ],
+          "unit_topplings": 883
+        }
+      ],
+      "core_column_offsets": [
+        -20,
+        20
+      ],
+      "input_wire_cells": [
+        14,
+        15
+      ],
+      "output_wire_cells": 9
+    },
+    {
+      "cases": [
+        {
+          "final_sha256": "b816856139d242d9a91202168a874b892396df55eb3983798c077abcb9a711de",
+          "input": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "odometer_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 0
+        },
+        {
+          "final_sha256": "4da4e90d9b09850ea397caf5427243dfb2b4d941788d0db7b20874b1dab6744c",
+          "input": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "odometer_sha256": "95a96634edd5fbf064046fb27f16d885c3e23c8a4ff08831367032f67dd3c34b",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "14a8fc27a89e5954e13f0861c815b83bb5fcb5bed2a0a435e9a1b196fae4a7c4",
+          "input": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "odometer_sha256": "b1dc965475faa76027ede65b54846491ad0a22d44306e9884531744cb91b8a41",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "e219961dafd54c219061bfc0598df524278664eaea7cdeb15e648559d9edda33",
+          "input": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "odometer_sha256": "2da03b441a64ce32f9f2507430477b3426125bf96e29d51717231de1aad3f5d4",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            1
+          ],
+          "unit_topplings": 454
+        },
+        {
+          "final_sha256": "ed5b8d710ab1f63428db6d2f0bfa025ef58ab314d5f28b95be8ae9ec62ea8289",
+          "input": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "odometer_sha256": "7e4c5aca1c3b877fff50662d792dadbbdfc6c2fd2f632a50d2c83f6a961f57b4",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "c1261c2df156d8be72c7b37b2a6a1cc01a812d1462c1935a6fa59b677054c3df",
+          "input": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "odometer_sha256": "83051866a84b4220837b2592d421c8848086889343a99c7ffb322e3674dd6f3c",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 218
+        },
+        {
+          "final_sha256": "d22a48c1a83b53d53cd80703338c15a07589ccf8394b20c4ebb1407a63876f75",
+          "input": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "odometer_sha256": "3f33b7e288540290d480a187aa8cca7c96e5eaea6a270090f1c192ee2e3b8665",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 218
+        },
+        {
+          "final_sha256": "d3718a4b0cf72e5dfc4dad16fff8e43b565e27cd9675fe2a8192c2e66d6330e6",
+          "input": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "odometer_sha256": "c12f4beb37a1d71f4396db21018e27d6bb33021017d9432abb63a5689fd5f7cf",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            1
+          ],
+          "unit_topplings": 563
+        },
+        {
+          "final_sha256": "f890656ffb301feffa75f624a017757351380dd6cb37aea3ad9727432efdb32b",
+          "input": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "odometer_sha256": "9877ba083f3c9d782b9b5ad7f82e2f380687c39c08aec4033c3466c36fe29b89",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 109
+        },
+        {
+          "final_sha256": "ef14a570f746d221607447a26aaaf3e444fb185b1e1aa8cc0d80b1ba4ec795c2",
+          "input": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "odometer_sha256": "e5acf0a2b25fe3b27e08dc553f4a5667f87bc953efa399ca91f6c87ee36e6e13",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 218
+        },
+        {
+          "final_sha256": "2c7eeacb5d4e53bb2308f6ac9cbd32e40543064e7b39418a4a9612708601642f",
+          "input": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "odometer_sha256": "645b823619d49b49f17cb4416029ce8f6f3459cabaafcf22d046c96a37786ea8",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            0
+          ],
+          "unit_topplings": 218
+        },
+        {
+          "final_sha256": "666eef0342172dc68b1d2dc7c5397055386937e39132cc401a8c3992daf7c21e",
+          "input": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "odometer_sha256": "845273834771b66b0f0bcb8ab7d799d9c863c43fabddb6f8483d8d5cc346fff9",
+          "receiver_topplings": 0,
+          "source_signals": [
+            0,
+            1
+          ],
+          "unit_topplings": 563
+        },
+        {
+          "final_sha256": "75d707bd053dd45f39404866752480fe26a596b35c9ce25c44480c4f1cc76c18",
+          "input": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "odometer_sha256": "bbe88353e8f1e9fe4dcefb72b2057959cdc6d1d39b57cfb5a5db5196d2a222d8",
+          "receiver_topplings": 0,
+          "source_signals": [
+            1,
+            0
+          ],
+          "unit_topplings": 453
+        },
+        {
+          "final_sha256": "28a4bad38ec653d5357169b006e893fff4d7be018af99ff803e2f9a620d8c669",
+          "input": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "odometer_sha256": "c5535502713ce6fd897b6589b13285a31503760063ccfbdc07d12ae78112bef0",
+          "receiver_topplings": 0,
+          "source_signals": [
+            1,
+            0
+          ],
+          "unit_topplings": 562
+        },
+        {
+          "final_sha256": "3a4c721e57d262596da046ed87aa9a95243d29029f16ff7b4e16239475aeffb0",
+          "input": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "odometer_sha256": "8064d91588ac35f2116a7808fe1c2676d099a67d858463827a19dcc1c54462be",
+          "receiver_topplings": 0,
+          "source_signals": [
+            1,
+            0
+          ],
+          "unit_topplings": 562
+        },
+        {
+          "final_sha256": "e6b1c60aa1700a8d8769f1b4e12da0a5377ef1e10ee11fc021fa4d9bb5cceb48",
+          "input": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "odometer_sha256": "738d6f05470e745f6b3f4d27fb8d699a2b86ae24feb9e9b068583e6ed3cdd6bb",
+          "receiver_topplings": 1,
+          "source_signals": [
+            1,
+            1
+          ],
+          "unit_topplings": 1909
+        }
+      ],
+      "core_column_offsets": [
+        -37,
+        37
+      ],
+      "input_wire_cells": [
+        31,
+        32
+      ],
+      "output_wire_cells": 1001
+    }
+  ],
+  "schema": 1,
+  "small_shape_exhaustive": {
+    "exact_unit_loads": 1029,
+    "grid_shape": [
+      3,
+      3
+    ],
+    "rejected_candidates": 1275,
+    "rooted_candidates": 2304
+  }
+}
