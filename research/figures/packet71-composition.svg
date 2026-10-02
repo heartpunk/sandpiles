@@ -1,0 +1,1733 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1270" viewBox="0 0 1280 1270" role="img" aria-labelledby="title description">
+  <title id="title">Two packet-71 gates feed one four-input presence AND</title>
+  <desc id="description">Two exact square-lattice panels show the same geometry: source cores at column offsets minus twelve and plus twelve, six and seven input-wire cells, a height-two receiver at row one column zero, and nine output cells. The upper panel labels stable initial grain heights before adding seventy-one grains at each selected input a, b, c, d. The lower panel labels actual odometer counts when all four inputs are one. The two source avalanches contribute eight hundred forty-four unit topplings and the new cells twenty-three. Every new cell topples once. The truth table says the receiver and output topple only when both source signals ab and cd are one. Adjacency is undirected: every toppling sends one grain to each of four lattice neighbors. The construction is a one-use presence circuit and does not regenerate input packets.</desc>
+  <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #182c3d; }
+      .heading { font-size: 30px; font-weight: 700; }
+      .panel-title { font-size: 23px; font-weight: 650; }
+      .body { font-size: 17px; }
+      .small { font-size: 14px; }
+      .muted { fill: #506374; }
+      .cell { font-size: 12px; font-weight: 600; text-anchor: middle; dominant-baseline: central; }
+      .coordinate { font-size: 11px; fill: #607282; text-anchor: middle; }
+      .input-letter { font-size: 8px; fill: #ffffff; font-weight: 700; }
+    </style>
+  <rect x="0" y="0" width="1280" height="1270" fill="#f5f7f9" stroke="none" rx="0" />
+  <text x="42" y="51" class="heading">Two packet sources. One four-input AND.</text>
+  <text x="42" y="84" class="body muted">Exact square-lattice geometry · one stabilization · finite, one-use presence circuit</text>
+  <rect x="28" y="111" width="1224" height="517" fill="#ffffff" stroke="#dfe5eb" rx="12" />
+  <text x="48" y="146" class="panel-title">1 · Stable material before the input packets</text>
+  <text x="48" y="173" class="small muted">Cell numerals are grain heights. Blank sites start at zero; the marked input cells each receive 71 × their bit.</text>
+  <rect x="61" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="493" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="201" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="225" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="169" y="237" class="cell" style="fill:#ffffff">3<title>Site (-4,-13): initial grains 3</title>
+  </text>
+  <rect x="181" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="225" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="241" y="237" class="cell" style="fill:#ffffff">3<title>Site (-4,-10): initial grains 3</title>
+  </text>
+  <rect x="253" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="493" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="225" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="745" y="237" class="cell" style="fill:#ffffff">3<title>Site (-4,11): initial grains 3</title>
+  </text>
+  <rect x="757" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="225" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="817" y="237" class="cell" style="fill:#ffffff">3<title>Site (-4,14): initial grains 3</title>
+  </text>
+  <rect x="829" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="225" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="493" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="249" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="493" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="273" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="297" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="97" y="309" class="cell" style="fill:#ffffff">3<title>Site (-1,-16): initial grains 3</title>
+  </text>
+  <rect x="109" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="297" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="313" y="309" class="cell" style="fill:#ffffff">3<title>Site (-1,-7): initial grains 3</title>
+  </text>
+  <rect x="325" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="493" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="297" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="673" y="309" class="cell" style="fill:#ffffff">3<title>Site (-1,8): initial grains 3</title>
+  </text>
+  <rect x="685" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="297" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="889" y="309" class="cell" style="fill:#ffffff">3<title>Site (-1,17): initial grains 3</title>
+  </text>
+  <rect x="901" y="297" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="321" width="24" height="24" fill="#253e51" stroke="#e5eaf0" rx="0" />
+  <text x="193" y="333" class="cell" style="fill:#ffffff">1<title>Site (0,-12): initial grains 1</title>
+  </text>
+  <text x="183" y="329" class="input-letter">a</text>
+  <rect x="205" y="321" width="24" height="24" fill="#253e51" stroke="#e5eaf0" rx="0" />
+  <text x="217" y="333" class="cell" style="fill:#ffffff">1<title>Site (0,-11): initial grains 1</title>
+  </text>
+  <text x="207" y="329" class="input-letter">b</text>
+  <rect x="229" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="493" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="321" width="24" height="24" fill="#253e51" stroke="#e5eaf0" rx="0" />
+  <text x="769" y="333" class="cell" style="fill:#ffffff">1<title>Site (0,12): initial grains 1</title>
+  </text>
+  <text x="759" y="329" class="input-letter">c</text>
+  <rect x="781" y="321" width="24" height="24" fill="#253e51" stroke="#e5eaf0" rx="0" />
+  <text x="793" y="333" class="cell" style="fill:#ffffff">1<title>Site (0,13): initial grains 1</title>
+  </text>
+  <text x="783" y="329" class="input-letter">d</text>
+  <rect x="805" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="321" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="345" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="345" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="97" y="357" class="cell" style="fill:#ffffff">3<title>Site (1,-16): initial grains 3</title>
+  </text>
+  <rect x="109" y="345" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="345" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="345" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="345" width="24" height="24" fill="#253e51" stroke="#e5eaf0" rx="0" />
+  <text x="193" y="357" class="cell" style="fill:#ffffff">2<title>Site (1,-12): initial grains 2</title>
+  </text>
+  <rect x="205" y="345" width="24" height="24" fill="#253e51" stroke="#e5eaf0" rx="0" />
+  <text x="217" y="357" class="cell" style="fill:#ffffff">2<title>Site (1,-11): initial grains 2</title>
+  </text>
+  <rect x="229" y="345" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="345" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="345" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="345" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="313" y="357" class="cell" style="fill:#ffffff">3<title>Site (1,-7): initial grains 3</title>
+  </text>
+  <rect x="325" y="345" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="337" y="357" class="cell" style="fill:#113e60">3<title>Site (1,-6): initial grains 3</title>
+  </text>
+  <rect x="349" y="345" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="361" y="357" class="cell" style="fill:#113e60">3<title>Site (1,-5): initial grains 3</title>
+  </text>
+  <rect x="373" y="345" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="385" y="357" class="cell" style="fill:#113e60">3<title>Site (1,-4): initial grains 3</title>
+  </text>
+  <rect x="397" y="345" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="409" y="357" class="cell" style="fill:#113e60">3<title>Site (1,-3): initial grains 3</title>
+  </text>
+  <rect x="421" y="345" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="433" y="357" class="cell" style="fill:#113e60">3<title>Site (1,-2): initial grains 3</title>
+  </text>
+  <rect x="445" y="345" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="457" y="357" class="cell" style="fill:#113e60">3<title>Site (1,-1): initial grains 3</title>
+  </text>
+  <rect x="469" y="345" width="24" height="24" fill="#ffd292" stroke="#e5eaf0" rx="0" />
+  <text x="481" y="357" class="cell" style="fill:#663e00">2<title>Site (1,0): initial grains 2</title>
+  </text>
+  <rect x="493" y="345" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="505" y="357" class="cell" style="fill:#113e60">3<title>Site (1,1): initial grains 3</title>
+  </text>
+  <rect x="517" y="345" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="529" y="357" class="cell" style="fill:#113e60">3<title>Site (1,2): initial grains 3</title>
+  </text>
+  <rect x="541" y="345" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="553" y="357" class="cell" style="fill:#113e60">3<title>Site (1,3): initial grains 3</title>
+  </text>
+  <rect x="565" y="345" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="577" y="357" class="cell" style="fill:#113e60">3<title>Site (1,4): initial grains 3</title>
+  </text>
+  <rect x="589" y="345" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="601" y="357" class="cell" style="fill:#113e60">3<title>Site (1,5): initial grains 3</title>
+  </text>
+  <rect x="613" y="345" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="625" y="357" class="cell" style="fill:#113e60">3<title>Site (1,6): initial grains 3</title>
+  </text>
+  <rect x="637" y="345" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="649" y="357" class="cell" style="fill:#113e60">3<title>Site (1,7): initial grains 3</title>
+  </text>
+  <rect x="661" y="345" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="673" y="357" class="cell" style="fill:#ffffff">3<title>Site (1,8): initial grains 3</title>
+  </text>
+  <rect x="685" y="345" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="345" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="345" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="345" width="24" height="24" fill="#253e51" stroke="#e5eaf0" rx="0" />
+  <text x="769" y="357" class="cell" style="fill:#ffffff">2<title>Site (1,12): initial grains 2</title>
+  </text>
+  <rect x="781" y="345" width="24" height="24" fill="#253e51" stroke="#e5eaf0" rx="0" />
+  <text x="793" y="357" class="cell" style="fill:#ffffff">2<title>Site (1,13): initial grains 2</title>
+  </text>
+  <rect x="805" y="345" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="345" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="345" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="345" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="889" y="357" class="cell" style="fill:#ffffff">3<title>Site (1,17): initial grains 3</title>
+  </text>
+  <rect x="901" y="345" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="369" width="24" height="24" fill="#bee8d1" stroke="#e5eaf0" rx="0" />
+  <text x="481" y="381" class="cell" style="fill:#17472f">3<title>Site (2,0): initial grains 3</title>
+  </text>
+  <rect x="493" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="369" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="393" width="24" height="24" fill="#bee8d1" stroke="#e5eaf0" rx="0" />
+  <text x="481" y="405" class="cell" style="fill:#17472f">3<title>Site (3,0): initial grains 3</title>
+  </text>
+  <rect x="493" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="393" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="417" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="169" y="429" class="cell" style="fill:#ffffff">3<title>Site (4,-13): initial grains 3</title>
+  </text>
+  <rect x="181" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="417" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="241" y="429" class="cell" style="fill:#ffffff">3<title>Site (4,-10): initial grains 3</title>
+  </text>
+  <rect x="253" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="417" width="24" height="24" fill="#bee8d1" stroke="#e5eaf0" rx="0" />
+  <text x="481" y="429" class="cell" style="fill:#17472f">3<title>Site (4,0): initial grains 3</title>
+  </text>
+  <rect x="493" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="417" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="745" y="429" class="cell" style="fill:#ffffff">3<title>Site (4,11): initial grains 3</title>
+  </text>
+  <rect x="757" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="417" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="817" y="429" class="cell" style="fill:#ffffff">3<title>Site (4,14): initial grains 3</title>
+  </text>
+  <rect x="829" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="417" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="441" width="24" height="24" fill="#bee8d1" stroke="#e5eaf0" rx="0" />
+  <text x="481" y="453" class="cell" style="fill:#17472f">3<title>Site (5,0): initial grains 3</title>
+  </text>
+  <rect x="493" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="441" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="465" width="24" height="24" fill="#bee8d1" stroke="#e5eaf0" rx="0" />
+  <text x="481" y="477" class="cell" style="fill:#17472f">3<title>Site (6,0): initial grains 3</title>
+  </text>
+  <rect x="493" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="465" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="489" width="24" height="24" fill="#bee8d1" stroke="#e5eaf0" rx="0" />
+  <text x="481" y="501" class="cell" style="fill:#17472f">3<title>Site (7,0): initial grains 3</title>
+  </text>
+  <rect x="493" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="489" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="513" width="24" height="24" fill="#bee8d1" stroke="#e5eaf0" rx="0" />
+  <text x="481" y="525" class="cell" style="fill:#17472f">3<title>Site (8,0): initial grains 3</title>
+  </text>
+  <rect x="493" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="513" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="537" width="24" height="24" fill="#bee8d1" stroke="#e5eaf0" rx="0" />
+  <text x="481" y="549" class="cell" style="fill:#17472f">3<title>Site (9,0): initial grains 3</title>
+  </text>
+  <rect x="493" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="537" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="561" width="24" height="24" fill="#bee8d1" stroke="#e5eaf0" rx="0" />
+  <text x="481" y="573" class="cell" style="fill:#17472f">3<title>Site (10,0): initial grains 3</title>
+  </text>
+  <rect x="493" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="561" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="493" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="585" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <text x="97" y="192" class="coordinate">-16</text>
+  <text x="193" y="192" class="coordinate">-12</text>
+  <text x="289" y="192" class="coordinate">-8</text>
+  <text x="385" y="192" class="coordinate">-4</text>
+  <text x="481" y="192" class="coordinate">0</text>
+  <text x="577" y="192" class="coordinate">4</text>
+  <text x="673" y="192" class="coordinate">8</text>
+  <text x="769" y="192" class="coordinate">12</text>
+  <text x="865" y="192" class="coordinate">16</text>
+  <text x="48" y="241" class="coordinate">-4</text>
+  <text x="48" y="337" class="coordinate">0</text>
+  <text x="48" y="433" class="coordinate">4</text>
+  <text x="48" y="529" class="coordinate">8</text>
+  <text x="471" y="626" class="coordinate">column c</text>
+  <text x="42" y="192" class="coordinate">r</text>
+  <rect x="28" y="651" width="1224" height="517" fill="#ffffff" stroke="#dfe5eb" rx="12" />
+  <text x="48" y="686" class="panel-title">2 · Actual odometer when a = b = c = d = 1</text>
+  <text x="48" y="713" class="small muted">Cell numerals are numbers of legal unit topplings, not grains. Blank sites never topple.</text>
+  <rect x="61" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="493" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="741" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="765" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="169" y="777" class="cell" style="fill:#ffffff">1<title>Site (-4,-13): unit topplings 1</title>
+  </text>
+  <rect x="181" y="765" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="193" y="777" class="cell" style="fill:#ffffff">1<title>Site (-4,-12): unit topplings 1</title>
+  </text>
+  <rect x="205" y="765" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="217" y="777" class="cell" style="fill:#ffffff">1<title>Site (-4,-11): unit topplings 1</title>
+  </text>
+  <rect x="229" y="765" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="241" y="777" class="cell" style="fill:#ffffff">1<title>Site (-4,-10): unit topplings 1</title>
+  </text>
+  <rect x="253" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="493" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="765" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="745" y="777" class="cell" style="fill:#ffffff">1<title>Site (-4,11): unit topplings 1</title>
+  </text>
+  <rect x="757" y="765" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="769" y="777" class="cell" style="fill:#ffffff">1<title>Site (-4,12): unit topplings 1</title>
+  </text>
+  <rect x="781" y="765" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="793" y="777" class="cell" style="fill:#ffffff">1<title>Site (-4,13): unit topplings 1</title>
+  </text>
+  <rect x="805" y="765" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="817" y="777" class="cell" style="fill:#ffffff">1<title>Site (-4,14): unit topplings 1</title>
+  </text>
+  <rect x="829" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="765" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="789" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="145" y="801" class="cell" style="fill:#ffffff">1<title>Site (-3,-14): unit topplings 1</title>
+  </text>
+  <rect x="157" y="789" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="169" y="801" class="cell" style="fill:#ffffff">2<title>Site (-3,-13): unit topplings 2</title>
+  </text>
+  <rect x="181" y="789" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="193" y="801" class="cell" style="fill:#ffffff">3<title>Site (-3,-12): unit topplings 3</title>
+  </text>
+  <rect x="205" y="789" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="217" y="801" class="cell" style="fill:#ffffff">3<title>Site (-3,-11): unit topplings 3</title>
+  </text>
+  <rect x="229" y="789" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="241" y="801" class="cell" style="fill:#ffffff">2<title>Site (-3,-10): unit topplings 2</title>
+  </text>
+  <rect x="253" y="789" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="265" y="801" class="cell" style="fill:#ffffff">1<title>Site (-3,-9): unit topplings 1</title>
+  </text>
+  <rect x="277" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="493" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="789" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="721" y="801" class="cell" style="fill:#ffffff">1<title>Site (-3,10): unit topplings 1</title>
+  </text>
+  <rect x="733" y="789" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="745" y="801" class="cell" style="fill:#ffffff">2<title>Site (-3,11): unit topplings 2</title>
+  </text>
+  <rect x="757" y="789" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="769" y="801" class="cell" style="fill:#ffffff">3<title>Site (-3,12): unit topplings 3</title>
+  </text>
+  <rect x="781" y="789" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="793" y="801" class="cell" style="fill:#ffffff">3<title>Site (-3,13): unit topplings 3</title>
+  </text>
+  <rect x="805" y="789" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="817" y="801" class="cell" style="fill:#ffffff">2<title>Site (-3,14): unit topplings 2</title>
+  </text>
+  <rect x="829" y="789" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="841" y="801" class="cell" style="fill:#ffffff">1<title>Site (-3,15): unit topplings 1</title>
+  </text>
+  <rect x="853" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="789" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="813" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="813" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="813" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="121" y="825" class="cell" style="fill:#ffffff">1<title>Site (-2,-15): unit topplings 1</title>
+  </text>
+  <rect x="133" y="813" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="145" y="825" class="cell" style="fill:#ffffff">3<title>Site (-2,-14): unit topplings 3</title>
+  </text>
+  <rect x="157" y="813" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="169" y="825" class="cell" style="fill:#ffffff">6<title>Site (-2,-13): unit topplings 6</title>
+  </text>
+  <rect x="181" y="813" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="193" y="825" class="cell" style="fill:#ffffff">9<title>Site (-2,-12): unit topplings 9</title>
+  </text>
+  <rect x="205" y="813" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="217" y="825" class="cell" style="fill:#ffffff">9<title>Site (-2,-11): unit topplings 9</title>
+  </text>
+  <rect x="229" y="813" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="241" y="825" class="cell" style="fill:#ffffff">6<title>Site (-2,-10): unit topplings 6</title>
+  </text>
+  <rect x="253" y="813" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="265" y="825" class="cell" style="fill:#ffffff">3<title>Site (-2,-9): unit topplings 3</title>
+  </text>
+  <rect x="277" y="813" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="289" y="825" class="cell" style="fill:#ffffff">1<title>Site (-2,-8): unit topplings 1</title>
+  </text>
+  <rect x="301" y="813" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="813" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="813" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="813" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="813" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="813" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="813" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="813" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="493" y="813" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="813" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="813" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="813" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="813" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="813" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="813" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="813" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="813" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="697" y="825" class="cell" style="fill:#ffffff">1<title>Site (-2,9): unit topplings 1</title>
+  </text>
+  <rect x="709" y="813" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="721" y="825" class="cell" style="fill:#ffffff">3<title>Site (-2,10): unit topplings 3</title>
+  </text>
+  <rect x="733" y="813" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="745" y="825" class="cell" style="fill:#ffffff">6<title>Site (-2,11): unit topplings 6</title>
+  </text>
+  <rect x="757" y="813" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="769" y="825" class="cell" style="fill:#ffffff">9<title>Site (-2,12): unit topplings 9</title>
+  </text>
+  <rect x="781" y="813" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="793" y="825" class="cell" style="fill:#ffffff">9<title>Site (-2,13): unit topplings 9</title>
+  </text>
+  <rect x="805" y="813" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="817" y="825" class="cell" style="fill:#ffffff">6<title>Site (-2,14): unit topplings 6</title>
+  </text>
+  <rect x="829" y="813" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="841" y="825" class="cell" style="fill:#ffffff">3<title>Site (-2,15): unit topplings 3</title>
+  </text>
+  <rect x="853" y="813" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="865" y="825" class="cell" style="fill:#ffffff">1<title>Site (-2,16): unit topplings 1</title>
+  </text>
+  <rect x="877" y="813" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="813" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="837" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="837" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="97" y="849" class="cell" style="fill:#ffffff">1<title>Site (-1,-16): unit topplings 1</title>
+  </text>
+  <rect x="109" y="837" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="121" y="849" class="cell" style="fill:#ffffff">2<title>Site (-1,-15): unit topplings 2</title>
+  </text>
+  <rect x="133" y="837" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="145" y="849" class="cell" style="fill:#ffffff">6<title>Site (-1,-14): unit topplings 6</title>
+  </text>
+  <rect x="157" y="837" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="169" y="849" class="cell" style="fill:#ffffff">12<title>Site (-1,-13): unit topplings 12</title>
+  </text>
+  <rect x="181" y="837" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="193" y="849" class="cell" style="fill:#ffffff">21<title>Site (-1,-12): unit topplings 21</title>
+  </text>
+  <rect x="205" y="837" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="217" y="849" class="cell" style="fill:#ffffff">21<title>Site (-1,-11): unit topplings 21</title>
+  </text>
+  <rect x="229" y="837" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="241" y="849" class="cell" style="fill:#ffffff">12<title>Site (-1,-10): unit topplings 12</title>
+  </text>
+  <rect x="253" y="837" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="265" y="849" class="cell" style="fill:#ffffff">6<title>Site (-1,-9): unit topplings 6</title>
+  </text>
+  <rect x="277" y="837" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="289" y="849" class="cell" style="fill:#ffffff">2<title>Site (-1,-8): unit topplings 2</title>
+  </text>
+  <rect x="301" y="837" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="313" y="849" class="cell" style="fill:#ffffff">1<title>Site (-1,-7): unit topplings 1</title>
+  </text>
+  <rect x="325" y="837" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="837" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="837" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="837" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="837" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="837" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="837" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="493" y="837" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="837" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="837" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="837" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="837" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="837" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="837" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="837" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="673" y="849" class="cell" style="fill:#ffffff">1<title>Site (-1,8): unit topplings 1</title>
+  </text>
+  <rect x="685" y="837" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="697" y="849" class="cell" style="fill:#ffffff">2<title>Site (-1,9): unit topplings 2</title>
+  </text>
+  <rect x="709" y="837" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="721" y="849" class="cell" style="fill:#ffffff">6<title>Site (-1,10): unit topplings 6</title>
+  </text>
+  <rect x="733" y="837" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="745" y="849" class="cell" style="fill:#ffffff">12<title>Site (-1,11): unit topplings 12</title>
+  </text>
+  <rect x="757" y="837" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="769" y="849" class="cell" style="fill:#ffffff">21<title>Site (-1,12): unit topplings 21</title>
+  </text>
+  <rect x="781" y="837" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="793" y="849" class="cell" style="fill:#ffffff">21<title>Site (-1,13): unit topplings 21</title>
+  </text>
+  <rect x="805" y="837" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="817" y="849" class="cell" style="fill:#ffffff">12<title>Site (-1,14): unit topplings 12</title>
+  </text>
+  <rect x="829" y="837" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="841" y="849" class="cell" style="fill:#ffffff">6<title>Site (-1,15): unit topplings 6</title>
+  </text>
+  <rect x="853" y="837" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="865" y="849" class="cell" style="fill:#ffffff">2<title>Site (-1,16): unit topplings 2</title>
+  </text>
+  <rect x="877" y="837" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="889" y="849" class="cell" style="fill:#ffffff">1<title>Site (-1,17): unit topplings 1</title>
+  </text>
+  <rect x="901" y="837" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="861" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="861" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="97" y="873" class="cell" style="fill:#ffffff">1<title>Site (0,-16): unit topplings 1</title>
+  </text>
+  <rect x="109" y="861" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="121" y="873" class="cell" style="fill:#ffffff">3<title>Site (0,-15): unit topplings 3</title>
+  </text>
+  <rect x="133" y="861" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="145" y="873" class="cell" style="fill:#ffffff">8<title>Site (0,-14): unit topplings 8</title>
+  </text>
+  <rect x="157" y="861" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="169" y="873" class="cell" style="fill:#ffffff">18<title>Site (0,-13): unit topplings 18</title>
+  </text>
+  <rect x="181" y="861" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="193" y="873" class="cell" style="fill:#ffffff">43<title>Site (0,-12): unit topplings 43</title>
+  </text>
+  <rect x="205" y="861" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="217" y="873" class="cell" style="fill:#ffffff">43<title>Site (0,-11): unit topplings 43</title>
+  </text>
+  <rect x="229" y="861" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="241" y="873" class="cell" style="fill:#ffffff">18<title>Site (0,-10): unit topplings 18</title>
+  </text>
+  <rect x="253" y="861" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="265" y="873" class="cell" style="fill:#ffffff">8<title>Site (0,-9): unit topplings 8</title>
+  </text>
+  <rect x="277" y="861" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="289" y="873" class="cell" style="fill:#ffffff">3<title>Site (0,-8): unit topplings 3</title>
+  </text>
+  <rect x="301" y="861" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="313" y="873" class="cell" style="fill:#ffffff">1<title>Site (0,-7): unit topplings 1</title>
+  </text>
+  <rect x="325" y="861" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="861" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="861" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="861" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="861" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="861" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="861" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="493" y="861" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="861" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="861" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="861" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="861" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="861" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="861" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="861" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="673" y="873" class="cell" style="fill:#ffffff">1<title>Site (0,8): unit topplings 1</title>
+  </text>
+  <rect x="685" y="861" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="697" y="873" class="cell" style="fill:#ffffff">3<title>Site (0,9): unit topplings 3</title>
+  </text>
+  <rect x="709" y="861" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="721" y="873" class="cell" style="fill:#ffffff">8<title>Site (0,10): unit topplings 8</title>
+  </text>
+  <rect x="733" y="861" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="745" y="873" class="cell" style="fill:#ffffff">18<title>Site (0,11): unit topplings 18</title>
+  </text>
+  <rect x="757" y="861" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="769" y="873" class="cell" style="fill:#ffffff">43<title>Site (0,12): unit topplings 43</title>
+  </text>
+  <rect x="781" y="861" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="793" y="873" class="cell" style="fill:#ffffff">43<title>Site (0,13): unit topplings 43</title>
+  </text>
+  <rect x="805" y="861" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="817" y="873" class="cell" style="fill:#ffffff">18<title>Site (0,14): unit topplings 18</title>
+  </text>
+  <rect x="829" y="861" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="841" y="873" class="cell" style="fill:#ffffff">8<title>Site (0,15): unit topplings 8</title>
+  </text>
+  <rect x="853" y="861" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="865" y="873" class="cell" style="fill:#ffffff">3<title>Site (0,16): unit topplings 3</title>
+  </text>
+  <rect x="877" y="861" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="889" y="873" class="cell" style="fill:#ffffff">1<title>Site (0,17): unit topplings 1</title>
+  </text>
+  <rect x="901" y="861" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="885" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="885" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="97" y="897" class="cell" style="fill:#ffffff">1<title>Site (1,-16): unit topplings 1</title>
+  </text>
+  <rect x="109" y="885" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="121" y="897" class="cell" style="fill:#ffffff">2<title>Site (1,-15): unit topplings 2</title>
+  </text>
+  <rect x="133" y="885" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="145" y="897" class="cell" style="fill:#ffffff">6<title>Site (1,-14): unit topplings 6</title>
+  </text>
+  <rect x="157" y="885" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="169" y="897" class="cell" style="fill:#ffffff">12<title>Site (1,-13): unit topplings 12</title>
+  </text>
+  <rect x="181" y="885" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="193" y="897" class="cell" style="fill:#ffffff">21<title>Site (1,-12): unit topplings 21</title>
+  </text>
+  <rect x="205" y="885" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="217" y="897" class="cell" style="fill:#ffffff">21<title>Site (1,-11): unit topplings 21</title>
+  </text>
+  <rect x="229" y="885" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="241" y="897" class="cell" style="fill:#ffffff">12<title>Site (1,-10): unit topplings 12</title>
+  </text>
+  <rect x="253" y="885" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="265" y="897" class="cell" style="fill:#ffffff">6<title>Site (1,-9): unit topplings 6</title>
+  </text>
+  <rect x="277" y="885" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="289" y="897" class="cell" style="fill:#ffffff">2<title>Site (1,-8): unit topplings 2</title>
+  </text>
+  <rect x="301" y="885" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="313" y="897" class="cell" style="fill:#ffffff">1<title>Site (1,-7): unit topplings 1</title>
+  </text>
+  <rect x="325" y="885" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="337" y="897" class="cell" style="fill:#113e60">1<title>Site (1,-6): unit topplings 1</title>
+  </text>
+  <rect x="349" y="885" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="361" y="897" class="cell" style="fill:#113e60">1<title>Site (1,-5): unit topplings 1</title>
+  </text>
+  <rect x="373" y="885" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="385" y="897" class="cell" style="fill:#113e60">1<title>Site (1,-4): unit topplings 1</title>
+  </text>
+  <rect x="397" y="885" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="409" y="897" class="cell" style="fill:#113e60">1<title>Site (1,-3): unit topplings 1</title>
+  </text>
+  <rect x="421" y="885" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="433" y="897" class="cell" style="fill:#113e60">1<title>Site (1,-2): unit topplings 1</title>
+  </text>
+  <rect x="445" y="885" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="457" y="897" class="cell" style="fill:#113e60">1<title>Site (1,-1): unit topplings 1</title>
+  </text>
+  <rect x="469" y="885" width="24" height="24" fill="#ffd292" stroke="#e5eaf0" rx="0" />
+  <text x="481" y="897" class="cell" style="fill:#663e00">1<title>Site (1,0): unit topplings 1</title>
+  </text>
+  <rect x="493" y="885" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="505" y="897" class="cell" style="fill:#113e60">1<title>Site (1,1): unit topplings 1</title>
+  </text>
+  <rect x="517" y="885" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="529" y="897" class="cell" style="fill:#113e60">1<title>Site (1,2): unit topplings 1</title>
+  </text>
+  <rect x="541" y="885" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="553" y="897" class="cell" style="fill:#113e60">1<title>Site (1,3): unit topplings 1</title>
+  </text>
+  <rect x="565" y="885" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="577" y="897" class="cell" style="fill:#113e60">1<title>Site (1,4): unit topplings 1</title>
+  </text>
+  <rect x="589" y="885" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="601" y="897" class="cell" style="fill:#113e60">1<title>Site (1,5): unit topplings 1</title>
+  </text>
+  <rect x="613" y="885" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="625" y="897" class="cell" style="fill:#113e60">1<title>Site (1,6): unit topplings 1</title>
+  </text>
+  <rect x="637" y="885" width="24" height="24" fill="#c5e3fa" stroke="#e5eaf0" rx="0" />
+  <text x="649" y="897" class="cell" style="fill:#113e60">1<title>Site (1,7): unit topplings 1</title>
+  </text>
+  <rect x="661" y="885" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="673" y="897" class="cell" style="fill:#ffffff">1<title>Site (1,8): unit topplings 1</title>
+  </text>
+  <rect x="685" y="885" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="697" y="897" class="cell" style="fill:#ffffff">2<title>Site (1,9): unit topplings 2</title>
+  </text>
+  <rect x="709" y="885" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="721" y="897" class="cell" style="fill:#ffffff">6<title>Site (1,10): unit topplings 6</title>
+  </text>
+  <rect x="733" y="885" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="745" y="897" class="cell" style="fill:#ffffff">12<title>Site (1,11): unit topplings 12</title>
+  </text>
+  <rect x="757" y="885" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="769" y="897" class="cell" style="fill:#ffffff">21<title>Site (1,12): unit topplings 21</title>
+  </text>
+  <rect x="781" y="885" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="793" y="897" class="cell" style="fill:#ffffff">21<title>Site (1,13): unit topplings 21</title>
+  </text>
+  <rect x="805" y="885" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="817" y="897" class="cell" style="fill:#ffffff">12<title>Site (1,14): unit topplings 12</title>
+  </text>
+  <rect x="829" y="885" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="841" y="897" class="cell" style="fill:#ffffff">6<title>Site (1,15): unit topplings 6</title>
+  </text>
+  <rect x="853" y="885" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="865" y="897" class="cell" style="fill:#ffffff">2<title>Site (1,16): unit topplings 2</title>
+  </text>
+  <rect x="877" y="885" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="889" y="897" class="cell" style="fill:#ffffff">1<title>Site (1,17): unit topplings 1</title>
+  </text>
+  <rect x="901" y="885" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="909" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="909" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="909" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="121" y="921" class="cell" style="fill:#ffffff">1<title>Site (2,-15): unit topplings 1</title>
+  </text>
+  <rect x="133" y="909" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="145" y="921" class="cell" style="fill:#ffffff">3<title>Site (2,-14): unit topplings 3</title>
+  </text>
+  <rect x="157" y="909" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="169" y="921" class="cell" style="fill:#ffffff">6<title>Site (2,-13): unit topplings 6</title>
+  </text>
+  <rect x="181" y="909" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="193" y="921" class="cell" style="fill:#ffffff">9<title>Site (2,-12): unit topplings 9</title>
+  </text>
+  <rect x="205" y="909" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="217" y="921" class="cell" style="fill:#ffffff">9<title>Site (2,-11): unit topplings 9</title>
+  </text>
+  <rect x="229" y="909" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="241" y="921" class="cell" style="fill:#ffffff">6<title>Site (2,-10): unit topplings 6</title>
+  </text>
+  <rect x="253" y="909" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="265" y="921" class="cell" style="fill:#ffffff">3<title>Site (2,-9): unit topplings 3</title>
+  </text>
+  <rect x="277" y="909" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="289" y="921" class="cell" style="fill:#ffffff">1<title>Site (2,-8): unit topplings 1</title>
+  </text>
+  <rect x="301" y="909" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="909" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="909" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="909" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="909" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="909" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="909" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="909" width="24" height="24" fill="#bee8d1" stroke="#e5eaf0" rx="0" />
+  <text x="481" y="921" class="cell" style="fill:#17472f">1<title>Site (2,0): unit topplings 1</title>
+  </text>
+  <rect x="493" y="909" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="909" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="909" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="909" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="909" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="909" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="909" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="909" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="909" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="697" y="921" class="cell" style="fill:#ffffff">1<title>Site (2,9): unit topplings 1</title>
+  </text>
+  <rect x="709" y="909" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="721" y="921" class="cell" style="fill:#ffffff">3<title>Site (2,10): unit topplings 3</title>
+  </text>
+  <rect x="733" y="909" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="745" y="921" class="cell" style="fill:#ffffff">6<title>Site (2,11): unit topplings 6</title>
+  </text>
+  <rect x="757" y="909" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="769" y="921" class="cell" style="fill:#ffffff">9<title>Site (2,12): unit topplings 9</title>
+  </text>
+  <rect x="781" y="909" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="793" y="921" class="cell" style="fill:#ffffff">9<title>Site (2,13): unit topplings 9</title>
+  </text>
+  <rect x="805" y="909" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="817" y="921" class="cell" style="fill:#ffffff">6<title>Site (2,14): unit topplings 6</title>
+  </text>
+  <rect x="829" y="909" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="841" y="921" class="cell" style="fill:#ffffff">3<title>Site (2,15): unit topplings 3</title>
+  </text>
+  <rect x="853" y="909" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="865" y="921" class="cell" style="fill:#ffffff">1<title>Site (2,16): unit topplings 1</title>
+  </text>
+  <rect x="877" y="909" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="909" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="933" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="145" y="945" class="cell" style="fill:#ffffff">1<title>Site (3,-14): unit topplings 1</title>
+  </text>
+  <rect x="157" y="933" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="169" y="945" class="cell" style="fill:#ffffff">2<title>Site (3,-13): unit topplings 2</title>
+  </text>
+  <rect x="181" y="933" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="193" y="945" class="cell" style="fill:#ffffff">3<title>Site (3,-12): unit topplings 3</title>
+  </text>
+  <rect x="205" y="933" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="217" y="945" class="cell" style="fill:#ffffff">3<title>Site (3,-11): unit topplings 3</title>
+  </text>
+  <rect x="229" y="933" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="241" y="945" class="cell" style="fill:#ffffff">2<title>Site (3,-10): unit topplings 2</title>
+  </text>
+  <rect x="253" y="933" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="265" y="945" class="cell" style="fill:#ffffff">1<title>Site (3,-9): unit topplings 1</title>
+  </text>
+  <rect x="277" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="933" width="24" height="24" fill="#bee8d1" stroke="#e5eaf0" rx="0" />
+  <text x="481" y="945" class="cell" style="fill:#17472f">1<title>Site (3,0): unit topplings 1</title>
+  </text>
+  <rect x="493" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="933" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="721" y="945" class="cell" style="fill:#ffffff">1<title>Site (3,10): unit topplings 1</title>
+  </text>
+  <rect x="733" y="933" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="745" y="945" class="cell" style="fill:#ffffff">2<title>Site (3,11): unit topplings 2</title>
+  </text>
+  <rect x="757" y="933" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="769" y="945" class="cell" style="fill:#ffffff">3<title>Site (3,12): unit topplings 3</title>
+  </text>
+  <rect x="781" y="933" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="793" y="945" class="cell" style="fill:#ffffff">3<title>Site (3,13): unit topplings 3</title>
+  </text>
+  <rect x="805" y="933" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="817" y="945" class="cell" style="fill:#ffffff">2<title>Site (3,14): unit topplings 2</title>
+  </text>
+  <rect x="829" y="933" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="841" y="945" class="cell" style="fill:#ffffff">1<title>Site (3,15): unit topplings 1</title>
+  </text>
+  <rect x="853" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="933" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="957" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="169" y="969" class="cell" style="fill:#ffffff">1<title>Site (4,-13): unit topplings 1</title>
+  </text>
+  <rect x="181" y="957" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="193" y="969" class="cell" style="fill:#ffffff">1<title>Site (4,-12): unit topplings 1</title>
+  </text>
+  <rect x="205" y="957" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="217" y="969" class="cell" style="fill:#ffffff">1<title>Site (4,-11): unit topplings 1</title>
+  </text>
+  <rect x="229" y="957" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="241" y="969" class="cell" style="fill:#ffffff">1<title>Site (4,-10): unit topplings 1</title>
+  </text>
+  <rect x="253" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="957" width="24" height="24" fill="#bee8d1" stroke="#e5eaf0" rx="0" />
+  <text x="481" y="969" class="cell" style="fill:#17472f">1<title>Site (4,0): unit topplings 1</title>
+  </text>
+  <rect x="493" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="957" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="745" y="969" class="cell" style="fill:#ffffff">1<title>Site (4,11): unit topplings 1</title>
+  </text>
+  <rect x="757" y="957" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="769" y="969" class="cell" style="fill:#ffffff">1<title>Site (4,12): unit topplings 1</title>
+  </text>
+  <rect x="781" y="957" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="793" y="969" class="cell" style="fill:#ffffff">1<title>Site (4,13): unit topplings 1</title>
+  </text>
+  <rect x="805" y="957" width="24" height="24" fill="#627383" stroke="#e5eaf0" rx="0" />
+  <text x="817" y="969" class="cell" style="fill:#ffffff">1<title>Site (4,14): unit topplings 1</title>
+  </text>
+  <rect x="829" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="957" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="981" width="24" height="24" fill="#bee8d1" stroke="#e5eaf0" rx="0" />
+  <text x="481" y="993" class="cell" style="fill:#17472f">1<title>Site (5,0): unit topplings 1</title>
+  </text>
+  <rect x="493" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="981" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="1005" width="24" height="24" fill="#bee8d1" stroke="#e5eaf0" rx="0" />
+  <text x="481" y="1017" class="cell" style="fill:#17472f">1<title>Site (6,0): unit topplings 1</title>
+  </text>
+  <rect x="493" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="1005" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="1029" width="24" height="24" fill="#bee8d1" stroke="#e5eaf0" rx="0" />
+  <text x="481" y="1041" class="cell" style="fill:#17472f">1<title>Site (7,0): unit topplings 1</title>
+  </text>
+  <rect x="493" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="1029" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="1053" width="24" height="24" fill="#bee8d1" stroke="#e5eaf0" rx="0" />
+  <text x="481" y="1065" class="cell" style="fill:#17472f">1<title>Site (8,0): unit topplings 1</title>
+  </text>
+  <rect x="493" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="1053" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="1077" width="24" height="24" fill="#bee8d1" stroke="#e5eaf0" rx="0" />
+  <text x="481" y="1089" class="cell" style="fill:#17472f">1<title>Site (9,0): unit topplings 1</title>
+  </text>
+  <rect x="493" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="1077" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="1101" width="24" height="24" fill="#bee8d1" stroke="#e5eaf0" rx="0" />
+  <text x="481" y="1113" class="cell" style="fill:#17472f">1<title>Site (10,0): unit topplings 1</title>
+  </text>
+  <rect x="493" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="1101" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="61" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="85" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="109" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="133" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="157" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="181" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="205" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="229" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="253" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="277" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="301" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="325" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="349" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="373" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="397" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="421" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="445" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="469" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="493" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="517" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="541" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="565" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="589" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="613" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="637" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="661" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="685" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="709" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="733" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="757" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="781" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="805" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="829" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="853" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="877" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <rect x="901" y="1125" width="24" height="24" fill="#fafbfd" stroke="#e5eaf0" rx="0" />
+  <text x="97" y="732" class="coordinate">-16</text>
+  <text x="193" y="732" class="coordinate">-12</text>
+  <text x="289" y="732" class="coordinate">-8</text>
+  <text x="385" y="732" class="coordinate">-4</text>
+  <text x="481" y="732" class="coordinate">0</text>
+  <text x="577" y="732" class="coordinate">4</text>
+  <text x="673" y="732" class="coordinate">8</text>
+  <text x="769" y="732" class="coordinate">12</text>
+  <text x="865" y="732" class="coordinate">16</text>
+  <text x="48" y="781" class="coordinate">-4</text>
+  <text x="48" y="877" class="coordinate">0</text>
+  <text x="48" y="973" class="coordinate">4</text>
+  <text x="48" y="1069" class="coordinate">8</text>
+  <text x="471" y="1166" class="coordinate">column c</text>
+  <text x="42" y="732" class="coordinate">r</text>
+  <text x="949" y="229" class="body" font-weight="650">Inputs and material</text>
+  <text x="949" y="258" class="small">Left core: add 71a and 71b.</text>
+  <text x="949" y="281" class="small">Right core: add 71c and 71d.</text>
+  <text x="949" y="304" class="small">a, b, c, d are Boolean bits.</text>
+  <rect x="949" y="326" width="18" height="18" fill="#627383" stroke="#ced7df" rx="2" />
+  <text x="976" y="341" class="small">Precharged source gates</text>
+  <rect x="949" y="361" width="18" height="18" fill="#c5e3fa" stroke="#ced7df" rx="2" />
+  <text x="976" y="376" class="small">Height-three input wires</text>
+  <rect x="949" y="396" width="18" height="18" fill="#ffd292" stroke="#ced7df" rx="2" />
+  <text x="976" y="411" class="small">Height-two AND receiver</text>
+  <rect x="949" y="431" width="18" height="18" fill="#bee8d1" stroke="#ced7df" rx="2" />
+  <text x="976" y="446" class="small">Height-three output wire</text>
+  <text x="949" y="501" class="small muted">All edges are undirected.</text>
+  <text x="949" y="524" class="small muted">Each toppling sends one grain</text>
+  <text x="949" y="547" class="small muted">to each of four neighbors.</text>
+  <text x="949" y="570" class="small muted">Return grains are included.</text>
+  <text x="949" y="770" class="body" font-weight="650">What the signals mean</text>
+  <text x="949" y="798" class="small">p = ab       q = cd</text>
+  <text x="949" y="821" class="small">A signal is one toppling.</text>
+  <text x="963" y="862" class="small" text-anchor="middle" font-weight="650">p</text>
+  <text x="1007" y="862" class="small" text-anchor="middle" font-weight="650">q</text>
+  <text x="1080" y="862" class="small" text-anchor="middle" font-weight="650">receiver</text>
+  <text x="1166" y="862" class="small" text-anchor="middle" font-weight="650">output</text>
+  <line x1="949" y1="873" x2="1201" y2="873" stroke="#d9e0e6" stroke-width="1" />
+  <text x="963" y="899" class="body" text-anchor="middle">0</text>
+  <text x="1007" y="899" class="body" text-anchor="middle">0</text>
+  <text x="1080" y="899" class="body" text-anchor="middle">0</text>
+  <text x="1166" y="899" class="body" text-anchor="middle">0</text>
+  <text x="963" y="932" class="body" text-anchor="middle">0</text>
+  <text x="1007" y="932" class="body" text-anchor="middle">1</text>
+  <text x="1080" y="932" class="body" text-anchor="middle">0</text>
+  <text x="1166" y="932" class="body" text-anchor="middle">0</text>
+  <text x="963" y="965" class="body" text-anchor="middle">1</text>
+  <text x="1007" y="965" class="body" text-anchor="middle">0</text>
+  <text x="1080" y="965" class="body" text-anchor="middle">0</text>
+  <text x="1166" y="965" class="body" text-anchor="middle">0</text>
+  <rect x="947" y="976" width="258" height="31" fill="#e7f4ed" stroke="none" rx="3" />
+  <text x="963" y="998" class="body" text-anchor="middle">1</text>
+  <text x="1007" y="998" class="body" text-anchor="middle">1</text>
+  <text x="1080" y="998" class="body" text-anchor="middle">1</text>
+  <text x="1166" y="998" class="body" text-anchor="middle">1</text>
+  <text x="949" y="1042" class="small">True-case activity:</text>
+  <text x="949" y="1065" class="small">844 source + 23 new topplings</text>
+  <text x="949" y="1088" class="small">= 867 unit topplings.</text>
+  <text x="949" y="1125" class="small" font-weight="600">The source counts are unchanged.</text>
+  <text x="42" y="1206" class="small muted">The output encodes abcd as avalanche presence. It does not regenerate a 71-grain input packet.</text>
+  <text x="42" y="1230" class="small muted">Generated from research/packet71_loads.py: separation 12, output length 9. All 16 input cases are checked.</text>
+</svg>
