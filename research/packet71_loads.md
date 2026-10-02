@@ -75,7 +75,8 @@ if and only if:
 For an intended false input, the combined odometer equals the original `u`
 if and only if `h(x) = 0` at every `x ∈ L`.
 
-**Proof.** Replay the base schedule first, postponing load topplings. It
+**Proof.** Replay the recorded base schedule first, postponing any topplings
+beyond that schedule. It
 remains legal because the added grains are nonnegative. Its endpoint is
 `H = h + 3·1_L`. At a load cell, at least one original grain makes it an
 initial trigger; every other height-three load cell requires one already
@@ -103,7 +104,8 @@ accepts at most three neighbors in the load. An ordinary load cell with
 branching are allowed. Exterior cells matter just as much as wire cells:
 enclosing a zero cell with four active neighbors makes that cell topple.
 
-The older formal branch, `formal/unit-toppling-characterization`, proves the
+The older [formal proof at its pinned commit](https://github.com/heartpunk/sandpiles/blob/3772b917954b8ba0c90ef9905c0e6e98c15e214a/formal/anneal-kernel/lean/UnitTopplingLoad.lean),
+also available as [draft PR #3](https://github.com/heartpunk/sandpiles/pull/3), proves the
 single-root, zero-exterior specialization with an explicit rooted order in
 Lean. The nonuniform-background extension and composition here are proved
 mathematically and checked by an independent executable; they have not been

@@ -112,6 +112,31 @@ integer gate separation `s ≥ 12` and output length `ℓ ≥ 1`. The original
 gates retain their exact odometers. This is an attached four-input AND using
 ordinary presence signals, not a cascade of identical packet-input gates.
 
+### Try changing a receiver
+
+Run this complete example from the repository root:
+
+```sh
+python3 research/try_receiver.py
+```
+
+Then edit only `bay_height(row, column)` in [the example](try_receiver.py).
+Return an integer from zero through three. The default makes a central spine
+and entry row at height three, with alternating heights one and three around
+them. Try an empty bay (`return 0`), a full bay (`return 3`), or your own
+pattern. `WIDTH` and `HEIGHT` select positive integer dimensions.
+
+The example builds the actual stable material before supplying any packets.
+For all four Boolean inputs, it predicts which cells activate and compares
+that prediction with a literal infinite-lattice stabilization. It checks
+every source count, all exterior counts, and the one-toppling bound. The
+printed grid shows the true-input bay's activity.
+
+Safe attachment does not require every bay cell to activate. A quiet cell
+can be the correct result of its chosen height. The guarantee applies to
+this geometry and stable contents; adding material elsewhere needs a new
+boundary check.
+
 ## Which evidence supports which claim?
 
 | Claim | Evidence to inspect | Scope |

@@ -37,6 +37,7 @@ def main() -> None:
         "verify_packet925_full_alphabet_certificate.py",
     ):
         run(script)
+    run("research/try_receiver.py")
     with tempfile.TemporaryDirectory(prefix="sandpiles-audit-") as directory:
         for script, record in (
             ("packet71_loads.py", "packet71_loads_audit.json"),
